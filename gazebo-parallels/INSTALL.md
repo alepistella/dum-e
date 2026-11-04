@@ -232,22 +232,25 @@ ps -u "$USER" -o pid,args | grep "gz sim"   # a profiled process shows --render-
 `GZ_VIRGL_DEFAULTS=0` in front of a command bypasses the profile for that
 process only (diagnostics, not a supported mode).
 
-## RViz black viewport
+## 9. Next step: RViz 2
 
-The Gazebo profile applies to Gazebo processes. If RViz shows a black viewport
-on the same VM, use the optional [RViz add-on](rviz/README.md). It selects the
-already installed private Mesa for RViz, including normal ROS launches, with
-separate backups and rollback. It needs no new packages and keeps hardware
-rendering. Install it only after verifying the Gazebo runtime above.
+The profile above applies to Gazebo processes only. On the same VM, RViz 2
+opens with a black viewport (system Mesa 25 on VirGL). The optional
+[RViz add-on](rviz/README.md) makes the packaged `rviz2` load the private Mesa
+installed in section 6, with its own hash gates, backups and rollback. It needs
+no new packages and keeps hardware rendering. Install it only after section 7
+passes, following `rviz/README.md` step by step.
 
-## 9. Rollback
+## 10. Rollback
 
 ```bash
 sudo /usr/local/sbin/gazebo-virgl-defaults-rollback
 ```
 
 Removes the delegates and restores the `.vendor` entry points through
-`dpkg-divert`. The runtime stays on disk but is no longer loaded. After major
+`dpkg-divert`. The runtime stays on disk but is no longer loaded by Gazebo; the
+RViz add-on, if installed, keeps using it and has its own rollback
+(`rviz/README.md`, section 8). After major
 ROS, Gazebo, Parallels or Mesa updates, re-run the checks in section 7; the
 private runtime is not updated by `apt`.
 
@@ -261,7 +264,7 @@ private runtime is not updated by `apt`.
 | Black camera image, all LiDAR ranges at minimum | The process did not load the private runtime: check `/proc/<pid>/maps` for `gazebo-virgl`, `virtio_gpu`, `libgallium`. |
 | LiDAR rays drawn at the world origin | GUI scene state: select the topic again in Visualize Lidar, or run `build/engine/refresh_gui_state <world>`. Do not move the sensor in the model. |
 | The old world keeps opening | A server is still running. Stop the launch, check `ps`. |
-| RViz viewport black while Gazebo works | See the separate [RViz driver profile](rviz/README.md); the Gazebo profile does not configure RViz. |
+| RViz viewport black while Gazebo works | Expected: the Gazebo profile does not configure RViz. Section 9 and [rviz/README.md](rviz/README.md). |
 | Odd rates or clock | Two servers on the same topics. Close your test processes. |
 
 Capture a log for a report:
