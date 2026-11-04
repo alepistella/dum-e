@@ -2,7 +2,7 @@
 
 Ubuntu 24.04 ARM64, ROS 2 Jazzy, RViz 14.1.24, Parallels Desktop 27.
 
-On the same VM where the [Gazebo kit](../INSTALL.md) runs at 60 fps, RViz 2
+On the same VM where the [Gazebo kit](../gazebo-parallels/INSTALL.md) runs at 60 fps, RViz 2
 opens with a black viewport: the grid, the robot model and the map never
 appear. This optional add-on makes the packaged `rviz2` load the private Mesa
 24.0.5 runtime already installed by the Gazebo kit, so RViz renders on the
@@ -69,7 +69,7 @@ combination is untested: revalidate it, do not remove the check.
 
 ## Requirements
 
-- The Gazebo kit installed and verified ([INSTALL.md](../INSTALL.md), sections
+- The Gazebo kit installed and verified ([INSTALL.md](../gazebo-parallels/INSTALL.md), sections
   1 to 7). The add-on needs its private Mesa at
   `/usr/local/lib/gazebo-virgl-defaults/runtime-v2/mesa`.
 - ROS 2 Jazzy and `ros-jazzy-rviz2` from the official packages.
@@ -109,7 +109,7 @@ The kit was cloned to `$HOME/dum-e` in INSTALL.md, section 4:
 ```bash
 cd "$HOME/dum-e"
 git pull
-ls gazebo-parallels/rviz        # README.md  manage.py  rviz2-wrapper.sh  verify.launch.py  evidence/
+ls rviz-parallels        # README.md  manage.py  rviz2-wrapper.sh  verify.launch.py  evidence/
 ```
 
 ## 4. Preflight
@@ -119,7 +119,7 @@ Read-only, changes nothing:
 ```bash
 cd "$HOME/dum-e"
 source /opt/ros/jazzy/setup.bash
-python3 gazebo-parallels/rviz/manage.py --check
+python3 rviz-parallels/manage.py --check
 ```
 
 Expected: `Preflight passed. No changes made. Two RViz entry points will use private Mesa.`
@@ -131,7 +131,7 @@ Close every RViz window first. Gazebo and other nodes can keep running.
 
 ```bash
 cd "$HOME/dum-e"
-sudo python3 gazebo-parallels/rviz/manage.py --install
+sudo python3 rviz-parallels/manage.py --install
 ```
 
 Expected: `RViz profile installed. Backup: /var/backups/rviz-virgl-defaults/<timestamp>`.
@@ -172,7 +172,7 @@ current directory, while Gazebo and Cartographer are already running:
 ```bash
 mkdir -p /tmp/rviz-check && cd /tmp/rviz-check
 source /opt/ros/jazzy/setup.bash
-ros2 launch "$HOME/dum-e/gazebo-parallels/rviz/verify.launch.py"
+ros2 launch "$HOME/dum-e/rviz-parallels/verify.launch.py"
 # in another terminal, after the window opens:
 grep -E 'GL_RENDERER =|GL_VERSION =|FSAA=' /tmp/rviz-check/Ogre.log
 ```

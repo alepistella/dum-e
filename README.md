@@ -11,7 +11,7 @@ the decision that came out of it.
 | Directory | What it is | State |
 |---|---|---|
 | [gazebo-parallels](gazebo-parallels/INSTALL.md) | Hardware-accelerated Gazebo Harmonic for ROS 2 Jazzy on Parallels (Apple silicon): about 60 GUI updates/s on the virtual GPU, with working LiDAR and RGB camera. Build kit, colcon overlay, 53-trial ablation. | Reproduced on one machine. Clean-VM run pending. Upstream fix [merged](https://github.com/gazebosim/gz-rendering/pull/1400). |
-| [gazebo-parallels/rviz](gazebo-parallels/rviz/README.md) | Add-on for the kit above: RViz 2 black viewport fixed by pointing the packaged `rviz2` at the same private Mesa runtime, hardware rendering kept. Covers `rviz2`, `ros2 run` and `ros2 launch`; gated install and rollback. | Verified on the same VM, 4 November 2026. |
+| [rviz-parallels](rviz-parallels/README.md) | RViz 2 on the same VM: black viewport fixed by pointing the packaged `rviz2` at the same private Mesa runtime, hardware rendering kept. Covers `rviz2`, `ros2 run` and `ros2 launch`; gated install and rollback. | Verified on the same VM, 4 November 2026. |
 
 ## Conventions
 
