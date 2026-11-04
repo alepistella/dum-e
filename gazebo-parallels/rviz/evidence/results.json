@@ -1,0 +1,75 @@
+{
+  "date": "2026-11-04",
+  "timezone": "Europe/Rome",
+  "platform": "Ubuntu 24.04 ARM64 on Parallels, Apple M5 Max",
+  "system_mesa": "25.2.8-0ubuntu0.24.04.4",
+  "private_mesa": "24.0.5",
+  "rviz_package": "14.1.24-1noble.20260916.104902",
+  "rviz_ogre": "1.12.10",
+  "observations": [
+    {
+      "case": "system Mesa25 / VirGL",
+      "viewport": "black, reproduced after restart"
+    },
+    {
+      "case": "system Mesa25 / VirGL / GL2.1 override",
+      "viewport": "black"
+    },
+    {
+      "case": "system Mesa25 / VirGL / antialiasing off",
+      "viewport": "gray then black",
+      "confirmation": "operator"
+    },
+    {
+      "case": "private Mesa24 / VirGL / antialiasing off",
+      "viewport": "grid and map visible",
+      "confirmation": "operator"
+    },
+    {
+      "case": "private Mesa24 / VirGL / stock FSAA4",
+      "viewport": "grid and map visible",
+      "confirmation": "operator"
+    },
+    {
+      "case": "software control",
+      "viewport": "map visible",
+      "confirmation": "operator screenshot"
+    },
+    {
+      "case": "permanent profile / ROS launch verification",
+      "viewport": "grid and labels visible",
+      "renderer": "virgl (Apple M5 Max (Compat))",
+      "opengl": "4.0",
+      "fsaa": 4
+    },
+    {
+      "case": "permanent profile / normal turtlebot3_cartographer launch",
+      "command": "ros2 launch turtlebot3_cartographer cartographer.launch.py use_sim_time:=True",
+      "viewport": "operator confirms correct display"
+    }
+  ],
+  "checks": {
+    "direct_rviz_help": "exit 0",
+    "ros2_run_help": "exit 0",
+    "ros2_launch": "original packaged executable via wrapper; private Mesa and hardware VirGL recorded",
+    "rollback": "both original hashes restored; profile reinstalled",
+    "final_hash_gates": "preflight passed and installed",
+    "dpkg_audit": "empty"
+  },
+  "limits": [
+    "One existing VM, no clean-VM reproduction.",
+    "No dedicated RViz performance benchmark.",
+    "Original shader warning also occurs in working software control.",
+    "Early unlabeled Mesa24 test was inconclusive; later labeled trials supersede it."
+  ],
+  "changes": [
+    "Two dpkg diversions and RViz-only wrappers.",
+    "Existing private Mesa reused.",
+    "No packages installed. No system Mesa, shell startup, model, shader or Gazebo profile edits."
+  ],
+  "script_sha256": {
+    "manage.py": "5ebc7db71866cc92bec77ed7886bfc1eb8a2664e309fa1cd731b4a59ac9b9bd8",
+    "rviz2-wrapper.sh": "82a2dd230fbfe76963792e86f79760e031e79ae225dd50012fb2f54a40479b4e",
+    "verify.launch.py": "21a2defcffa1144e2c5aa59f6816318426f93806c1190b74d52c8ce74aef6185"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "installed_utc": "2026-11-04T20:43:48.819384+00:00",
+  "rviz_package": "14.1.24-1noble.20260916.104902",
+  "mesa_directory": "/usr/local/lib/gazebo-virgl-defaults/runtime-v2/mesa",
+  "backup_directory": "/var/backups/rviz-virgl-defaults/20261104T204348Z",
+  "entries": [
+    {
+      "path": "/opt/ros/jazzy/bin/rviz2",
+      "diverted_to": "/opt/ros/jazzy/bin/rviz2.distrib",
+      "original_sha256": "8c1b6d120d0bb89d546350d8ed031b2c3df7d15b4f4f8373f7a67310a0e74261"
+    },
+    {
+      "path": "/opt/ros/jazzy/lib/rviz2/rviz2",
+      "diverted_to": "/opt/ros/jazzy/lib/rviz2/rviz2.distrib",
+      "original_sha256": "8c1b6d120d0bb89d546350d8ed031b2c3df7d15b4f4f8373f7a67310a0e74261"
+    }
+  ],
+  "wrapper_sha256": "82a2dd230fbfe76963792e86f79760e031e79ae225dd50012fb2f54a40479b4e",
+  "runtime_sha256": {
+    "libGLX_mesa.so.0": "9828f9a41457439055768f84b3598f2fc458bb7765da1dbf84569aaa2a441e9f",
+    "dri/virtio_gpu_dri.so": "b854f45f32e53468b2bb1631771de22a701c07c644d80dcd8209ed478838270d"
+  }
+}

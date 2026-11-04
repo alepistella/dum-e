@@ -1,0 +1,4 @@
+Original RViz entry points restored. Restart RViz. Archive: /usr/local/lib/rviz-virgl-defaults.rolled-back-20261104T204348Z
+Preflight passed. No changes made. Two RViz entry points will use private Mesa.
+RViz profile installed. Backup: /var/backups/rviz-virgl-defaults/20261104T204348Z
+Use rviz2, ros2 run rviz2 rviz2, or normal ros2 launch commands.

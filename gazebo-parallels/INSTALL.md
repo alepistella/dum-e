@@ -51,8 +51,8 @@ Why these pieces, in one line each:
   and a camera with Gaussian noise publishes all-black frames at 30 Hz.
   Mesa 24.0.5 on VirGL and llvmpipe both produce valid output (53-trial ablation,
   see `evidence/`).
-- OGRE 1 patch: single-row LiDAR texture mapping fix (now proposed upstream
-  as gazebosim/gz-rendering#1400), plus the upstream corrections from #1370
+- OGRE 1 patch: single-row LiDAR texture mapping fix (accepted upstream
+  in [gazebosim/gz-rendering#1400](https://github.com/gazebosim/gz-rendering/pull/1400)), plus the upstream corrections from #1370
   and #1378, plus shadows forced off (the GUI flickered with shadows on;
   an isolated A/B recording of this one change is still pending).
 - Delegates: so that `ros2 launch turtlebot3_gazebo ...` works unchanged.
@@ -232,6 +232,14 @@ ps -u "$USER" -o pid,args | grep "gz sim"   # a profiled process shows --render-
 `GZ_VIRGL_DEFAULTS=0` in front of a command bypasses the profile for that
 process only (diagnostics, not a supported mode).
 
+## RViz black viewport
+
+The Gazebo profile applies to Gazebo processes. If RViz shows a black viewport
+on the same VM, use the optional [RViz add-on](rviz/README.md). It selects the
+already installed private Mesa for RViz, including normal ROS launches, with
+separate backups and rollback. It needs no new packages and keeps hardware
+rendering. Install it only after verifying the Gazebo runtime above.
+
 ## 9. Rollback
 
 ```bash
@@ -253,6 +261,7 @@ private runtime is not updated by `apt`.
 | Black camera image, all LiDAR ranges at minimum | The process did not load the private runtime: check `/proc/<pid>/maps` for `gazebo-virgl`, `virtio_gpu`, `libgallium`. |
 | LiDAR rays drawn at the world origin | GUI scene state: select the topic again in Visualize Lidar, or run `build/engine/refresh_gui_state <world>`. Do not move the sensor in the model. |
 | The old world keeps opening | A server is still running. Stop the launch, check `ps`. |
+| RViz viewport black while Gazebo works | See the separate [RViz driver profile](rviz/README.md); the Gazebo profile does not configure RViz. |
 | Odd rates or clock | Two servers on the same topics. Close your test processes. |
 
 Capture a log for a report:
@@ -278,5 +287,3 @@ gz sim -v 4 -r shapes.sdf 2>&1 | tee gazebo-test.log
 gz-rendering is Apache-2.0, copyright Open Source Robotics Foundation.
 Mesa packages are redistributed under their own licenses (copies in the
 runtime). Kit scripts and this document: Apache-2.0, Alessandro Pistella.
-Investigation, scripts and documentation were produced with the help of
-generative AI tools; the measurements were taken on the machine described above.

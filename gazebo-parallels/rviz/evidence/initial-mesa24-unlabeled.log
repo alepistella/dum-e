@@ -1,0 +1,16 @@
+[INFO] [1793821347.397143725] [rviz2]: Stereo is NOT SUPPORTED
+[INFO] [1793821347.397235766] [rviz2]: OpenGl version: 4 (GLSL 4)
+[INFO] [1793821347.416761308] [rviz2]: Stereo is NOT SUPPORTED
+[INFO] [1793821347.482298475] [rviz2_mesa24_test]: Subscribing to: /scan_matched_points2
+
+[INFO] [1793821347.513045475] [rviz2_mesa24_test]: Subscribing to: /scan_matched_points2
+
+[INFO] [1793821347.822001558] [rviz2]: Trying to create a map of size 92 x 114 using 1 swatches
+[ERROR] [1793821347.855326725] [rviz2]: rviz/glsl120/indexed_8bit_image.vert
+rviz/glsl120/indexed_8bit_image.frag
+ GLSL link result : 
+active samplers with a different type refer to the same texture image unit
+[INFO] [1793821348.716924559] [rviz2_mesa24_test]: Message Filter dropping message: frame 'base_scan' at time 447.700 for reason 'discarding message because the queue is full'
+[INFO] [1793821405.838322169] [rviz2]: Trying to create a map of size 92 x 115 using 1 swatches
+[INFO] [1793821555.838173157] [rviz2]: Trying to create a map of size 93 x 115 using 1 swatches
+[INFO] [1793821564.465631161] [rclcpp]: signal_handler(SIGINT/SIGTERM)

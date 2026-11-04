@@ -1,0 +1,11 @@
+2026-11-04T21:43:48+01:00
+libgl1-mesa-dri:arm64	25.2.8-0ubuntu0.24.04.4
+ros-jazzy-rviz-rendering	14.1.24-1noble.20260911.044936
+ros-jazzy-rviz2	14.1.24-1noble.20260916.104902
+local diversion of /opt/ros/jazzy/bin/rviz2 to /opt/ros/jazzy/bin/rviz2.distrib
+local diversion of /opt/ros/jazzy/lib/rviz2/rviz2 to /opt/ros/jazzy/lib/rviz2/rviz2.distrib
+8c1b6d120d0bb89d546350d8ed031b2c3df7d15b4f4f8373f7a67310a0e74261  /opt/ros/jazzy/bin/rviz2.distrib
+8c1b6d120d0bb89d546350d8ed031b2c3df7d15b4f4f8373f7a67310a0e74261  /opt/ros/jazzy/lib/rviz2/rviz2.distrib
+/home/ap/.ros/log/rviz2.distrib_19407_1793824792402.log
+/home/ap/.ros/log/rviz2.distrib_19050_1793824670525.log
+/home/ap/.ros/log/rviz2_18335_1793824473224.log

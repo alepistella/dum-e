@@ -1,0 +1,2 @@
+# Preserve diagnostic output verbatim, including OGRE's trailing spaces.
+*.log -whitespace

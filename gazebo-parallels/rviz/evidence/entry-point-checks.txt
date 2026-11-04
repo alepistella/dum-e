@@ -1,0 +1,7 @@
+rviz2 --help: exit 0
+ros2 run rviz2 rviz2 --help: exit 0
+RVIZ_VIRGL_DEFAULTS=0 rviz2 --help: exit 0
+Both entry points match the tested wrapper.
+21:37:50: GL_RENDERER = virgl (Apple M5 Max (Compat))
+5ebc7db71866cc92bec77ed7886bfc1eb8a2664e309fa1cd731b4a59ac9b9bd8  /usr/local/lib/rviz-virgl-defaults/manage.py
+82a2dd230fbfe76963792e86f79760e031e79ae225dd50012fb2f54a40479b4e  /usr/local/lib/rviz-virgl-defaults/rviz2-wrapper.sh

@@ -1,0 +1,644 @@
+[rviz-test] RViz antialiasing disabled for this process only
+[INFO] [1793822851.795661567] [rviz2]: Creating resource group General
+[INFO] [1793822851.795773984] [rviz2]: Creating resource group OgreInternal
+[INFO] [1793822851.795788025] [rviz2]: Creating resource group OgreAutodetect
+[INFO] [1793822851.795817775] [rviz2]: SceneManagerFactory for type 'DefaultSceneManager' registered.
+[INFO] [1793822851.795857109] [rviz2]: Registering ResourceManager for type Material
+[INFO] [1793822851.795873109] [rviz2]: Registering ResourceManager for type Mesh
+[INFO] [1793822851.795887900] [rviz2]: Registering ResourceManager for type Skeleton
+[INFO] [1793822851.795897609] [rviz2]: MovableObjectFactory for type 'ParticleSystem' registered.
+[INFO] [1793822851.795931359] [rviz2]: ArchiveFactory for archive type FileSystem registered.
+[INFO] [1793822851.795936567] [rviz2]: DDS codec registering
+[INFO] [1793822851.795943275] [rviz2]: ETC codec registering
+[INFO] [1793822851.795956900] [rviz2]: ASTC codec registering
+[INFO] [1793822851.795970400] [rviz2]: Registering ResourceManager for type HighLevelGpuProgram
+[INFO] [1793822851.795994567] [rviz2]: Registering ResourceManager for type Compositor
+[INFO] [1793822851.796060150] [rviz2]: MovableObjectFactory for type 'Entity' registered.
+[INFO] [1793822851.796065317] [rviz2]: MovableObjectFactory for type 'Light' registered.
+[INFO] [1793822851.796068734] [rviz2]: MovableObjectFactory for type 'BillboardSet' registered.
+[INFO] [1793822851.796071775] [rviz2]: MovableObjectFactory for type 'ManualObject' registered.
+[INFO] [1793822851.796074942] [rviz2]: MovableObjectFactory for type 'BillboardChain' registered.
+[INFO] [1793822851.796084734] [rviz2]: MovableObjectFactory for type 'RibbonTrail' registered.
+[INFO] [1793822851.796156317] [rviz2]: *-*-* OGRE Initialising
+[INFO] [1793822851.796164567] [rviz2]: *-*-* Version 1.12.10 (Rhagorthua)
+[INFO] [1793822851.796231442] [rviz2]: OverlayElementFactory for type Panel registered.
+[INFO] [1793822851.796237317] [rviz2]: OverlayElementFactory for type BorderPanel registered.
+[INFO] [1793822851.796240442] [rviz2]: OverlayElementFactory for type TextArea registered.
+[INFO] [1793822851.796246609] [rviz2]: Registering ResourceManager for type Font
+[INFO] [1793822851.796258942] [rviz2]: Loading library /opt/ros/jazzy/opt/rviz_ogre_vendor/lib/OGRE/RenderSystem_GL.so.1.12.10
+[INFO] [1793822851.799966567] [rviz2]: Installing plugin: GL RenderSystem
+[INFO] [1793822851.800029650] [rviz2]: OpenGL Rendering Subsystem created.
+[INFO] [1793822851.802449109] [rviz2]: Plugin successfully installed
+[INFO] [1793822851.802484150] [rviz2]: Loading library /opt/ros/jazzy/opt/rviz_ogre_vendor/lib/OGRE/Codec_STBI.so.1.12.10
+[INFO] [1793822851.802602692] [rviz2]: stb_image - v2.23 - public domain image loader
+[INFO] [1793822851.802625484] [rviz2]: Supported formats: jpeg,jpg,png,bmp,psd,tga,gif,pic,ppm,pgm,hdr
+[INFO] [1793822851.802653900] [rviz2]: CPU Identifier & Features
+[INFO] [1793822851.802658109] [rviz2]: -------------------------
+[INFO] [1793822851.802662442] [rviz2]:  *   CPU ID: 
+[INFO] [1793822851.802667275] [rviz2]:  *          VFP: no
+[INFO] [1793822851.802670192] [rviz2]:  *         NEON: no
+[INFO] [1793822851.802672859] [rviz2]: -------------------------
+[INFO] [1793822851.802677442] [rviz2]: ******************************
+*** Starting GLX Subsystem ***
+******************************
+[INFO] [1793822851.802797150] [rviz2]: GLX_VERSION = 1.4
+[INFO] [1793822851.802814234] [rviz2]: GLX_EXTENSIONS = GLX_ARB_context_flush_control GLX_ARB_create_context GLX_ARB_create_context_no_error GLX_ARB_create_context_profile GLX_ARB_create_context_robustness GLX_ARB_fbconfig_float GLX_ARB_framebuffer_sRGB GLX_ARB_get_proc_address GLX_ARB_multisample GLX_EXT_buffer_age GLX_EXT_create_context_es2_profile GLX_EXT_create_context_es_profile GLX_EXT_fbconfig_packed_float GLX_EXT_framebuffer_sRGB GLX_EXT_import_context GLX_EXT_no_config_context GLX_EXT_swap_control GLX_EXT_swap_control_tear GLX_EXT_texture_from_pixmap GLX_EXT_visual_info GLX_EXT_visual_rating GLX_ATI_pixel_format_float GLX_INTEL_swap_event GLX_MESA_copy_sub_buffer GLX_MESA_gl_interop GLX_MESA_query_renderer GLX_MESA_swap_control GLX_NV_float_buffer GLX_OML_sync_control GLX_SGIS_multisample GLX_SGIX_fbconfig GLX_SGIX_pbuffer GLX_SGIX_visual_select_group GLX_SGI_make_current_read GLX_SGI_swap_control GLX_SGI_video_sync 
+[INFO] [1793822851.802907650] [rviz2]: Registering ResourceManager for type Texture
+[INFO] [1793822851.802961775] [rviz2]: RenderSystem::_createRenderWindow "OgreWindow(0)", 1x1 windowed  miscParams: border=none contentScalingFactor=1.000000 currentGLContext=false externalWindowHandle=65011713 left=0 parentWindowHandle=65011713 top=0 
+[INFO] [1793822851.803551942] [rviz2]: GLXWindow::create colourBufferSize=32 gamma=0 FSAA=0
+[INFO] [1793822851.805108859] [rviz2]: GLXWindow::create used FBConfigID = 221
+[INFO] [1793822851.805196400] [rviz2]: GL_VERSION = 4.0.0.0
+[INFO] [1793822851.805203984] [rviz2]: GL_VENDOR = Mesa
+[INFO] [1793822851.805207817] [rviz2]: GL_RENDERER = virgl (Apple M5 Max (Compat))
+[INFO] [1793822851.805844067] [rviz2]: GL_EXTENSIONS = GL_ARB_multisample GL_EXT_abgr GL_EXT_bgra GL_EXT_blend_color GL_EXT_blend_minmax GL_EXT_blend_subtract GL_EXT_copy_texture GL_EXT_subtexture GL_EXT_texture_object GL_EXT_vertex_array GL_EXT_compiled_vertex_array GL_EXT_texture GL_EXT_texture3D GL_IBM_rasterpos_clip GL_ARB_point_parameters GL_EXT_draw_range_elements GL_EXT_packed_pixels GL_EXT_point_parameters GL_EXT_rescale_normal GL_EXT_separate_specular_color GL_EXT_texture_edge_clamp GL_SGIS_generate_mipmap GL_SGIS_texture_border_clamp GL_SGIS_texture_edge_clamp GL_SGIS_texture_lod GL_ARB_framebuffer_sRGB GL_ARB_multitexture GL_EXT_framebuffer_sRGB GL_IBM_multimode_draw_arrays GL_IBM_texture_mirrored_repeat GL_ARB_texture_cube_map GL_ARB_texture_env_add GL_ARB_transpose_matrix GL_EXT_blend_func_separate GL_EXT_fog_coord GL_EXT_multi_draw_arrays GL_EXT_secondary_color GL_EXT_texture_env_add GL_EXT_texture_filter_anisotropic GL_EXT_texture_lod_bias GL_INGR_blend_func_separate GL_NV_blend_square GL_NV_light_max_exponent GL_NV_texgen_reflection GL_NV_texture_env_combine4 GL_S3_s3tc GL_SUN_multi_draw_arrays GL_ARB_texture_border_clamp GL_ARB_texture_compression GL_EXT_framebuffer_object GL_EXT_texture_compression_s3tc GL_EXT_texture_env_combine GL_EXT_texture_env_dot3 GL_MESA_window_pos GL_NV_packed_depth_stencil GL_NV_texture_rectangle GL_ARB_depth_texture GL_ARB_occlusion_query GL_ARB_shadow GL_ARB_texture_env_combine GL_ARB_texture_env_crossbar GL_ARB_texture_env_dot3 GL_ARB_texture_mirrored_repeat GL_ARB_window_pos GL_ATI_fragment_shader GL_EXT_stencil_two_side GL_EXT_texture_cube_map GL_NV_depth_clamp GL_NV_fog_distance GL_NV_half_float GL_APPLE_packed_pixels GL_ARB_draw_buffers GL_ARB_fragment_program GL_ARB_fragment_shader GL_ARB_shader_objects GL_ARB_vertex_program GL_ARB_vertex_shader GL_ATI_draw_buffers GL_ATI_texture_env_combine3 GL_ATI_texture_float GL_EXT_shadow_funcs GL_EXT_stencil_wrap GL_MESA_pack_invert GL_NV_primitive_restart GL_ARB_depth_clamp GL_ARB_fragment_program_shadow GL_ARB_half_float_pixel GL_ARB_occlusion_query2 GL_ARB_point_sprite GL_ARB_shading_language_100 GL_ARB_sync GL_ARB_texture_non_power_of_two GL_ARB_vertex_buffer_object GL_ATI_blend_equation_separate GL_EXT_blend_equation_separate GL_OES_read_format GL_ARB_color_buffer_float GL_ARB_pixel_buffer_object GL_ARB_texture_compression_rgtc GL_ARB_texture_float GL_ARB_texture_rectangle GL_EXT_packed_float GL_EXT_pixel_buffer_object GL_EXT_texture_compression_dxt1 GL_EXT_texture_compression_rgtc GL_EXT_texture_rectangle GL_EXT_texture_sRGB GL_EXT_texture_shared_exponent GL_ARB_framebuffer_object GL_EXT_framebuffer_blit GL_EXT_framebuffer_multisample GL_EXT_packed_depth_stencil GL_ARB_vertex_array_object GL_ATI_separate_stencil GL_EXT_draw_buffers2 GL_EXT_draw_instanced GL_EXT_gpu_program_parameters GL_EXT_gpu_shader4 GL_EXT_texture_array GL_EXT_texture_integer GL_EXT_texture_sRGB_decode GL_EXT_timer_query GL_OES_EGL_image GL_EXT_texture_buffer_object GL_AMD_texture_texture4 GL_ARB_copy_buffer GL_ARB_depth_buffer_float GL_ARB_draw_instanced GL_ARB_half_float_vertex GL_ARB_instanced_arrays GL_ARB_map_buffer_range GL_ARB_texture_buffer_object GL_ARB_texture_rg GL_ARB_texture_swizzle GL_ARB_vertex_array_bgra GL_EXT_texture_swizzle GL_EXT_vertex_array_bgra GL_NV_conditional_render GL_AMD_conservative_depth GL_AMD_draw_buffers_blend GL_ARB_ES2_compatibility GL_ARB_blend_func_extended GL_ARB_compatibility GL_ARB_debug_output GL_ARB_draw_buffers_blend GL_ARB_draw_elements_base_vertex GL_ARB_explicit_attrib_location GL_ARB_fragment_coord_conventions GL_ARB_provoking_vertex GL_ARB_sample_shading GL_ARB_sampler_objects GL_ARB_seamless_cube_map GL_ARB_shader_texture_lod GL_ARB_tessellation_shader GL_ARB_texture_buffer_object_rgb32 GL_ARB_texture_cube_map_array GL_ARB_texture_gather GL_ARB_texture_multisample GL_ARB_texture_query_lod GL_ARB_texture_rgb10_a2ui GL_ARB_uniform_buffer_object GL_ARB_vertex_type_2_10_10_10_rev GL_EXT_provoking_vertex GL_EXT_texture_snorm GL_EXT_texture_storage GL_MESA_texture_signed_rgba GL_NV_copy_image GL_ARB_draw_indirect GL_ARB_get_program_binary GL_ARB_gpu_shader5 GL_ARB_gpu_shader_fp64 GL_ARB_robustness GL_ARB_separate_shader_objects GL_ARB_shader_bit_encoding GL_ARB_shader_subroutine GL_ARB_texture_compression_bptc GL_ARB_timer_query GL_ARB_transform_feedback2 GL_ARB_transform_feedback3 GL_ARB_vertex_attrib_64bit GL_ARB_viewport_array GL_EXT_direct_state_access GL_EXT_vertex_attrib_64bit GL_AMD_multi_draw_indirect GL_ANGLE_texture_compression_dxt3 GL_ANGLE_texture_compression_dxt5 GL_ARB_compressed_texture_pixel_storage GL_ARB_conservative_depth GL_ARB_internalformat_query GL_ARB_map_buffer_alignment GL_ARB_shading_language_420pack GL_ARB_shading_language_packing GL_ARB_texture_storage GL_ARB_transform_feedback_instanced GL_EXT_framebuffer_multisample_blit_scaled GL_EXT_transform_feedback GL_AMD_shader_trinary_minmax GL_ARB_ES3_compatibility GL_ARB_arrays_of_arrays GL_ARB_clear_buffer_object GL_ARB_explicit_uniform_location GL_ARB_fragment_layer_viewport GL_ARB_invalidate_subdata GL_ARB_multi_draw_indirect GL_ARB_program_interface_query GL_ARB_texture_query_levels GL_ARB_texture_storage_multisample GL_ARB_vertex_attrib_binding GL_KHR_debug GL_KHR_texture_compression_astc_ldr GL_ARB_clear_texture GL_ARB_internalformat_query2 GL_ARB_multi_bind GL_ARB_shading_language_include GL_EXT_debug_label GL_EXT_shader_integer_mix GL_ARB_direct_state_access GL_ARB_get_texture_sub_image GL_KHR_context_flush_control GL_ARB_parallel_shader_compile GL_KHR_no_error GL_KHR_texture_compression_astc_sliced_3d GL_ARB_gl_spirv GL_ARB_spirv_extensions GL_MESA_shader_integer_functions GL_ARB_texture_filter_anisotropic GL_KHR_parallel_shader_compile GL_EXT_EGL_image_storage GL_EXT_EGL_sync GL_EXT_EGL_image_storage_compression GL_NV_ES1_1_compatibility 
+[INFO] [1793822851.806070317] [rviz2]: ***************************
+[INFO] [1793822851.806082067] [rviz2]: *** GL Renderer Started ***
+[INFO] [1793822851.806086067] [rviz2]: ***************************
+[INFO] [1793822851.809363942] [rviz2]: Registering ResourceManager for type GpuProgram
+[INFO] [1793822851.809448400] [rviz2]: GLSL support detected
+[INFO] [1793822851.809455234] [rviz2]: GL: Using GL_EXT_framebuffer_object for rendering to textures (best)
+[INFO] [1793822851.826249609] [rviz2]: FBO PF_UNKNOWN depth/stencil support: D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8
+[INFO] [1793822851.827628609] [rviz2]: FBO PF_L8 depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8
+[INFO] [1793822851.830282817] [rviz2]: FBO PF_L16 depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8
+[INFO] [1793822851.831829150] [rviz2]: FBO PF_A8 depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8
+[INFO] [1793822851.833034609] [rviz2]: FBO PF_BYTE_LA depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8
+[INFO] [1793822851.834101317] [rviz2]: FBO PF_R5G6B5 depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8
+[INFO] [1793822851.835504859] [rviz2]: FBO PF_A4R4G4B4 depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8
+[INFO] [1793822851.836629609] [rviz2]: FBO PF_A1R5G5B5 depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8
+[INFO] [1793822851.841152109] [rviz2]: FBO PF_R8G8B8 depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8
+[INFO] [1793822851.842337900] [rviz2]: FBO PF_B8G8R8 depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8
+[INFO] [1793822851.843432734] [rviz2]: FBO PF_A8R8G8B8 depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8
+[INFO] [1793822851.844595567] [rviz2]: FBO PF_A8B8G8R8 depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8
+[INFO] [1793822851.849411859] [rviz2]: FBO PF_B8G8R8A8 depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8
+[INFO] [1793822851.850393817] [rviz2]: FBO PF_FLOAT16_RGB depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8
+[INFO] [1793822851.851326109] [rviz2]: FBO PF_FLOAT16_RGBA depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8
+[INFO] [1793822851.852482567] [rviz2]: FBO PF_FLOAT32_RGB depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8
+[INFO] [1793822851.853488359] [rviz2]: FBO PF_FLOAT32_RGBA depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8
+[INFO] [1793822851.854555317] [rviz2]: FBO PF_X8R8G8B8 depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8
+[INFO] [1793822851.855592734] [rviz2]: FBO PF_X8B8G8R8 depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8
+[INFO] [1793822851.856673525] [rviz2]: FBO PF_R8G8B8A8 depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8
+[INFO] [1793822851.857766525] [rviz2]: FBO PF_DEPTH16 depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8
+[INFO] [1793822851.858788442] [rviz2]: FBO PF_SHORT_RGBA depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8
+[INFO] [1793822851.859811650] [rviz2]: FBO PF_R3G3B2 depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8
+[INFO] [1793822851.860818942] [rviz2]: FBO PF_FLOAT16_R depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8
+[INFO] [1793822851.863095275] [rviz2]: FBO PF_FLOAT32_R depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8
+[INFO] [1793822851.864819817] [rviz2]: FBO PF_SHORT_GR depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8
+[INFO] [1793822851.865873484] [rviz2]: FBO PF_FLOAT16_GR depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8
+[INFO] [1793822851.866909067] [rviz2]: FBO PF_FLOAT32_GR depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8
+[INFO] [1793822851.867974692] [rviz2]: FBO PF_SHORT_RGB depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8
+[INFO] [1793822851.868066150] [rviz2]: [GL] : Valid FBO targets PF_UNKNOWN PF_L8 PF_L16 PF_A8 PF_BYTE_LA PF_R5G6B5 PF_A4R4G4B4 PF_A1R5G5B5 PF_R8G8B8 PF_B8G8R8 PF_A8R8G8B8 PF_A8B8G8R8 PF_B8G8R8A8 PF_FLOAT16_RGB PF_FLOAT16_RGBA PF_FLOAT32_RGB PF_FLOAT32_RGBA PF_X8R8G8B8 PF_X8B8G8R8 PF_R8G8B8A8 PF_DEPTH16 PF_SHORT_RGBA PF_R3G3B2 PF_FLOAT16_R PF_FLOAT32_R PF_SHORT_GR PF_FLOAT16_GR PF_FLOAT32_GR PF_SHORT_RGB 
+[INFO] [1793822851.868339567] [rviz2]: RenderSystem capabilities
+[INFO] [1793822851.868348067] [rviz2]: -------------------------
+[INFO] [1793822851.868352275] [rviz2]: RenderSystem Name: OpenGL Rendering Subsystem
+[INFO] [1793822851.868358234] [rviz2]: GPU Vendor: unknown
+[INFO] [1793822851.868361442] [rviz2]: Device Name: virgl (Apple M5 Max (Compat))
+[INFO] [1793822851.868367192] [rviz2]: Driver Version: 4.0.0.0
+[INFO] [1793822851.868370484] [rviz2]:  * Fixed function pipeline: yes
+[INFO] [1793822851.868373150] [rviz2]:  * 32-bit index buffers: yes
+[INFO] [1793822851.868375817] [rviz2]:  * Hardware stencil buffer: yes
+[INFO] [1793822851.868378609] [rviz2]:    - Stencil depth: 8
+[INFO] [1793822851.868386859] [rviz2]:    - Two sided stencil support: yes
+[INFO] [1793822851.868394817] [rviz2]:    - Wrap stencil values: yes
+[INFO] [1793822851.868397817] [rviz2]:  * Vertex programs: yes
+[INFO] [1793822851.868400900] [rviz2]:    - Number of floating-point constants: 2048
+[INFO] [1793822851.868403775] [rviz2]:    - Number of integer constants: 0
+[INFO] [1793822851.868406400] [rviz2]:    - Number of boolean constants: 0
+[INFO] [1793822851.868408984] [rviz2]:  * Fragment programs: yes
+[INFO] [1793822851.868411609] [rviz2]:    - Number of floating-point constants: 2048
+[INFO] [1793822851.868414192] [rviz2]:    - Number of integer constants: 0
+[INFO] [1793822851.868416734] [rviz2]:    - Number of boolean constants: 0
+[INFO] [1793822851.868419317] [rviz2]:  * Geometry programs: no
+[INFO] [1793822851.868421984] [rviz2]:  * Tessellation Hull programs: no
+[INFO] [1793822851.868424609] [rviz2]:  * Tessellation Domain programs: no
+[INFO] [1793822851.868427192] [rviz2]:  * Compute programs: no
+[INFO] [1793822851.868432400] [rviz2]:  * Supported Shader Profiles: arbfp1 arbvp1 glsl glsl100 glsl110 glsl120 ps_1_1 ps_1_2 ps_1_3 ps_1_4
+[INFO] [1793822851.868447275] [rviz2]:  * Read-back compiled shader: yes
+[INFO] [1793822851.868451234] [rviz2]:  * Number of vertex attributes: 16
+[INFO] [1793822851.868454025] [rviz2]:  * Textures
+[INFO] [1793822851.868456817] [rviz2]:    - Number of texture units: 16
+[INFO] [1793822851.868459567] [rviz2]:    - Floating point: yes
+[INFO] [1793822851.868465400] [rviz2]:    - Non-power-of-two: yes
+[INFO] [1793822851.868468192] [rviz2]:    - 1D textures: yes
+[INFO] [1793822851.868470775] [rviz2]:    - 2D array textures: yes
+[INFO] [1793822851.868473317] [rviz2]:    - 3D textures: yes
+[INFO] [1793822851.868475817] [rviz2]:    - Anisotropic filtering: yes
+[INFO] [1793822851.868478359] [rviz2]:  * Texture Compression: yes
+[INFO] [1793822851.868480984] [rviz2]:    - DXT: yes
+[INFO] [1793822851.868483900] [rviz2]:    - VTC: no
+[INFO] [1793822851.868486484] [rviz2]:    - PVRTC: no
+[INFO] [1793822851.868489025] [rviz2]:    - ATC: no
+[INFO] [1793822851.868491567] [rviz2]:    - ETC1: no
+[INFO] [1793822851.868494067] [rviz2]:    - ETC2: no
+[INFO] [1793822851.868496567] [rviz2]:    - BC4/BC5: no
+[INFO] [1793822851.868499192] [rviz2]:    - BC6H/BC7: no
+[INFO] [1793822851.868501734] [rviz2]:    - ASTC: no
+[INFO] [1793822851.868504317] [rviz2]:    - Mipmaps for compressed formats: yes
+[INFO] [1793822851.868507484] [rviz2]:  * Vertex Buffers
+[INFO] [1793822851.868510775] [rviz2]:    - VET_UBYTE4 element type: yes
+[INFO] [1793822851.868513942] [rviz2]:    - Render to Vertex Buffer: no
+[INFO] [1793822851.868517525] [rviz2]:    - Instance Data: yes
+[INFO] [1793822851.868520650] [rviz2]:    - Primitive Restart: no
+[INFO] [1793822851.868523775] [rviz2]:  * Vertex texture fetch: yes
+[INFO] [1793822851.868526942] [rviz2]:    - Max vertex textures: 16
+[INFO] [1793822851.868530109] [rviz2]:    - Vertex textures shared: yes
+[INFO] [1793822851.868533275] [rviz2]:  * Read/Write Buffers: no
+[INFO] [1793822851.868536359] [rviz2]:  * Hardware Occlusion Query: yes
+[INFO] [1793822851.868539525] [rviz2]:  * User clip planes: yes
+[INFO] [1793822851.868542650] [rviz2]:  * Infinite far plane projection: yes
+[INFO] [1793822851.868545900] [rviz2]:  * Depth clamping: no
+[INFO] [1793822851.868548984] [rviz2]:  * Hardware render-to-texture: yes
+[INFO] [1793822851.868552234] [rviz2]:    - Multiple Render Targets: 8
+[INFO] [1793822851.868555692] [rviz2]:    - With different bit depths: yes
+[INFO] [1793822851.868558900] [rviz2]:  * Point Sprites: yes
+[INFO] [1793822851.868561942] [rviz2]:    - Extended parameters: yes
+[INFO] [1793822851.868573609] [rviz2]:    - Max Size: 64
+[INFO] [1793822851.868577109] [rviz2]:  * Wide Lines: yes
+[INFO] [1793822851.868580192] [rviz2]:  * Hardware Gamma: yes
+[INFO] [1793822851.868583234] [rviz2]:  * PBuffer support: yes
+[INFO] [1793822851.868586275] [rviz2]:  * Vertex Array Objects: no
+[INFO] [1793822851.868589400] [rviz2]:  * Separate shader objects: no
+[INFO] [1793822851.868592609] [rviz2]:    - redeclare GLSL interface block: no
+[INFO] [1793822851.868598942] [rviz2]:  * Debugging/ profiling events: no
+[INFO] [1793822851.868605234] [rviz2]:  * Map buffer storage: yes
+[INFO] [1793822851.868615525] [rviz2]: DefaultWorkQueue('Root') initialising on thread main.
+[INFO] [1793822851.868660984] [rviz2]: Particle Renderer Type 'billboard' registered
+[INFO] [1793822851.868685359] [rviz2]: Stereo is NOT SUPPORTED
+[INFO] [1793822851.868717484] [rviz2]: OpenGl version: 4 (GLSL 4)
+[INFO] [1793822851.868798859] [rviz2]: Creating resource group rviz_rendering
+[INFO] [1793822851.868812359] [rviz2]: Added resource location '/opt/ros/jazzy/share/rviz_rendering/ogre_media' of type 'FileSystem' to resource group 'rviz_rendering'
+[INFO] [1793822851.868841109] [rviz2]: Added resource location '/opt/ros/jazzy/share/rviz_rendering/ogre_media/textures' of type 'FileSystem' to resource group 'rviz_rendering'
+[INFO] [1793822851.868872525] [rviz2]: Added resource location '/opt/ros/jazzy/share/rviz_rendering/ogre_media/fonts' of type 'FileSystem' to resource group 'rviz_rendering'
+[INFO] [1793822851.868920942] [rviz2]: Added resource location '/opt/ros/jazzy/share/rviz_rendering/ogre_media/fonts/liberation-sans' of type 'FileSystem' to resource group 'rviz_rendering'
+[INFO] [1793822851.868963692] [rviz2]: Added resource location '/opt/ros/jazzy/share/rviz_rendering/ogre_media/models' of type 'FileSystem' to resource group 'rviz_rendering'
+[INFO] [1793822851.868983234] [rviz2]: Added resource location '/opt/ros/jazzy/share/rviz_rendering/ogre_media/materials' of type 'FileSystem' to resource group 'rviz_rendering'
+[INFO] [1793822851.869009025] [rviz2]: Added resource location '/opt/ros/jazzy/share/rviz_rendering/ogre_media/materials/scripts' of type 'FileSystem' to resource group 'rviz_rendering'
+[INFO] [1793822851.869082234] [rviz2]: Added resource location '/opt/ros/jazzy/share/rviz_rendering/ogre_media/materials/glsl120' of type 'FileSystem' to resource group 'rviz_rendering'
+[INFO] [1793822851.869098567] [rviz2]: Added resource location '/opt/ros/jazzy/share/rviz_rendering/ogre_media/materials/glsl120/include' of type 'FileSystem' to resource group 'rviz_rendering'
+[INFO] [1793822851.869115234] [rviz2]: Added resource location '/opt/ros/jazzy/share/rviz_rendering/ogre_media/materials/glsl120/nogp' of type 'FileSystem' to resource group 'rviz_rendering'
+[INFO] [1793822851.869131525] [rviz2]: Added resource location '/opt/ros/jazzy/share/rviz_rendering/ogre_media/materials/scripts120' of type 'FileSystem' to resource group 'rviz_rendering'
+[INFO] [1793822851.869158650] [rviz2]: Parsing scripts for resource group General
+[INFO] [1793822851.869169067] [rviz2]: Finished parsing scripts for resource group General
+[INFO] [1793822851.869172109] [rviz2]: Creating resources for group General
+[INFO] [1793822851.869175650] [rviz2]: All done
+[INFO] [1793822851.869179609] [rviz2]: Parsing scripts for resource group OgreAutodetect
+[INFO] [1793822851.869182900] [rviz2]: Finished parsing scripts for resource group OgreAutodetect
+[INFO] [1793822851.869185567] [rviz2]: Creating resources for group OgreAutodetect
+[INFO] [1793822851.869188192] [rviz2]: All done
+[INFO] [1793822851.869191025] [rviz2]: Parsing scripts for resource group OgreInternal
+[INFO] [1793822851.869194025] [rviz2]: Finished parsing scripts for resource group OgreInternal
+[INFO] [1793822851.869196567] [rviz2]: Creating resources for group OgreInternal
+[INFO] [1793822851.869199150] [rviz2]: All done
+[INFO] [1793822851.869201734] [rviz2]: Parsing scripts for resource group rviz_rendering
+[INFO] [1793822851.869482859] [rviz2]: Parsing script glsl120.program
+[WARN] [1793822851.869686567] [rviz2]: Warning: ScriptCompiler - deprecated symbol in glsl120.program(13): attach. Use the #include directive instead
+[WARN] [1793822851.869696984] [rviz2]: Warning: ScriptCompiler - deprecated symbol in glsl120.program(14): attach. Use the #include directive instead
+[WARN] [1793822851.873262859] [rviz2]: Warning: ScriptCompiler - deprecated symbol in glsl120.program(26): attach. Use the #include directive instead
+[WARN] [1793822851.873346650] [rviz2]: Warning: ScriptCompiler - deprecated symbol in glsl120.program(39): attach. Use the #include directive instead
+[WARN] [1793822851.873432734] [rviz2]: Warning: ScriptCompiler - deprecated symbol in glsl120.program(61): attach. Use the #include directive instead
+[WARN] [1793822851.873490192] [rviz2]: Warning: ScriptCompiler - deprecated symbol in glsl120.program(87): attach. Use the #include directive instead
+[WARN] [1793822851.873499525] [rviz2]: Warning: ScriptCompiler - deprecated symbol in glsl120.program(100): attach. Use the #include directive instead
+[WARN] [1793822851.873578192] [rviz2]: Warning: ScriptCompiler - deprecated symbol in glsl120.program(136): attach. Use the #include directive instead
+[INFO] [1793822851.873716567] [rviz2]: Parsing script nogp.program
+[WARN] [1793822851.873837442] [rviz2]: Warning: ScriptCompiler - deprecated symbol in nogp.program(24): attach. Use the #include directive instead
+[WARN] [1793822851.873928359] [rviz2]: Warning: ScriptCompiler - deprecated symbol in nogp.program(50): attach. Use the #include directive instead
+[WARN] [1793822851.874002650] [rviz2]: Warning: ScriptCompiler - deprecated symbol in nogp.program(74): attach. Use the #include directive instead
+[INFO] [1793822851.874091400] [rviz2]: Parsing script point_cloud_tile.material
+[INFO] [1793822851.874243692] [rviz2]: Parsing script indexed_8bit_image.material
+[INFO] [1793822851.874344734] [rviz2]: Parsing script point_cloud_point.material
+[INFO] [1793822851.874416150] [rviz2]: Parsing script default_pick_and_depth.material
+[INFO] [1793822851.874507567] [rviz2]: Parsing script point_cloud_box.material
+[INFO] [1793822851.874568650] [rviz2]: Parsing script point_cloud_sphere.material
+[INFO] [1793822851.874619400] [rviz2]: Parsing script point_cloud_flat_square.material
+[INFO] [1793822851.874669984] [rviz2]: Parsing script point_cloud_square.material
+[INFO] [1793822851.874731859] [rviz2]: Parsing script liberation_sans.fontdef
+[INFO] [1793822851.874803359] [rviz2]: Finished parsing scripts for resource group rviz_rendering
+[INFO] [1793822851.874808484] [rviz2]: Creating resources for group rviz_rendering
+[INFO] [1793822851.874815609] [rviz2]: All done
+[INFO] [1793822851.879495359] [rviz2]: RenderSystem::_createRenderWindow "OgreWindow(1)", 100x30 windowed  miscParams: contentScalingFactor=1.000000 currentGLContext=false externalWindowHandle=62914579 left=0 parentWindowHandle=62914579 top=0 
+[INFO] [1793822851.880213775] [rviz2]: GLXWindow::create colourBufferSize=32 gamma=0 FSAA=0
+[INFO] [1793822851.881413817] [rviz2]: GLXWindow::create used FBConfigID = 221
+[INFO] [1793822851.881470275] [rviz2]: Stereo is NOT SUPPORTED
+[INFO] [1793822851.919318317] [rviz2]: Mesh: Loading rviz_sphere.mesh.
+[WARN] [1793822851.919738275] [rviz2]: Warning: rviz_sphere.mesh uses an old format [MeshSerializer_v1.8]; upgrade with the OgreMeshUpgrader tool
+[INFO] [1793822851.922876609] [rviz2]: Texture 'SelectionRect0Texture': Loading 1 faces(PF_R8G8B8A8,1x1x1) Internal format is PF_R8G8B8A8,1x1x1.
+[INFO] [1793822851.927496234] [rviz2]: Texture 'MapPaletteTexture0': Loading 1 faces(PF_A8B8G8R8,256x1x1) Internal format is PF_A8B8G8R8,256x1x1.
+[INFO] [1793822851.927575150] [rviz2]: Texture 'MapPaletteTexture1': Loading 1 faces(PF_A8B8G8R8,256x1x1) Internal format is PF_A8B8G8R8,256x1x1.
+[INFO] [1793822851.927617942] [rviz2]: Texture 'MapPaletteTexture2': Loading 1 faces(PF_A8B8G8R8,256x1x1) Internal format is PF_A8B8G8R8,256x1x1.
+[INFO] [1793822851.927655025] [rviz2]: Texture 'MapPaletteTexture3': Loading 1 faces(PF_A8B8G8R8,256x1x1) Internal format is PF_A8B8G8R8,256x1x1.
+[INFO] [1793822851.927693275] [rviz2]: Texture 'MapPaletteTexture4': Loading 1 faces(PF_A8B8G8R8,256x1x1) Internal format is PF_A8B8G8R8,256x1x1.
+[INFO] [1793822851.927747234] [rviz2]: Texture 'MapPaletteTexture5': Loading 1 faces(PF_A8B8G8R8,256x1x1) Internal format is PF_A8B8G8R8,256x1x1.
+[INFO] [1793822851.933356609] [rviz2]: Texture 'MapPaletteTexture6': Loading 1 faces(PF_A8B8G8R8,256x1x1) Internal format is PF_A8B8G8R8,256x1x1.
+[INFO] [1793822851.933449192] [rviz2]: Texture 'MapPaletteTexture7': Loading 1 faces(PF_A8B8G8R8,256x1x1) Internal format is PF_A8B8G8R8,256x1x1.
+[INFO] [1793822851.933502567] [rviz2]: Texture 'MapPaletteTexture8': Loading 1 faces(PF_A8B8G8R8,256x1x1) Internal format is PF_A8B8G8R8,256x1x1.
+[INFO] [1793822851.933538192] [rviz2]: Texture 'MapPaletteTexture9': Loading 1 faces(PF_A8B8G8R8,256x1x1) Internal format is PF_A8B8G8R8,256x1x1.
+[INFO] [1793822851.933571567] [rviz2]: Texture 'MapPaletteTexture10': Loading 1 faces(PF_A8B8G8R8,256x1x1) Internal format is PF_A8B8G8R8,256x1x1.
+[INFO] [1793822851.933614692] [rviz2]: Texture 'MapPaletteTexture11': Loading 1 faces(PF_A8B8G8R8,256x1x1) Internal format is PF_A8B8G8R8,256x1x1.
+[INFO] [1793822851.934398859] [rviz2]: Texture 'MapPaletteTexture12': Loading 1 faces(PF_A8B8G8R8,256x1x1) Internal format is PF_A8B8G8R8,256x1x1.
+[INFO] [1793822851.934451984] [rviz2]: Texture 'MapPaletteTexture13': Loading 1 faces(PF_A8B8G8R8,256x1x1) Internal format is PF_A8B8G8R8,256x1x1.
+[INFO] [1793822851.934482317] [rviz2]: Texture 'MapPaletteTexture14': Loading 1 faces(PF_A8B8G8R8,256x1x1) Internal format is PF_A8B8G8R8,256x1x1.
+[INFO] [1793822851.934515025] [rviz2]: Texture 'MapPaletteTexture15': Loading 1 faces(PF_A8B8G8R8,256x1x1) Internal format is PF_A8B8G8R8,256x1x1.
+[INFO] [1793822851.934550859] [rviz2]: Texture 'MapPaletteTexture16': Loading 1 faces(PF_A8B8G8R8,256x1x1) Internal format is PF_A8B8G8R8,256x1x1.
+[INFO] [1793822851.934578317] [rviz2]: Texture 'MapPaletteTexture17': Loading 1 faces(PF_A8B8G8R8,256x1x1) Internal format is PF_A8B8G8R8,256x1x1.
+[INFO] [1793822851.936367734] [rviz2_gpu_noaa_test]: Subscribing to: /scan_matched_points2
+
+[INFO] [1793822851.937114275] [rviz2]: Mesh: Loading rviz_cylinder.mesh.
+[WARN] [1793822851.937392609] [rviz2]: Warning: rviz_cylinder.mesh uses an old format [MeshSerializer_v1.8]; upgrade with the OgreMeshUpgrader tool
+[INFO] [1793822851.937426775] [rviz2]: Mesh: Loading rviz_cone.mesh.
+[WARN] [1793822851.937573442] [rviz2]: Warning: rviz_cone.mesh uses an old format [MeshSerializer_v1.8]; upgrade with the OgreMeshUpgrader tool
+[INFO] [1793822851.943393525] [rviz2_gpu_noaa_test]: Subscribing to: /scan_matched_points2
+
+[INFO] [1793822852.106272192] [rviz2]: Trying to create a map of size 128 x 120 using 1 swatches
+[INFO] [1793822852.106576025] [rviz2]: Texture 'MapTexture0': Loading 1 faces(PF_L8,128x120x1) Internal format is PF_L8,128x120x1.
+[INFO] [1793822852.106779317] [rviz2]: Texture 'MapTexture1': Loading 1 faces(PF_L8,128x120x1) Internal format is PF_L8,128x120x1.
+[ERROR] [1793822852.137759984] [rviz2]: rviz/glsl120/indexed_8bit_image.vert
+rviz/glsl120/indexed_8bit_image.frag
+ GLSL link result : 
+active samplers with a different type refer to the same texture image unit
+[INFO] [1793822852.970379609] [rviz2]: Texture 'MapTexture2': Loading 1 faces(PF_L8,128x120x1) Internal format is PF_L8,128x120x1.
+[INFO] [1793822853.450869776] [rviz2]: Texture 'Liberation SansTexture': Loading 1 faces(PF_BYTE_LA,512x256x1) Internal format is PF_BYTE_LA,512x256x1.
+[INFO] [1793822853.962527610] [rviz2]: Texture 'MapTexture3': Loading 1 faces(PF_L8,128x120x1) Internal format is PF_L8,128x120x1.
+[INFO] [1793822854.313892860] [rviz2_gpu_noaa_test]: Message Filter dropping message: frame 'base_scan' at time 464.300 for reason 'discarding message because the queue is full'
+[INFO] [1793822854.953667527] [rviz2]: Texture 'MapTexture4': Loading 1 faces(PF_L8,128x120x1) Internal format is PF_L8,128x120x1.
+[INFO] [1793822855.978622736] [rviz2]: Texture 'MapTexture5': Loading 1 faces(PF_L8,128x120x1) Internal format is PF_L8,128x120x1.
+[rviz_rendering:info] Disabling Anti-Aliasing, at ./src/rviz_rendering/render_system.cpp:140
+[INFO] [1793822856.971235528] [rviz2]: Texture 'MapTexture6': Loading 1 faces(PF_L8,128x120x1) Internal format is PF_L8,128x120x1.
+[INFO] [1793822857.962172653] [rviz2]: Texture 'MapTexture7': Loading 1 faces(PF_L8,128x120x1) Internal format is PF_L8,128x120x1.
+[INFO] [1793822858.954288862] [rviz2]: Texture 'MapTexture8': Loading 1 faces(PF_L8,128x120x1) Internal format is PF_L8,128x120x1.
+[INFO] [1793822859.978938863] [rviz2]: Texture 'MapTexture9': Loading 1 faces(PF_L8,128x120x1) Internal format is PF_L8,128x120x1.
+[INFO] [1793822860.970530530] [rviz2]: Texture 'MapTexture10': Loading 1 faces(PF_L8,128x120x1) Internal format is PF_L8,128x120x1.
+[INFO] [1793822861.962907197] [rviz2]: Texture 'MapTexture11': Loading 1 faces(PF_L8,128x120x1) Internal format is PF_L8,128x120x1.
+[INFO] [1793822862.954684947] [rviz2]: Texture 'MapTexture12': Loading 1 faces(PF_L8,128x120x1) Internal format is PF_L8,128x120x1.
+[INFO] [1793822863.979046614] [rviz2]: Texture 'MapTexture13': Loading 1 faces(PF_L8,128x120x1) Internal format is PF_L8,128x120x1.
+[INFO] [1793822864.102999281] [rviz2_gpu_noaa_test]: Message Filter dropping message: frame 'base_scan' at time 465.000 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[INFO] [1793822864.970502990] [rviz2]: Texture 'MapTexture14': Loading 1 faces(PF_L8,128x120x1) Internal format is PF_L8,128x120x1.
+[INFO] [1793822865.963561657] [rviz2]: Texture 'MapTexture15': Loading 1 faces(PF_L8,128x120x1) Internal format is PF_L8,128x120x1.
+[INFO] [1793822866.954374033] [rviz2]: Texture 'MapTexture16': Loading 1 faces(PF_L8,128x120x1) Internal format is PF_L8,128x120x1.
+[INFO] [1793822867.978271866] [rviz2]: Texture 'MapTexture17': Loading 1 faces(PF_L8,128x120x1) Internal format is PF_L8,128x120x1.
+[INFO] [1793822868.970854283] [rviz2]: Trying to create a map of size 129 x 120 using 1 swatches
+[INFO] [1793822868.971048117] [rviz2]: Texture 'MapTexture18': Loading 1 faces(PF_L8,129x120x1) Internal format is PF_L8,129x120x1.
+[INFO] [1793822868.971154158] [rviz2]: Texture 'MapTexture19': Loading 1 faces(PF_L8,129x120x1) Internal format is PF_L8,129x120x1.
+[INFO] [1793822869.962230367] [rviz2]: Texture 'MapTexture20': Loading 1 faces(PF_L8,129x120x1) Internal format is PF_L8,129x120x1.
+[INFO] [1793822870.954200659] [rviz2]: Texture 'MapTexture21': Loading 1 faces(PF_L8,129x120x1) Internal format is PF_L8,129x120x1.
+[INFO] [1793822871.978768660] [rviz2]: Texture 'MapTexture22': Loading 1 faces(PF_L8,129x120x1) Internal format is PF_L8,129x120x1.
+[INFO] [1793822872.970130952] [rviz2]: Texture 'MapTexture23': Loading 1 faces(PF_L8,129x120x1) Internal format is PF_L8,129x120x1.
+[INFO] [1793822873.962230244] [rviz2]: Texture 'MapTexture24': Loading 1 faces(PF_L8,129x120x1) Internal format is PF_L8,129x120x1.
+[INFO] [1793822874.954965078] [rviz2]: Texture 'MapTexture25': Loading 1 faces(PF_L8,129x120x1) Internal format is PF_L8,129x120x1.
+[INFO] [1793822875.979099703] [rviz2]: Texture 'MapTexture26': Loading 1 faces(PF_L8,129x120x1) Internal format is PF_L8,129x120x1.
+[INFO] [1793822876.970821871] [rviz2]: Texture 'MapTexture27': Loading 1 faces(PF_L8,129x120x1) Internal format is PF_L8,129x120x1.
+[INFO] [1793822877.962469621] [rviz2]: Texture 'MapTexture28': Loading 1 faces(PF_L8,129x120x1) Internal format is PF_L8,129x120x1.
+[INFO] [1793822878.954087122] [rviz2]: Texture 'MapTexture29': Loading 1 faces(PF_L8,129x120x1) Internal format is PF_L8,129x120x1.
+[INFO] [1793822879.978478372] [rviz2]: Texture 'MapTexture30': Loading 1 faces(PF_L8,129x120x1) Internal format is PF_L8,129x120x1.
+[INFO] [1793822880.970511123] [rviz2]: Texture 'MapTexture31': Loading 1 faces(PF_L8,129x120x1) Internal format is PF_L8,129x120x1.
+[INFO] [1793822881.962282040] [rviz2]: Texture 'MapTexture32': Loading 1 faces(PF_L8,129x120x1) Internal format is PF_L8,129x120x1.
+[INFO] [1793822882.954589707] [rviz2]: Texture 'MapTexture33': Loading 1 faces(PF_L8,129x120x1) Internal format is PF_L8,129x120x1.
+[INFO] [1793822883.978898582] [rviz2]: Texture 'MapTexture34': Loading 1 faces(PF_L8,129x120x1) Internal format is PF_L8,129x120x1.
+[INFO] [1793822884.970628791] [rviz2]: Texture 'MapTexture35': Loading 1 faces(PF_L8,129x120x1) Internal format is PF_L8,129x120x1.
+[INFO] [1793822885.962560208] [rviz2]: Texture 'MapTexture36': Loading 1 faces(PF_L8,129x120x1) Internal format is PF_L8,129x120x1.
+[INFO] [1793822886.954149792] [rviz2]: Texture 'MapTexture37': Loading 1 faces(PF_L8,129x120x1) Internal format is PF_L8,129x120x1.
+[INFO] [1793822887.978239751] [rviz2]: Texture 'MapTexture38': Loading 1 faces(PF_L8,129x120x1) Internal format is PF_L8,129x120x1.
+[INFO] [1793822888.970544376] [rviz2]: Texture 'MapTexture39': Loading 1 faces(PF_L8,129x120x1) Internal format is PF_L8,129x120x1.
+[INFO] [1793822889.963142710] [rviz2]: Texture 'MapTexture40': Loading 1 faces(PF_L8,129x120x1) Internal format is PF_L8,129x120x1.
+[INFO] [1793822890.954357252] [rviz2]: Texture 'MapTexture41': Loading 1 faces(PF_L8,129x120x1) Internal format is PF_L8,129x120x1.
+[INFO] [1793822891.979085961] [rviz2]: Texture 'MapTexture42': Loading 1 faces(PF_L8,129x120x1) Internal format is PF_L8,129x120x1.
+[INFO] [1793822892.970773378] [rviz2]: Texture 'MapTexture43': Loading 1 faces(PF_L8,129x120x1) Internal format is PF_L8,129x120x1.
+[INFO] [1793822893.962361212] [rviz2]: Trying to create a map of size 129 x 121 using 1 swatches
+[INFO] [1793822893.962560670] [rviz2]: Texture 'MapTexture44': Loading 1 faces(PF_L8,129x121x1) Internal format is PF_L8,129x121x1.
+[INFO] [1793822893.962649212] [rviz2]: Texture 'MapTexture45': Loading 1 faces(PF_L8,129x121x1) Internal format is PF_L8,129x121x1.
+[INFO] [1793822894.954134379] [rviz2]: Texture 'MapTexture46': Loading 1 faces(PF_L8,129x121x1) Internal format is PF_L8,129x121x1.
+[INFO] [1793822895.978407755] [rviz2]: Texture 'MapTexture47': Loading 1 faces(PF_L8,129x121x1) Internal format is PF_L8,129x121x1.
+[INFO] [1793822896.970364839] [rviz2]: Texture 'MapTexture48': Loading 1 faces(PF_L8,129x121x1) Internal format is PF_L8,129x121x1.
+[INFO] [1793822897.962275047] [rviz2]: Texture 'MapTexture49': Loading 1 faces(PF_L8,129x121x1) Internal format is PF_L8,129x121x1.
+[INFO] [1793822898.954145214] [rviz2]: Texture 'MapTexture50': Loading 1 faces(PF_L8,129x121x1) Internal format is PF_L8,129x121x1.
+[INFO] [1793822899.978907132] [rviz2]: Texture 'MapTexture51': Loading 1 faces(PF_L8,129x121x1) Internal format is PF_L8,129x121x1.
+[INFO] [1793822900.970115924] [rviz2]: Texture 'MapTexture52': Loading 1 faces(PF_L8,129x121x1) Internal format is PF_L8,129x121x1.
+[INFO] [1793822901.962856966] [rviz2]: Texture 'MapTexture53': Loading 1 faces(PF_L8,129x121x1) Internal format is PF_L8,129x121x1.
+[INFO] [1793822902.955045216] [rviz2]: Texture 'MapTexture54': Loading 1 faces(PF_L8,129x121x1) Internal format is PF_L8,129x121x1.
+[INFO] [1793822903.978336050] [rviz2]: Texture 'MapTexture55': Loading 1 faces(PF_L8,129x121x1) Internal format is PF_L8,129x121x1.
+[INFO] [1793822904.970586342] [rviz2]: Texture 'MapTexture56': Loading 1 faces(PF_L8,129x121x1) Internal format is PF_L8,129x121x1.
+[INFO] [1793822905.962875676] [rviz2]: Texture 'MapTexture57': Loading 1 faces(PF_L8,129x121x1) Internal format is PF_L8,129x121x1.
+[INFO] [1793822906.954569760] [rviz2]: Texture 'MapTexture58': Loading 1 faces(PF_L8,129x121x1) Internal format is PF_L8,129x121x1.
+[INFO] [1793822907.978429969] [rviz2]: Texture 'MapTexture59': Loading 1 faces(PF_L8,129x121x1) Internal format is PF_L8,129x121x1.
+[INFO] [1793822908.970894886] [rviz2]: Texture 'MapTexture60': Loading 1 faces(PF_L8,129x121x1) Internal format is PF_L8,129x121x1.
+[INFO] [1793822909.962083636] [rviz2]: Texture 'MapTexture61': Loading 1 faces(PF_L8,129x121x1) Internal format is PF_L8,129x121x1.
+[INFO] [1793822910.954546845] [rviz2]: Texture 'MapTexture62': Loading 1 faces(PF_L8,129x121x1) Internal format is PF_L8,129x121x1.
+[INFO] [1793822911.978291512] [rviz2]: Trying to create a map of size 129 x 122 using 1 swatches
+[INFO] [1793822911.978550804] [rviz2]: Texture 'MapTexture63': Loading 1 faces(PF_L8,129x122x1) Internal format is PF_L8,129x122x1.
+[INFO] [1793822911.978667137] [rviz2]: Texture 'MapTexture64': Loading 1 faces(PF_L8,129x122x1) Internal format is PF_L8,129x122x1.
+[INFO] [1793822912.970315846] [rviz2]: Texture 'MapTexture65': Loading 1 faces(PF_L8,129x122x1) Internal format is PF_L8,129x122x1.
+[INFO] [1793822913.962651388] [rviz2]: Texture 'MapTexture66': Loading 1 faces(PF_L8,129x122x1) Internal format is PF_L8,129x122x1.
+[INFO] [1793822914.955359014] [rviz2]: Texture 'MapTexture67': Loading 1 faces(PF_L8,129x122x1) Internal format is PF_L8,129x122x1.
+[INFO] [1793822915.978912098] [rviz2]: Texture 'MapTexture68': Loading 1 faces(PF_L8,129x122x1) Internal format is PF_L8,129x122x1.
+[INFO] [1793822916.970929681] [rviz2]: Texture 'MapTexture69': Loading 1 faces(PF_L8,129x122x1) Internal format is PF_L8,129x122x1.
+[INFO] [1793822917.962317140] [rviz2]: Texture 'MapTexture70': Loading 1 faces(PF_L8,129x122x1) Internal format is PF_L8,129x122x1.
+[INFO] [1793822918.953955016] [rviz2]: Texture 'MapTexture71': Loading 1 faces(PF_L8,129x122x1) Internal format is PF_L8,129x122x1.
+[INFO] [1793822919.978448391] [rviz2]: Texture 'MapTexture72': Loading 1 faces(PF_L8,129x122x1) Internal format is PF_L8,129x122x1.
+[INFO] [1793822920.970072933] [rviz2]: Texture 'MapTexture73': Loading 1 faces(PF_L8,129x122x1) Internal format is PF_L8,129x122x1.
+[INFO] [1793822921.962537975] [rviz2]: Texture 'MapTexture74': Loading 1 faces(PF_L8,129x122x1) Internal format is PF_L8,129x122x1.
+[INFO] [1793822922.954642726] [rviz2]: Texture 'MapTexture75': Loading 1 faces(PF_L8,129x122x1) Internal format is PF_L8,129x122x1.
+[INFO] [1793822923.978005768] [rviz2]: Texture 'MapTexture76': Loading 1 faces(PF_L8,129x122x1) Internal format is PF_L8,129x122x1.
+[INFO] [1793822924.970587935] [rviz2]: Texture 'MapTexture77': Loading 1 faces(PF_L8,129x122x1) Internal format is PF_L8,129x122x1.
+[INFO] [1793822925.962300394] [rviz2]: Texture 'MapTexture78': Loading 1 faces(PF_L8,129x122x1) Internal format is PF_L8,129x122x1.
+[INFO] [1793822926.954650186] [rviz2]: Texture 'MapTexture79': Loading 1 faces(PF_L8,129x122x1) Internal format is PF_L8,129x122x1.
+[INFO] [1793822927.978690728] [rviz2]: Texture 'MapTexture80': Loading 1 faces(PF_L8,129x122x1) Internal format is PF_L8,129x122x1.
+[INFO] [1793822928.970544020] [rviz2]: Texture 'MapTexture81': Loading 1 faces(PF_L8,129x122x1) Internal format is PF_L8,129x122x1.
+[INFO] [1793822929.963140813] [rviz2]: Texture 'MapTexture82': Loading 1 faces(PF_L8,129x122x1) Internal format is PF_L8,129x122x1.
+[INFO] [1793822930.954504646] [rviz2]: Texture 'MapTexture83': Loading 1 faces(PF_L8,129x122x1) Internal format is PF_L8,129x122x1.
+[INFO] [1793822931.979712730] [rviz2]: Texture 'MapTexture84': Loading 1 faces(PF_L8,129x122x1) Internal format is PF_L8,129x122x1.
+[INFO] [1793822932.970529772] [rviz2]: Trying to create a map of size 130 x 122 using 1 swatches
+[INFO] [1793822932.970773856] [rviz2]: Texture 'MapTexture85': Loading 1 faces(PF_L8,130x122x1) Internal format is PF_L8,130x122x1.
+[INFO] [1793822932.970886481] [rviz2]: Texture 'MapTexture86': Loading 1 faces(PF_L8,130x122x1) Internal format is PF_L8,130x122x1.
+[INFO] [1793822933.962595356] [rviz2]: Texture 'MapTexture87': Loading 1 faces(PF_L8,130x122x1) Internal format is PF_L8,130x122x1.
+[INFO] [1793822934.954156440] [rviz2]: Texture 'MapTexture88': Loading 1 faces(PF_L8,130x122x1) Internal format is PF_L8,130x122x1.
+[INFO] [1793822935.978806940] [rviz2]: Texture 'MapTexture89': Loading 1 faces(PF_L8,130x122x1) Internal format is PF_L8,130x122x1.
+[INFO] [1793822936.970018816] [rviz2]: Texture 'MapTexture90': Loading 1 faces(PF_L8,130x122x1) Internal format is PF_L8,130x122x1.
+[INFO] [1793822937.962547650] [rviz2]: Texture 'MapTexture91': Loading 1 faces(PF_L8,130x122x1) Internal format is PF_L8,130x122x1.
+[INFO] [1793822938.955138900] [rviz2]: Texture 'MapTexture92': Loading 1 faces(PF_L8,130x122x1) Internal format is PF_L8,130x122x1.
+[INFO] [1793822939.979129817] [rviz2]: Texture 'MapTexture93': Loading 1 faces(PF_L8,130x122x1) Internal format is PF_L8,130x122x1.
+[INFO] [1793822940.971064443] [rviz2]: Texture 'MapTexture94': Loading 1 faces(PF_L8,130x122x1) Internal format is PF_L8,130x122x1.
+[INFO] [1793822941.962366485] [rviz2]: Texture 'MapTexture95': Loading 1 faces(PF_L8,130x122x1) Internal format is PF_L8,130x122x1.
+[INFO] [1793822942.954858527] [rviz2]: Texture 'MapTexture96': Loading 1 faces(PF_L8,130x122x1) Internal format is PF_L8,130x122x1.
+[INFO] [1793822943.978936444] [rviz2]: Texture 'MapTexture97': Loading 1 faces(PF_L8,130x122x1) Internal format is PF_L8,130x122x1.
+[INFO] [1793822944.970152486] [rviz2]: Texture 'MapTexture98': Loading 1 faces(PF_L8,130x122x1) Internal format is PF_L8,130x122x1.
+[INFO] [1793822945.962944570] [rviz2]: Texture 'MapTexture99': Loading 1 faces(PF_L8,130x122x1) Internal format is PF_L8,130x122x1.
+[INFO] [1793822946.954726946] [rviz2]: Texture 'MapTexture100': Loading 1 faces(PF_L8,130x122x1) Internal format is PF_L8,130x122x1.
+[INFO] [1793822947.978585071] [rviz2]: Texture 'MapTexture101': Loading 1 faces(PF_L8,130x122x1) Internal format is PF_L8,130x122x1.
+[INFO] [1793822948.971227947] [rviz2]: Texture 'MapTexture102': Loading 1 faces(PF_L8,130x122x1) Internal format is PF_L8,130x122x1.
+[INFO] [1793822949.962439072] [rviz2]: Texture 'MapTexture103': Loading 1 faces(PF_L8,130x122x1) Internal format is PF_L8,130x122x1.
+[INFO] [1793822950.954519614] [rviz2]: Texture 'MapTexture104': Loading 1 faces(PF_L8,130x122x1) Internal format is PF_L8,130x122x1.
+[INFO] [1793822951.978131490] [rviz2]: Texture 'MapTexture105': Loading 1 faces(PF_L8,130x122x1) Internal format is PF_L8,130x122x1.
+[INFO] [1793822952.970610574] [rviz2]: Texture 'MapTexture106': Loading 1 faces(PF_L8,130x122x1) Internal format is PF_L8,130x122x1.
+[INFO] [1793822953.962416491] [rviz2]: Texture 'MapTexture107': Loading 1 faces(PF_L8,130x122x1) Internal format is PF_L8,130x122x1.
+[INFO] [1793822954.954589074] [rviz2]: Texture 'MapTexture108': Loading 1 faces(PF_L8,130x122x1) Internal format is PF_L8,130x122x1.
+[INFO] [1793822955.978103450] [rviz2]: Texture 'MapTexture109': Loading 1 faces(PF_L8,130x122x1) Internal format is PF_L8,130x122x1.
+[INFO] [1793822956.970601992] [rviz2]: Texture 'MapTexture110': Loading 1 faces(PF_L8,130x122x1) Internal format is PF_L8,130x122x1.
+[INFO] [1793822957.962752826] [rviz2]: Trying to create a map of size 130 x 123 using 1 swatches
+[INFO] [1793822957.962902493] [rviz2]: Texture 'MapTexture111': Loading 1 faces(PF_L8,130x123x1) Internal format is PF_L8,130x123x1.
+[INFO] [1793822957.963006784] [rviz2]: Texture 'MapTexture112': Loading 1 faces(PF_L8,130x123x1) Internal format is PF_L8,130x123x1.
+[INFO] [1793822958.954763076] [rviz2]: Texture 'MapTexture113': Loading 1 faces(PF_L8,130x123x1) Internal format is PF_L8,130x123x1.
+[INFO] [1793822959.978882452] [rviz2]: Texture 'MapTexture114': Loading 1 faces(PF_L8,130x123x1) Internal format is PF_L8,130x123x1.
+[INFO] [1793822960.971151577] [rviz2]: Texture 'MapTexture115': Loading 1 faces(PF_L8,130x123x1) Internal format is PF_L8,130x123x1.
+[INFO] [1793822961.962532578] [rviz2]: Texture 'MapTexture116': Loading 1 faces(PF_L8,130x123x1) Internal format is PF_L8,130x123x1.
+[INFO] [1793822962.954601537] [rviz2]: Texture 'MapTexture117': Loading 1 faces(PF_L8,130x123x1) Internal format is PF_L8,130x123x1.
+[INFO] [1793822963.979177704] [rviz2]: Texture 'MapTexture118': Loading 1 faces(PF_L8,130x123x1) Internal format is PF_L8,130x123x1.
+[INFO] [1793822964.970394288] [rviz2]: Texture 'MapTexture119': Loading 1 faces(PF_L8,130x123x1) Internal format is PF_L8,130x123x1.
+[INFO] [1793822965.962007621] [rviz2]: Texture 'MapTexture120': Loading 1 faces(PF_L8,130x123x1) Internal format is PF_L8,130x123x1.
+[INFO] [1793822966.954560539] [rviz2]: Texture 'MapTexture121': Loading 1 faces(PF_L8,130x123x1) Internal format is PF_L8,130x123x1.
+[INFO] [1793822967.978011831] [rviz2]: Texture 'MapTexture122': Loading 1 faces(PF_L8,130x123x1) Internal format is PF_L8,130x123x1.
+[INFO] [1793822968.970890040] [rviz2]: Texture 'MapTexture123': Loading 1 faces(PF_L8,130x123x1) Internal format is PF_L8,130x123x1.
+[INFO] [1793822969.962666290] [rviz2]: Texture 'MapTexture124': Loading 1 faces(PF_L8,130x123x1) Internal format is PF_L8,130x123x1.
+[INFO] [1793822970.955050082] [rviz2]: Texture 'MapTexture125': Loading 1 faces(PF_L8,130x123x1) Internal format is PF_L8,130x123x1.
+[INFO] [1793822971.978583291] [rviz2]: Texture 'MapTexture126': Loading 1 faces(PF_L8,130x123x1) Internal format is PF_L8,130x123x1.
+[INFO] [1793822972.970361166] [rviz2]: Texture 'MapTexture127': Loading 1 faces(PF_L8,130x123x1) Internal format is PF_L8,130x123x1.
+[INFO] [1793822973.962201917] [rviz2]: Texture 'MapTexture128': Loading 1 faces(PF_L8,130x123x1) Internal format is PF_L8,130x123x1.
+[INFO] [1793822974.955023334] [rviz2]: Texture 'MapTexture129': Loading 1 faces(PF_L8,130x123x1) Internal format is PF_L8,130x123x1.
+[INFO] [1793822975.978622376] [rviz2]: Texture 'MapTexture130': Loading 1 faces(PF_L8,130x123x1) Internal format is PF_L8,130x123x1.
+[INFO] [1793822976.970941502] [rviz2]: Texture 'MapTexture131': Loading 1 faces(PF_L8,130x123x1) Internal format is PF_L8,130x123x1.
+[INFO] [1793822977.962367294] [rviz2]: Texture 'MapTexture132': Loading 1 faces(PF_L8,130x123x1) Internal format is PF_L8,130x123x1.
+[INFO] [1793822978.954622794] [rviz2]: Texture 'MapTexture133': Loading 1 faces(PF_L8,130x123x1) Internal format is PF_L8,130x123x1.
+[INFO] [1793822979.978892295] [rviz2]: Texture 'MapTexture134': Loading 1 faces(PF_L8,130x123x1) Internal format is PF_L8,130x123x1.
+[INFO] [1793822980.970177712] [rviz2]: Texture 'MapTexture135': Loading 1 faces(PF_L8,130x123x1) Internal format is PF_L8,130x123x1.
+[INFO] [1793822981.962402171] [rviz2]: Texture 'MapTexture136': Loading 1 faces(PF_L8,130x123x1) Internal format is PF_L8,130x123x1.
+[INFO] [1793822982.954313505] [rviz2]: Texture 'MapTexture137': Loading 1 faces(PF_L8,130x123x1) Internal format is PF_L8,130x123x1.
+[INFO] [1793822983.978500588] [rviz2]: Texture 'MapTexture138': Loading 1 faces(PF_L8,130x123x1) Internal format is PF_L8,130x123x1.
+[INFO] [1793822984.970956839] [rviz2]: Texture 'MapTexture139': Loading 1 faces(PF_L8,130x123x1) Internal format is PF_L8,130x123x1.
+[INFO] [1793822985.962443714] [rviz2]: Texture 'MapTexture140': Loading 1 faces(PF_L8,130x123x1) Internal format is PF_L8,130x123x1.
+[INFO] [1793822986.955043131] [rviz2]: Texture 'MapTexture141': Loading 1 faces(PF_L8,130x123x1) Internal format is PF_L8,130x123x1.
+[INFO] [1793822987.978629840] [rviz2]: Texture 'MapTexture142': Loading 1 faces(PF_L8,130x123x1) Internal format is PF_L8,130x123x1.
+[INFO] [1793822988.970640341] [rviz2]: Texture 'MapTexture143': Loading 1 faces(PF_L8,130x123x1) Internal format is PF_L8,130x123x1.
+[INFO] [1793822989.961864091] [rviz2]: Texture 'MapTexture144': Loading 1 faces(PF_L8,130x123x1) Internal format is PF_L8,130x123x1.
+[INFO] [1793822990.954649342] [rviz2]: Texture 'MapTexture145': Loading 1 faces(PF_L8,130x123x1) Internal format is PF_L8,130x123x1.
+[INFO] [1793822991.978294217] [rviz2]: Texture 'MapTexture146': Loading 1 faces(PF_L8,130x123x1) Internal format is PF_L8,130x123x1.
+[INFO] [1793822992.970194301] [rviz2]: Texture 'MapTexture147': Loading 1 faces(PF_L8,130x123x1) Internal format is PF_L8,130x123x1.
+[INFO] [1793822993.962148676] [rviz2]: Texture 'MapTexture148': Loading 1 faces(PF_L8,130x123x1) Internal format is PF_L8,130x123x1.
+[INFO] [1793822994.954400219] [rviz2]: Texture 'MapTexture149': Loading 1 faces(PF_L8,130x123x1) Internal format is PF_L8,130x123x1.
+[INFO] [1793822995.978399344] [rviz2]: Texture 'MapTexture150': Loading 1 faces(PF_L8,130x123x1) Internal format is PF_L8,130x123x1.
+[INFO] [1793822996.970720261] [rviz2]: Texture 'MapTexture151': Loading 1 faces(PF_L8,130x123x1) Internal format is PF_L8,130x123x1.
+[INFO] [1793822997.962356345] [rviz2]: Trying to create a map of size 131 x 124 using 1 swatches
+[INFO] [1793822997.962507637] [rviz2]: Texture 'MapTexture152': Loading 1 faces(PF_L8,131x124x1) Internal format is PF_L8,131x124x1.
+[INFO] [1793822997.962615262] [rviz2]: Texture 'MapTexture153': Loading 1 faces(PF_L8,131x124x1) Internal format is PF_L8,131x124x1.
+[INFO] [1793822998.954634720] [rviz2]: Texture 'MapTexture154': Loading 1 faces(PF_L8,131x124x1) Internal format is PF_L8,131x124x1.
+[INFO] [1793822999.978263513] [rviz2]: Texture 'MapTexture155': Loading 1 faces(PF_L8,131x124x1) Internal format is PF_L8,131x124x1.
+[INFO] [1793823000.970195555] [rviz2]: Texture 'MapTexture156': Loading 1 faces(PF_L8,131x124x1) Internal format is PF_L8,131x124x1.
+[INFO] [1793823001.962723597] [rviz2]: Texture 'MapTexture157': Loading 1 faces(PF_L8,131x124x1) Internal format is PF_L8,131x124x1.
+[INFO] [1793823002.954506847] [rviz2]: Texture 'MapTexture158': Loading 1 faces(PF_L8,131x124x1) Internal format is PF_L8,131x124x1.
+[INFO] [1793823003.978547223] [rviz2]: Texture 'MapTexture159': Loading 1 faces(PF_L8,131x124x1) Internal format is PF_L8,131x124x1.
+[INFO] [1793823004.970582932] [rviz2]: Texture 'MapTexture160': Loading 1 faces(PF_L8,131x124x1) Internal format is PF_L8,131x124x1.
+[INFO] [1793823005.962078724] [rviz2]: Texture 'MapTexture161': Loading 1 faces(PF_L8,131x124x1) Internal format is PF_L8,131x124x1.
+[INFO] [1793823006.954459808] [rviz2]: Texture 'MapTexture162': Loading 1 faces(PF_L8,131x124x1) Internal format is PF_L8,131x124x1.
+[INFO] [1793823007.978689850] [rviz2]: Texture 'MapTexture163': Loading 1 faces(PF_L8,131x124x1) Internal format is PF_L8,131x124x1.
+[INFO] [1793823008.970466017] [rviz2]: Texture 'MapTexture164': Loading 1 faces(PF_L8,131x124x1) Internal format is PF_L8,131x124x1.
+[INFO] [1793823009.963166101] [rviz2]: Texture 'MapTexture165': Loading 1 faces(PF_L8,131x124x1) Internal format is PF_L8,131x124x1.
+[INFO] [1793823010.954502351] [rviz2]: Texture 'MapTexture166': Loading 1 faces(PF_L8,131x124x1) Internal format is PF_L8,131x124x1.
+[INFO] [1793823011.978465393] [rviz2]: Texture 'MapTexture167': Loading 1 faces(PF_L8,131x124x1) Internal format is PF_L8,131x124x1.
+[INFO] [1793823012.970321644] [rviz2]: Texture 'MapTexture168': Loading 1 faces(PF_L8,131x124x1) Internal format is PF_L8,131x124x1.
+[INFO] [1793823013.962188186] [rviz2]: Trying to create a map of size 131 x 125 using 1 swatches
+[INFO] [1793823013.962427478] [rviz2]: Texture 'MapTexture169': Loading 1 faces(PF_L8,131x125x1) Internal format is PF_L8,131x125x1.
+[INFO] [1793823013.962543853] [rviz2]: Texture 'MapTexture170': Loading 1 faces(PF_L8,131x125x1) Internal format is PF_L8,131x125x1.
+[INFO] [1793823014.954847978] [rviz2]: Texture 'MapTexture171': Loading 1 faces(PF_L8,131x125x1) Internal format is PF_L8,131x125x1.
+[INFO] [1793823015.978437062] [rviz2]: Texture 'MapTexture172': Loading 1 faces(PF_L8,131x125x1) Internal format is PF_L8,131x125x1.
+[INFO] [1793823016.970390521] [rviz2]: Texture 'MapTexture173': Loading 1 faces(PF_L8,131x125x1) Internal format is PF_L8,131x125x1.
+[INFO] [1793823017.962229521] [rviz2]: Texture 'MapTexture174': Loading 1 faces(PF_L8,131x125x1) Internal format is PF_L8,131x125x1.
+[INFO] [1793823018.954734105] [rviz2]: Texture 'MapTexture175': Loading 1 faces(PF_L8,131x125x1) Internal format is PF_L8,131x125x1.
+[INFO] [1793823019.979165897] [rviz2]: Texture 'MapTexture176': Loading 1 faces(PF_L8,131x125x1) Internal format is PF_L8,131x125x1.
+[INFO] [1793823020.970103398] [rviz2]: Texture 'MapTexture177': Loading 1 faces(PF_L8,131x125x1) Internal format is PF_L8,131x125x1.
+[INFO] [1793823021.962386356] [rviz2]: Texture 'MapTexture178': Loading 1 faces(PF_L8,131x125x1) Internal format is PF_L8,131x125x1.
+[INFO] [1793823022.954797857] [rviz2]: Texture 'MapTexture179': Loading 1 faces(PF_L8,131x125x1) Internal format is PF_L8,131x125x1.
+[INFO] [1793823023.978227441] [rviz2]: Texture 'MapTexture180': Loading 1 faces(PF_L8,131x125x1) Internal format is PF_L8,131x125x1.
+[INFO] [1793823024.971170691] [rviz2]: Texture 'MapTexture181': Loading 1 faces(PF_L8,131x125x1) Internal format is PF_L8,131x125x1.
+[INFO] [1793823025.962623233] [rviz2]: Texture 'MapTexture182': Loading 1 faces(PF_L8,131x125x1) Internal format is PF_L8,131x125x1.
+[INFO] [1793823026.955181984] [rviz2]: Texture 'MapTexture183': Loading 1 faces(PF_L8,131x125x1) Internal format is PF_L8,131x125x1.
+[INFO] [1793823027.978402109] [rviz2]: Texture 'MapTexture184': Loading 1 faces(PF_L8,131x125x1) Internal format is PF_L8,131x125x1.
+[INFO] [1793823028.970940901] [rviz2]: Texture 'MapTexture185': Loading 1 faces(PF_L8,131x125x1) Internal format is PF_L8,131x125x1.
+[INFO] [1793823029.963082694] [rviz2]: Texture 'MapTexture186': Loading 1 faces(PF_L8,131x125x1) Internal format is PF_L8,131x125x1.
+[INFO] [1793823030.954771319] [rviz2]: Texture 'MapTexture187': Loading 1 faces(PF_L8,131x125x1) Internal format is PF_L8,131x125x1.
+[INFO] [1793823031.978659528] [rviz2]: Texture 'MapTexture188': Loading 1 faces(PF_L8,131x125x1) Internal format is PF_L8,131x125x1.
+[INFO] [1793823032.970899445] [rviz2]: Texture 'MapTexture189': Loading 1 faces(PF_L8,131x125x1) Internal format is PF_L8,131x125x1.
+[INFO] [1793823033.962270154] [rviz2]: Texture 'MapTexture190': Loading 1 faces(PF_L8,131x125x1) Internal format is PF_L8,131x125x1.
+[INFO] [1793823034.955101029] [rviz2]: Texture 'MapTexture191': Loading 1 faces(PF_L8,131x125x1) Internal format is PF_L8,131x125x1.
+[INFO] [1793823035.978099488] [rviz2]: Texture 'MapTexture192': Loading 1 faces(PF_L8,131x125x1) Internal format is PF_L8,131x125x1.
+[INFO] [1793823036.970204947] [rviz2]: Texture 'MapTexture193': Loading 1 faces(PF_L8,131x125x1) Internal format is PF_L8,131x125x1.
+[INFO] [1793823037.962609281] [rviz2]: Texture 'MapTexture194': Loading 1 faces(PF_L8,131x125x1) Internal format is PF_L8,131x125x1.
+[INFO] [1793823038.954950448] [rviz2]: Texture 'MapTexture195': Loading 1 faces(PF_L8,131x125x1) Internal format is PF_L8,131x125x1.
+[INFO] [1793823039.979072073] [rviz2]: Texture 'MapTexture196': Loading 1 faces(PF_L8,131x125x1) Internal format is PF_L8,131x125x1.
+[INFO] [1793823040.970493282] [rviz2]: Texture 'MapTexture197': Loading 1 faces(PF_L8,131x125x1) Internal format is PF_L8,131x125x1.
+[INFO] [1793823041.962423366] [rviz2]: Texture 'MapTexture198': Loading 1 faces(PF_L8,131x125x1) Internal format is PF_L8,131x125x1.
+[INFO] [1793823042.954248783] [rviz2]: Texture 'MapTexture199': Loading 1 faces(PF_L8,131x125x1) Internal format is PF_L8,131x125x1.
+[INFO] [1793823043.978283909] [rviz2]: Texture 'MapTexture200': Loading 1 faces(PF_L8,131x125x1) Internal format is PF_L8,131x125x1.
+[INFO] [1793823044.970508367] [rviz2]: Texture 'MapTexture201': Loading 1 faces(PF_L8,131x125x1) Internal format is PF_L8,131x125x1.
+[INFO] [1793823045.962508076] [rviz2]: Texture 'MapTexture202': Loading 1 faces(PF_L8,131x125x1) Internal format is PF_L8,131x125x1.
+[INFO] [1793823046.954381077] [rviz2]: Texture 'MapTexture203': Loading 1 faces(PF_L8,131x125x1) Internal format is PF_L8,131x125x1.
+[INFO] [1793823047.978937994] [rviz2]: Texture 'MapTexture204': Loading 1 faces(PF_L8,131x125x1) Internal format is PF_L8,131x125x1.
+[INFO] [1793823048.970472494] [rviz2]: Texture 'MapTexture205': Loading 1 faces(PF_L8,131x125x1) Internal format is PF_L8,131x125x1.
+[INFO] [1793823049.962343953] [rviz2]: Texture 'MapTexture206': Loading 1 faces(PF_L8,131x125x1) Internal format is PF_L8,131x125x1.
+[INFO] [1793823050.954294454] [rviz2]: Texture 'MapTexture207': Loading 1 faces(PF_L8,131x125x1) Internal format is PF_L8,131x125x1.
+[INFO] [1793823051.978601871] [rviz2]: Texture 'MapTexture208': Loading 1 faces(PF_L8,131x125x1) Internal format is PF_L8,131x125x1.
+[INFO] [1793823052.970687830] [rviz2]: Texture 'MapTexture209': Loading 1 faces(PF_L8,131x125x1) Internal format is PF_L8,131x125x1.
+[INFO] [1793823053.962542538] [rviz2]: Texture 'MapTexture210': Loading 1 faces(PF_L8,131x125x1) Internal format is PF_L8,131x125x1.
+[INFO] [1793823054.954567039] [rviz2]: Texture 'MapTexture211': Loading 1 faces(PF_L8,131x125x1) Internal format is PF_L8,131x125x1.
+[INFO] [1793823055.977974414] [rviz2]: Texture 'MapTexture212': Loading 1 faces(PF_L8,131x125x1) Internal format is PF_L8,131x125x1.
+[INFO] [1793823056.971156373] [rviz2]: Texture 'MapTexture213': Loading 1 faces(PF_L8,131x125x1) Internal format is PF_L8,131x125x1.
+[INFO] [1793823057.962071499] [rviz2]: Texture 'MapTexture214': Loading 1 faces(PF_L8,131x125x1) Internal format is PF_L8,131x125x1.
+[INFO] [1793823058.954882916] [rviz2]: Texture 'MapTexture215': Loading 1 faces(PF_L8,131x125x1) Internal format is PF_L8,131x125x1.
+[INFO] [1793823059.978764916] [rviz2]: Texture 'MapTexture216': Loading 1 faces(PF_L8,131x125x1) Internal format is PF_L8,131x125x1.
+[INFO] [1793823060.970877458] [rviz2]: Texture 'MapTexture217': Loading 1 faces(PF_L8,131x125x1) Internal format is PF_L8,131x125x1.
+[INFO] [1793823061.962226834] [rviz2]: Texture 'MapTexture218': Loading 1 faces(PF_L8,131x125x1) Internal format is PF_L8,131x125x1.
+[INFO] [1793823062.954506834] [rviz2]: Texture 'MapTexture219': Loading 1 faces(PF_L8,131x125x1) Internal format is PF_L8,131x125x1.
+[INFO] [1793823063.977960085] [rviz2]: Texture 'MapTexture220': Loading 1 faces(PF_L8,131x125x1) Internal format is PF_L8,131x125x1.
+[INFO] [1793823064.970416919] [rviz2]: Texture 'MapTexture221': Loading 1 faces(PF_L8,131x125x1) Internal format is PF_L8,131x125x1.
+[INFO] [1793823065.962640294] [rviz2]: Texture 'MapTexture222': Loading 1 faces(PF_L8,131x125x1) Internal format is PF_L8,131x125x1.
+[INFO] [1793823066.954298045] [rviz2]: Texture 'MapTexture223': Loading 1 faces(PF_L8,131x125x1) Internal format is PF_L8,131x125x1.
+[INFO] [1793823067.978297878] [rviz2]: Texture 'MapTexture224': Loading 1 faces(PF_L8,131x125x1) Internal format is PF_L8,131x125x1.
+[INFO] [1793823068.970600962] [rviz2]: Texture 'MapTexture225': Loading 1 faces(PF_L8,131x125x1) Internal format is PF_L8,131x125x1.
+[INFO] [1793823069.962788213] [rviz2]: Texture 'MapTexture226': Loading 1 faces(PF_L8,131x125x1) Internal format is PF_L8,131x125x1.
+[INFO] [1793823070.955386130] [rviz2]: Texture 'MapTexture227': Loading 1 faces(PF_L8,131x125x1) Internal format is PF_L8,131x125x1.
+[INFO] [1793823071.978226589] [rviz2]: Texture 'MapTexture228': Loading 1 faces(PF_L8,131x125x1) Internal format is PF_L8,131x125x1.
+[INFO] [1793823072.970207922] [rviz2]: Texture 'MapTexture229': Loading 1 faces(PF_L8,131x125x1) Internal format is PF_L8,131x125x1.
+[INFO] [1793823073.962885090] [rviz2]: Texture 'MapTexture230': Loading 1 faces(PF_L8,131x125x1) Internal format is PF_L8,131x125x1.
+[INFO] [1793823074.955479090] [rviz2]: Texture 'MapTexture231': Loading 1 faces(PF_L8,131x125x1) Internal format is PF_L8,131x125x1.
+[INFO] [1793823075.978235757] [rviz2]: Texture 'MapTexture232': Loading 1 faces(PF_L8,131x125x1) Internal format is PF_L8,131x125x1.
+[INFO] [1793823076.970960383] [rviz2]: Texture 'MapTexture233': Loading 1 faces(PF_L8,131x125x1) Internal format is PF_L8,131x125x1.
+[INFO] [1793823077.963150675] [rviz2]: Texture 'MapTexture234': Loading 1 faces(PF_L8,131x125x1) Internal format is PF_L8,131x125x1.
+[INFO] [1793823078.954169925] [rviz2]: Texture 'MapTexture235': Loading 1 faces(PF_L8,131x125x1) Internal format is PF_L8,131x125x1.
+[INFO] [1793823079.978886926] [rviz2]: Texture 'MapTexture236': Loading 1 faces(PF_L8,131x125x1) Internal format is PF_L8,131x125x1.
+[INFO] [1793823080.970195885] [rviz2]: Texture 'MapTexture237': Loading 1 faces(PF_L8,131x125x1) Internal format is PF_L8,131x125x1.
+[INFO] [1793823081.962527260] [rviz2]: Texture 'MapTexture238': Loading 1 faces(PF_L8,131x125x1) Internal format is PF_L8,131x125x1.
+[INFO] [1793823082.954852511] [rviz2]: Texture 'MapTexture239': Loading 1 faces(PF_L8,131x125x1) Internal format is PF_L8,131x125x1.
+[INFO] [1793823083.978604469] [rviz2]: Texture 'MapTexture240': Loading 1 faces(PF_L8,131x125x1) Internal format is PF_L8,131x125x1.
+[INFO] [1793823084.970995011] [rviz2]: Texture 'MapTexture241': Loading 1 faces(PF_L8,131x125x1) Internal format is PF_L8,131x125x1.
+[INFO] [1793823085.962132929] [rviz2]: Texture 'MapTexture242': Loading 1 faces(PF_L8,131x125x1) Internal format is PF_L8,131x125x1.
+[INFO] [1793823086.954833012] [rviz2]: Texture 'MapTexture243': Loading 1 faces(PF_L8,131x125x1) Internal format is PF_L8,131x125x1.
+[INFO] [1793823087.978797180] [rviz2]: Texture 'MapTexture244': Loading 1 faces(PF_L8,131x125x1) Internal format is PF_L8,131x125x1.
+[INFO] [1793823088.970885055] [rviz2]: Texture 'MapTexture245': Loading 1 faces(PF_L8,131x125x1) Internal format is PF_L8,131x125x1.
+[INFO] [1793823089.962221014] [rviz2]: Trying to create a map of size 132 x 125 using 1 swatches
+[INFO] [1793823089.962403806] [rviz2]: Texture 'MapTexture246': Loading 1 faces(PF_L8,132x125x1) Internal format is PF_L8,132x125x1.
+[INFO] [1793823089.962504389] [rviz2]: Texture 'MapTexture247': Loading 1 faces(PF_L8,132x125x1) Internal format is PF_L8,132x125x1.
+[INFO] [1793823090.954658764] [rviz2]: Texture 'MapTexture248': Loading 1 faces(PF_L8,132x125x1) Internal format is PF_L8,132x125x1.
+[INFO] [1793823091.978964681] [rviz2]: Texture 'MapTexture249': Loading 1 faces(PF_L8,132x125x1) Internal format is PF_L8,132x125x1.
+[INFO] [1793823092.970090432] [rviz2]: Texture 'MapTexture250': Loading 1 faces(PF_L8,132x125x1) Internal format is PF_L8,132x125x1.
+[INFO] [1793823093.963004057] [rviz2]: Texture 'MapTexture251': Loading 1 faces(PF_L8,132x125x1) Internal format is PF_L8,132x125x1.
+[INFO] [1793823094.954541058] [rviz2]: Trying to create a map of size 132 x 126 using 1 swatches
+[INFO] [1793823094.954670183] [rviz2]: Texture 'MapTexture252': Loading 1 faces(PF_L8,132x126x1) Internal format is PF_L8,132x126x1.
+[INFO] [1793823094.954848141] [rviz2]: Texture 'MapTexture253': Loading 1 faces(PF_L8,132x126x1) Internal format is PF_L8,132x126x1.
+[INFO] [1793823095.978568517] [rviz2]: Texture 'MapTexture254': Loading 1 faces(PF_L8,132x126x1) Internal format is PF_L8,132x126x1.
+[INFO] [1793823096.970406517] [rviz2]: Texture 'MapTexture255': Loading 1 faces(PF_L8,132x126x1) Internal format is PF_L8,132x126x1.
+[INFO] [1793823097.962284434] [rviz2]: Texture 'MapTexture256': Loading 1 faces(PF_L8,132x126x1) Internal format is PF_L8,132x126x1.
+[INFO] [1793823098.954251935] [rviz2]: Texture 'MapTexture257': Loading 1 faces(PF_L8,132x126x1) Internal format is PF_L8,132x126x1.
+[INFO] [1793823099.978797102] [rviz2]: Texture 'MapTexture258': Loading 1 faces(PF_L8,132x126x1) Internal format is PF_L8,132x126x1.
+[INFO] [1793823100.970584436] [rviz2]: Texture 'MapTexture259': Loading 1 faces(PF_L8,132x126x1) Internal format is PF_L8,132x126x1.
+[INFO] [1793823101.962833228] [rviz2]: Texture 'MapTexture260': Loading 1 faces(PF_L8,132x126x1) Internal format is PF_L8,132x126x1.
+[INFO] [1793823102.954499103] [rviz2]: Texture 'MapTexture261': Loading 1 faces(PF_L8,132x126x1) Internal format is PF_L8,132x126x1.
+[INFO] [1793823103.978582437] [rviz2]: Texture 'MapTexture262': Loading 1 faces(PF_L8,132x126x1) Internal format is PF_L8,132x126x1.
+[INFO] [1793823104.970990479] [rviz2]: Texture 'MapTexture263': Loading 1 faces(PF_L8,132x126x1) Internal format is PF_L8,132x126x1.
+[INFO] [1793823105.962958813] [rviz2]: Texture 'MapTexture264': Loading 1 faces(PF_L8,132x126x1) Internal format is PF_L8,132x126x1.
+[INFO] [1793823106.954886647] [rviz2]: Texture 'MapTexture265': Loading 1 faces(PF_L8,132x126x1) Internal format is PF_L8,132x126x1.
+[INFO] [1793823107.978432064] [rviz2]: Texture 'MapTexture266': Loading 1 faces(PF_L8,132x126x1) Internal format is PF_L8,132x126x1.
+[INFO] [1793823108.970155856] [rviz2]: Texture 'MapTexture267': Loading 1 faces(PF_L8,132x126x1) Internal format is PF_L8,132x126x1.
+[INFO] [1793823109.962518940] [rviz2]: Texture 'MapTexture268': Loading 1 faces(PF_L8,132x126x1) Internal format is PF_L8,132x126x1.
+[INFO] [1793823110.953954899] [rviz2]: Texture 'MapTexture269': Loading 1 faces(PF_L8,132x126x1) Internal format is PF_L8,132x126x1.
+[INFO] [1793823111.978499816] [rviz2]: Texture 'MapTexture270': Loading 1 faces(PF_L8,132x126x1) Internal format is PF_L8,132x126x1.
+[INFO] [1793823112.970063108] [rviz2]: Trying to create a map of size 133 x 126 using 1 swatches
+[INFO] [1793823112.970237066] [rviz2]: Texture 'MapTexture271': Loading 1 faces(PF_L8,133x126x1) Internal format is PF_L8,133x126x1.
+[INFO] [1793823112.970350275] [rviz2]: Texture 'MapTexture272': Loading 1 faces(PF_L8,133x126x1) Internal format is PF_L8,133x126x1.
+[INFO] [1793823113.962501317] [rviz2]: Texture 'MapTexture273': Loading 1 faces(PF_L8,133x126x1) Internal format is PF_L8,133x126x1.
+[INFO] [1793823114.955528859] [rviz2]: Texture 'MapTexture274': Loading 1 faces(PF_L8,133x126x1) Internal format is PF_L8,133x126x1.
+[INFO] [1793823115.978775526] [rviz2]: Texture 'MapTexture275': Loading 1 faces(PF_L8,133x126x1) Internal format is PF_L8,133x126x1.
+[INFO] [1793823116.969945860] [rviz2]: Texture 'MapTexture276': Loading 1 faces(PF_L8,133x126x1) Internal format is PF_L8,133x126x1.
+[INFO] [1793823117.962394236] [rviz2]: Texture 'MapTexture277': Loading 1 faces(PF_L8,133x126x1) Internal format is PF_L8,133x126x1.
+[INFO] [1793823118.954541694] [rviz2]: Texture 'MapTexture278': Loading 1 faces(PF_L8,133x126x1) Internal format is PF_L8,133x126x1.
+[INFO] [1793823119.978961820] [rviz2]: Texture 'MapTexture279': Loading 1 faces(PF_L8,133x126x1) Internal format is PF_L8,133x126x1.
+[INFO] [1793823120.971273195] [rviz2]: Texture 'MapTexture280': Loading 1 faces(PF_L8,133x126x1) Internal format is PF_L8,133x126x1.
+[INFO] [1793823121.962876779] [rviz2]: Texture 'MapTexture281': Loading 1 faces(PF_L8,133x126x1) Internal format is PF_L8,133x126x1.
+[INFO] [1793823122.954552946] [rviz2]: Texture 'MapTexture282': Loading 1 faces(PF_L8,133x126x1) Internal format is PF_L8,133x126x1.
+[INFO] [1793823123.978913280] [rviz2]: Texture 'MapTexture283': Loading 1 faces(PF_L8,133x126x1) Internal format is PF_L8,133x126x1.
+[INFO] [1793823124.970864114] [rviz2]: Texture 'MapTexture284': Loading 1 faces(PF_L8,133x126x1) Internal format is PF_L8,133x126x1.
+[INFO] [1793823125.955012156] [rviz2]: Texture 'MapTexture285': Loading 1 faces(PF_L8,133x126x1) Internal format is PF_L8,133x126x1.
+[INFO] [1793823126.978639490] [rviz2]: Texture 'MapTexture286': Loading 1 faces(PF_L8,133x126x1) Internal format is PF_L8,133x126x1.
+[INFO] [1793823127.970989199] [rviz2]: Texture 'MapTexture287': Loading 1 faces(PF_L8,133x126x1) Internal format is PF_L8,133x126x1.
+[INFO] [1793823128.962945282] [rviz2]: Texture 'MapTexture288': Loading 1 faces(PF_L8,133x126x1) Internal format is PF_L8,133x126x1.
+[INFO] [1793823129.954788116] [rviz2]: Texture 'MapTexture289': Loading 1 faces(PF_L8,133x126x1) Internal format is PF_L8,133x126x1.
+[INFO] [1793823130.978460200] [rviz2]: Texture 'MapTexture290': Loading 1 faces(PF_L8,133x126x1) Internal format is PF_L8,133x126x1.
+[INFO] [1793823131.969966576] [rviz2]: Texture 'MapTexture291': Loading 1 faces(PF_L8,133x126x1) Internal format is PF_L8,133x126x1.
+[INFO] [1793823132.962858493] [rviz2]: Texture 'MapTexture292': Loading 1 faces(PF_L8,133x126x1) Internal format is PF_L8,133x126x1.
+[INFO] [1793823133.955083868] [rviz2]: Texture 'MapTexture293': Loading 1 faces(PF_L8,133x126x1) Internal format is PF_L8,133x126x1.
+[INFO] [1793823134.978042702] [rviz2]: Texture 'MapTexture294': Loading 1 faces(PF_L8,133x126x1) Internal format is PF_L8,133x126x1.
+[INFO] [1793823135.971245369] [rviz2]: Texture 'MapTexture295': Loading 1 faces(PF_L8,133x126x1) Internal format is PF_L8,133x126x1.
+[INFO] [1793823137.011821953] [rviz2]: Texture 'MapTexture296': Loading 1 faces(PF_L8,133x126x1) Internal format is PF_L8,133x126x1.
+[INFO] [1793823137.971082912] [rviz2]: Texture 'MapTexture297': Loading 1 faces(PF_L8,133x126x1) Internal format is PF_L8,133x126x1.
+[INFO] [1793823138.962278996] [rviz2]: Texture 'MapTexture298': Loading 1 faces(PF_L8,133x126x1) Internal format is PF_L8,133x126x1.
+[INFO] [1793823140.103480496] [rviz2]: Texture 'MapTexture299': Loading 1 faces(PF_L8,133x126x1) Internal format is PF_L8,133x126x1.
+[INFO] [1793823140.970583663] [rviz2]: Trying to create a map of size 133 x 127 using 1 swatches
+[INFO] [1793823140.970760747] [rviz2]: Texture 'MapTexture300': Loading 1 faces(PF_L8,133x127x1) Internal format is PF_L8,133x127x1.
+[INFO] [1793823140.970874830] [rviz2]: Texture 'MapTexture301': Loading 1 faces(PF_L8,133x127x1) Internal format is PF_L8,133x127x1.
+[INFO] [1793823141.962660955] [rviz2]: Texture 'MapTexture302': Loading 1 faces(PF_L8,133x127x1) Internal format is PF_L8,133x127x1.
+[INFO] [1793823142.954631914] [rviz2]: Texture 'MapTexture303': Loading 1 faces(PF_L8,133x127x1) Internal format is PF_L8,133x127x1.
+[INFO] [1793823143.978358498] [rviz2]: Texture 'MapTexture304': Loading 1 faces(PF_L8,133x127x1) Internal format is PF_L8,133x127x1.
+[INFO] [1793823144.970350498] [rviz2]: Texture 'MapTexture305': Loading 1 faces(PF_L8,133x127x1) Internal format is PF_L8,133x127x1.
+[INFO] [1793823145.962301957] [rviz2]: Texture 'MapTexture306': Loading 1 faces(PF_L8,133x127x1) Internal format is PF_L8,133x127x1.
+[INFO] [1793823146.954179499] [rviz2]: Trying to create a map of size 133 x 128 using 1 swatches
+[INFO] [1793823146.954388999] [rviz2]: Texture 'MapTexture307': Loading 1 faces(PF_L8,133x128x1) Internal format is PF_L8,133x128x1.
+[INFO] [1793823146.954624583] [rviz2]: Texture 'MapTexture308': Loading 1 faces(PF_L8,133x128x1) Internal format is PF_L8,133x128x1.
+[INFO] [1793823147.979123083] [rviz2]: Texture 'MapTexture309': Loading 1 faces(PF_L8,133x128x1) Internal format is PF_L8,133x128x1.
+[INFO] [1793823148.970230459] [rviz2]: Texture 'MapTexture310': Loading 1 faces(PF_L8,133x128x1) Internal format is PF_L8,133x128x1.
+[INFO] [1793823149.962366167] [rviz2]: Texture 'MapTexture311': Loading 1 faces(PF_L8,133x128x1) Internal format is PF_L8,133x128x1.
+[INFO] [1793823150.954742418] [rviz2]: Texture 'MapTexture312': Loading 1 faces(PF_L8,133x128x1) Internal format is PF_L8,133x128x1.
+[INFO] [1793823151.978306127] [rviz2]: Texture 'MapTexture313': Loading 1 faces(PF_L8,133x128x1) Internal format is PF_L8,133x128x1.
+[INFO] [1793823153.006330961] [rviz2]: Texture 'MapTexture314': Loading 1 faces(PF_L8,133x128x1) Internal format is PF_L8,133x128x1.
+[INFO] [1793823153.958673086] [rviz2]: Texture 'MapTexture315': Loading 1 faces(PF_L8,133x128x1) Internal format is PF_L8,133x128x1.
+[INFO] [1793823154.950212420] [rviz2]: Texture 'MapTexture316': Loading 1 faces(PF_L8,133x128x1) Internal format is PF_L8,133x128x1.
+[INFO] [1793823155.974157462] [rviz2]: Texture 'MapTexture317': Loading 1 faces(PF_L8,133x128x1) Internal format is PF_L8,133x128x1.
+[INFO] [1793823156.966361004] [rviz2]: Texture 'MapTexture318': Loading 1 faces(PF_L8,133x128x1) Internal format is PF_L8,133x128x1.
+[INFO] [1793823157.968356380] [rviz2]: Texture 'MapTexture319': Loading 1 faces(PF_L8,133x128x1) Internal format is PF_L8,133x128x1.
+[INFO] [1793823158.958354963] [rviz2]: Texture 'MapTexture320': Loading 1 faces(PF_L8,133x128x1) Internal format is PF_L8,133x128x1.
+[INFO] [1793823159.950291672] [rviz2]: Texture 'MapTexture321': Loading 1 faces(PF_L8,133x128x1) Internal format is PF_L8,133x128x1.
+[INFO] [1793823160.974614256] [rviz2]: Texture 'MapTexture322': Loading 1 faces(PF_L8,133x128x1) Internal format is PF_L8,133x128x1.
+[INFO] [1793823161.966843340] [rviz2]: Texture 'MapTexture323': Loading 1 faces(PF_L8,133x128x1) Internal format is PF_L8,133x128x1.
+[INFO] [1793823162.958210840] [rviz2]: Texture 'MapTexture324': Loading 1 faces(PF_L8,133x128x1) Internal format is PF_L8,133x128x1.
+[INFO] [1793823163.950416382] [rviz2]: Texture 'MapTexture325': Loading 1 faces(PF_L8,133x128x1) Internal format is PF_L8,133x128x1.
+[INFO] [1793823164.974335550] [rviz2]: Texture 'MapTexture326': Loading 1 faces(PF_L8,133x128x1) Internal format is PF_L8,133x128x1.
+[INFO] [1793823165.966778967] [rviz2]: Texture 'MapTexture327': Loading 1 faces(PF_L8,133x128x1) Internal format is PF_L8,133x128x1.
+[INFO] [1793823166.958796759] [rviz2]: Texture 'MapTexture328': Loading 1 faces(PF_L8,133x128x1) Internal format is PF_L8,133x128x1.
+[INFO] [1793823167.950847343] [rviz2]: Texture 'MapTexture329': Loading 1 faces(PF_L8,133x128x1) Internal format is PF_L8,133x128x1.
+[INFO] [1793823168.974401885] [rviz2]: Texture 'MapTexture330': Loading 1 faces(PF_L8,133x128x1) Internal format is PF_L8,133x128x1.
+[INFO] [1793823169.967368260] [rviz2]: Texture 'MapTexture331': Loading 1 faces(PF_L8,133x128x1) Internal format is PF_L8,133x128x1.
+[INFO] [1793823170.958209927] [rviz2]: Texture 'MapTexture332': Loading 1 faces(PF_L8,133x128x1) Internal format is PF_L8,133x128x1.
+[INFO] [1793823171.982254678] [rviz2]: Texture 'MapTexture333': Loading 1 faces(PF_L8,133x128x1) Internal format is PF_L8,133x128x1.
+[INFO] [1793823172.974698595] [rviz2]: Texture 'MapTexture334': Loading 1 faces(PF_L8,133x128x1) Internal format is PF_L8,133x128x1.
+[INFO] [1793823173.966321012] [rviz2]: Texture 'MapTexture335': Loading 1 faces(PF_L8,133x128x1) Internal format is PF_L8,133x128x1.
+[INFO] [1793823174.958825429] [rviz2]: Texture 'MapTexture336': Loading 1 faces(PF_L8,133x128x1) Internal format is PF_L8,133x128x1.
+[INFO] [1793823175.950868680] [rviz2]: Texture 'MapTexture337': Loading 1 faces(PF_L8,133x128x1) Internal format is PF_L8,133x128x1.
+[INFO] [1793823176.973880430] [rviz2]: Texture 'MapTexture338': Loading 1 faces(PF_L8,133x128x1) Internal format is PF_L8,133x128x1.
+[INFO] [1793823177.966263972] [rviz2]: Texture 'MapTexture339': Loading 1 faces(PF_L8,133x128x1) Internal format is PF_L8,133x128x1.
+[INFO] [1793823178.958031973] [rviz2]: Texture 'MapTexture340': Loading 1 faces(PF_L8,133x128x1) Internal format is PF_L8,133x128x1.
+[INFO] [1793823179.950623307] [rviz2]: Texture 'MapTexture341': Loading 1 faces(PF_L8,133x128x1) Internal format is PF_L8,133x128x1.
+[INFO] [1793823180.974472182] [rviz2]: Texture 'MapTexture342': Loading 1 faces(PF_L8,133x128x1) Internal format is PF_L8,133x128x1.
+[INFO] [1793823181.966681933] [rviz2]: Texture 'MapTexture343': Loading 1 faces(PF_L8,133x128x1) Internal format is PF_L8,133x128x1.
+[INFO] [1793823182.958862100] [rviz2]: Texture 'MapTexture344': Loading 1 faces(PF_L8,133x128x1) Internal format is PF_L8,133x128x1.
+[INFO] [1793823183.950619600] [rviz2]: Texture 'MapTexture345': Loading 1 faces(PF_L8,133x128x1) Internal format is PF_L8,133x128x1.
+[INFO] [1793823184.974477851] [rviz2]: Texture 'MapTexture346': Loading 1 faces(PF_L8,133x128x1) Internal format is PF_L8,133x128x1.
+[INFO] [1793823185.966981768] [rviz2]: Texture 'MapTexture347': Loading 1 faces(PF_L8,133x128x1) Internal format is PF_L8,133x128x1.
+[INFO] [1793823186.959030852] [rviz2]: Texture 'MapTexture348': Loading 1 faces(PF_L8,133x128x1) Internal format is PF_L8,133x128x1.
+[INFO] [1793823187.950867894] [rviz2]: Trying to create a map of size 134 x 128 using 1 swatches
+[INFO] [1793823187.951094519] [rviz2]: Texture 'MapTexture349': Loading 1 faces(PF_L8,134x128x1) Internal format is PF_L8,134x128x1.
+[INFO] [1793823187.951180394] [rviz2]: Texture 'MapTexture350': Loading 1 faces(PF_L8,134x128x1) Internal format is PF_L8,134x128x1.
+[INFO] [1793823188.975175186] [rviz2]: Texture 'MapTexture351': Loading 1 faces(PF_L8,134x128x1) Internal format is PF_L8,134x128x1.
+[INFO] [1793823189.966621562] [rviz2]: Texture 'MapTexture352': Loading 1 faces(PF_L8,134x128x1) Internal format is PF_L8,134x128x1.
+[INFO] [1793823190.958955979] [rviz2]: Texture 'MapTexture353': Loading 1 faces(PF_L8,134x128x1) Internal format is PF_L8,134x128x1.
+[INFO] [1793823191.950438396] [rviz2]: Texture 'MapTexture354': Loading 1 faces(PF_L8,134x128x1) Internal format is PF_L8,134x128x1.
+[INFO] [1793823192.974384521] [rviz2]: Texture 'MapTexture355': Loading 1 faces(PF_L8,134x128x1) Internal format is PF_L8,134x128x1.
+[INFO] [1793823193.965924647] [rviz2]: Texture 'MapTexture356': Loading 1 faces(PF_L8,134x128x1) Internal format is PF_L8,134x128x1.
+[INFO] [1793823194.959060814] [rviz2]: Texture 'MapTexture357': Loading 1 faces(PF_L8,134x128x1) Internal format is PF_L8,134x128x1.
+[INFO] [1793823195.982726606] [rviz2]: Texture 'MapTexture358': Loading 1 faces(PF_L8,134x128x1) Internal format is PF_L8,134x128x1.
+[INFO] [1793823196.974509273] [rviz2]: Texture 'MapTexture359': Loading 1 faces(PF_L8,134x128x1) Internal format is PF_L8,134x128x1.
+[INFO] [1793823197.966700357] [rviz2]: Texture 'MapTexture360': Loading 1 faces(PF_L8,134x128x1) Internal format is PF_L8,134x128x1.
+[INFO] [1793823198.958965483] [rviz2]: Texture 'MapTexture361': Loading 1 faces(PF_L8,134x128x1) Internal format is PF_L8,134x128x1.
+[INFO] [1793823199.951253025] [rviz2]: Texture 'MapTexture362': Loading 1 faces(PF_L8,134x128x1) Internal format is PF_L8,134x128x1.
+[INFO] [1793823200.975079192] [rviz2]: Texture 'MapTexture363': Loading 1 faces(PF_L8,134x128x1) Internal format is PF_L8,134x128x1.
+[INFO] [1793823201.967170401] [rviz2]: Texture 'MapTexture364': Loading 1 faces(PF_L8,134x128x1) Internal format is PF_L8,134x128x1.
+[INFO] [1793823202.954953693] [rviz2]: Texture 'MapTexture365': Loading 1 faces(PF_L8,134x128x1) Internal format is PF_L8,134x128x1.
+[INFO] [1793823203.978330193] [rviz2]: Texture 'MapTexture366': Loading 1 faces(PF_L8,134x128x1) Internal format is PF_L8,134x128x1.
+[INFO] [1793823204.971196444] [rviz2]: Texture 'MapTexture367': Loading 1 faces(PF_L8,134x128x1) Internal format is PF_L8,134x128x1.
+[INFO] [1793823205.962394028] [rviz2]: Texture 'MapTexture368': Loading 1 faces(PF_L8,134x128x1) Internal format is PF_L8,134x128x1.
+[INFO] [1793823206.954817570] [rviz2]: Texture 'MapTexture369': Loading 1 faces(PF_L8,134x128x1) Internal format is PF_L8,134x128x1.
+[INFO] [1793823207.978786945] [rviz2]: Texture 'MapTexture370': Loading 1 faces(PF_L8,134x128x1) Internal format is PF_L8,134x128x1.
+[INFO] [1793823208.970796529] [rviz2]: Texture 'MapTexture371': Loading 1 faces(PF_L8,134x128x1) Internal format is PF_L8,134x128x1.
+[INFO] [1793823209.781579238] [rclcpp]: signal_handler(SIGINT/SIGTERM)
