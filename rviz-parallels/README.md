@@ -77,6 +77,24 @@ combination is untested: revalidate it, do not remove the check.
 
 Everything below runs inside the Ubuntu VM.
 
+## Already done by the Gazebo kit: do not repeat it
+
+This kit adds nothing to the system except two small wrappers around the
+packaged `rviz2` (section 5). If the Gazebo kit is installed, you already have
+everything else it needs, and none of it is downloaded, built or installed
+again:
+
+| From the Gazebo kit | Status here |
+|---|---|
+| Private Mesa 24.0.5 runtime in `/usr/local/lib/gazebo-virgl-defaults/runtime-v2/mesa` | Reused as is. Section 1 only checks that it exists. |
+| Patched gz-rendering build, colcon overlay, `prepare.sh`, `install.py` | Not involved. RViz uses its own OGRE 1.12.10 from the Jazzy packages. |
+| Clone of this repository in `$HOME/dum-e` | Reused: section 3 is a `git pull`, not a new clone. |
+| `ros-jazzy-ros-gz`, TurtleBot3 packages, the TurtleBot3 world of INSTALL.md section 7 | Reused for the verification in section 6. |
+| The Parallels snapshot taken before the Gazebo kit | Take a new one anyway: it costs a minute and this kit diverts two executables. |
+
+The only new package is `ros-jazzy-turtlebot3-cartographer`, and only if you
+want the map test in section 6; `rviz2` alone needs nothing new.
+
 ## 1. Check the starting point
 
 ```bash
