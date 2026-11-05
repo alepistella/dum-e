@@ -1,0 +1,14 @@
+{
+  "profile_generation_against_packaged_source": "passed",
+  "profile_generation_after_default_overlay": "passed; resolves packaged .distrib source",
+  "analyze_bag_reference_and_validation": "executed on both actual finalized MCAP recordings; agrees with initial metrics",
+  "validate_wall_ranges_independent_route": "executed on actual recording; 779 scans, 185330 rays, median 0.007028853471157226 m",
+  "ground_truth_public_script": {
+    "rows_captured": 143,
+    "valid_json_pose_rows": true,
+    "isolated_ros_domain": 93
+  },
+  "default_overlay_effective_lua_value_assertion": 1.0,
+  "default_install_rollback_reinstall": "passed; original hash restored exactly",
+  "normal_default_launch": "passed in isolated domain 91"
+}

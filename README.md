@@ -8,6 +8,11 @@ This repository collects the code, experiments and development notes. Some
 folders cover tools and fixes needed along the way, rather than the robot
 itself.
 
+## Robot configuration
+
+[Settings and workarounds](config/README.md) collect robot-specific profiles,
+their measurements and rollback procedures, starting with Cartographer.
+
 ## Development tools and fixes
 
 The development environment includes ROS 2 Jazzy on Ubuntu 24.04 ARM64,

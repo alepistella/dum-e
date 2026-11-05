@@ -1,0 +1,59 @@
+{
+  "date": "2026-11-05",
+  "environment": "Ubuntu 24.04 ARM64, ROS 2 Jazzy, Gazebo Harmonic, TurtleBot3 Waffle / house, Parallels 27.1.0 (58756), MacBook Pro M5 Max",
+  "original_recording": {
+    "scan_count": 5780,
+    "simulation_duration_s": 577.9,
+    "raw_bag_in_git": false
+  },
+  "replay_rate": 3,
+  "replay_results": {
+    "baseline": {
+      "last_time": 577.878,
+      "last_position_error_m": 5.394880418273059,
+      "max_position_error_m": 5.396205582701771,
+      "rms_position_error_m": 2.1889806792008284
+    },
+    "no_global": {
+      "last_time": 577.897,
+      "last_position_error_m": 0.19312058426995324,
+      "max_position_error_m": 0.20374873874875107,
+      "rms_position_error_m": 0.12474055200787151
+    },
+    "tight_window": {
+      "last_time": 577.849,
+      "last_position_error_m": 0.08955777153977872,
+      "max_position_error_m": 0.11793758474590549,
+      "rms_position_error_m": 0.07457978415016654
+    },
+    "strict_score": {
+      "last_time": 577.82,
+      "last_position_error_m": 0.32679384837838305,
+      "max_position_error_m": 0.3454261438768739,
+      "rms_position_error_m": 0.1823237817386603
+    }
+  },
+  "independent_live_validation": {
+    "status": "completed",
+    "summary": "validation-live-summary.json",
+    "operator_observation": "Map looks excellent",
+    "scan_count": 7785,
+    "simulation_duration_s": 778.48,
+    "wall_duration_s": 844.775924569,
+    "final_position_error_m": 0.0602675454944189,
+    "max_position_error_m": 0.11858788504706862,
+    "rms_position_error_m": 0.06359673865798593
+  },
+  "scope": "One VM, two independent live routes and four replays of the reference route. Dum-e hardware not tested.",
+  "raw_recording_sha256": {
+    "reference_bag_0.mcap": "79cf33cd1fbba62298699188083a7a88d6ea540e4ce88c3f9a7359f59969edea",
+    "validation_bag_0.mcap": "5fb01c91cc9ae716b50409f1aea588ef99d296ff5cc3ee3ff57ada06405cd02f"
+  },
+  "default_integration": {
+    "scope": "Packaged TurtleBot3 2D profile only",
+    "installed": true,
+    "rollback_restored_original_sha256": "5e9619c353726157b30dd0e3fdbc6dc1fd134494f19ab2560979af309030de4b",
+    "normal_launch_verified": true,
+    "effective_pose_graph_value_assertion_verified": true
+  }
+}

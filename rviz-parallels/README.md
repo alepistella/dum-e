@@ -272,3 +272,13 @@ keeps working.
 RViz, OGRE and Mesa keep their own licenses; this add-on redistributes none of
 their code or binaries. Scripts and this document: Apache-2.0, Alessandro
 Pistella.
+
+## Optional: a visible map that becomes distorted
+
+A black viewport and a distorted SLAM map are different problems. For the
+TurtleBot3 house case, see the experimental [Cartographer house add-on](addons/cartographer-house/README.md).
+It contains a separate mapping profile, four replay comparisons, an independent
+live validation and evidence-collection instructions. Its optional managed
+default covers the packaged TurtleBot3 profile. The addon does not change the
+RViz/Mesa fix described above. Settings intended for Dum-e itself live under
+[robot configuration](../config/workarounds/cartographer/README.md).

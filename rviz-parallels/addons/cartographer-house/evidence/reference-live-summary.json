@@ -1,0 +1,38 @@
+{
+  "alignment": "Known initial world position and heading; no trajectory fitting",
+  "scope": "TurtleBot3 Waffle model origin and base_footprint coincide in XY; start recording before motion",
+  "time_interval_s": [
+    22.125,
+    577.882
+  ],
+  "pose_samples": 5662,
+  "message_counts": {
+    "odom": 28895,
+    "truth": 34576,
+    "map_odom": 5662
+  },
+  "scan_count": 5780,
+  "scan_nan_range_count": 0,
+  "slam": {
+    "final_m": 5.033708783961072,
+    "maximum_m": 5.042813856509557,
+    "rms_m": 2.1535548813146574,
+    "median_m": 0.47970765921471625,
+    "p95_m": 5.033229157445058
+  },
+  "odometry": {
+    "final_m": 0.3602369920961505,
+    "maximum_m": 0.3882516922896797,
+    "rms_m": 0.1799153798177526,
+    "median_m": 0.08380931121555713,
+    "p95_m": 0.3602369920961505
+  },
+  "slam_heading_error_deg": {
+    "final": -3.044390001972574,
+    "maximum_absolute": 6.057047766512133
+  },
+  "scan_header_interval_s": {
+    "minimum": 0.098,
+    "maximum": 0.10000000000002274
+  }
+}

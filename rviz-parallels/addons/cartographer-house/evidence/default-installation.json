@@ -1,0 +1,17 @@
+{
+  "manifest": {
+    "active": true,
+    "installed_at_utc": "20261105T220109806053Z",
+    "package": "ros-jazzy-turtlebot3-cartographer",
+    "validated_version": "2.3.6-1noble.20260921.052917",
+    "source_sha256": "5e9619c353726157b30dd0e3fdbc6dc1fd134494f19ab2560979af309030de4b",
+    "wrapper_sha256": "55c55f02fc474e742ab683f6244c2f99042660f2bfac24f46b3540dd7cc56cbe",
+    "backup": "/var/backups/dum-e-cartographer-house/20261105T220109806053Z",
+    "scope": "TurtleBot3 default 2D profile only",
+    "linear_search_window_m": 1.0
+  },
+  "diversion": "local diversion of /opt/ros/jazzy/share/turtlebot3_cartographer/config/turtlebot3_lds_2d.lua to /opt/ros/jazzy/share/turtlebot3_cartographer/config/turtlebot3_lds_2d.lua.distrib",
+  "overlay_matches": true,
+  "packaged_source_sha256": "5e9619c353726157b30dd0e3fdbc6dc1fd134494f19ab2560979af309030de4b",
+  "packaged_source_changed_since_validation": false
+}
