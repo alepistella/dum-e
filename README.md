@@ -1,21 +1,31 @@
 # dum-e
 
+Dum-e is my ROS 2 robot project: embedded motor control, simulation, mapping
+and navigation, built and tested outside working hours.
+
 Weekend robotics, embedded and Edge AI builds, with the measurements.
 Occasionally they even work.
 
-Each directory is one build or one problem, with the commands, the data and
-the decision that came out of it.
+This repository collects the code, experiments and development notes. Some
+folders cover tools and fixes needed along the way, rather than the robot
+itself.
 
-## Contents
+## Development tools and fixes
 
-| Directory | What it is | State |
-|---|---|---|
-| [gazebo-parallels](gazebo-parallels/INSTALL.md) | Hardware-accelerated Gazebo Harmonic for ROS 2 Jazzy on Parallels (Apple silicon): about 60 GUI updates/s on the virtual GPU, with working LiDAR and RGB camera. Build kit, colcon overlay, 53-trial ablation. | Reproduced on one machine. Clean-VM run pending. Upstream fix [merged](https://github.com/gazebosim/gz-rendering/pull/1400). |
-| [rviz-parallels](rviz-parallels/README.md) | RViz 2 on the same VM: black viewport fixed by pointing the packaged `rviz2` at the same private Mesa runtime, hardware rendering kept. Covers `rviz2`, `ros2 run` and `ros2 launch`; gated install and rollback. | Verified on the same VM, 4 November 2026. |
+The development environment includes ROS 2 Jazzy on Ubuntu 24.04 ARM64,
+running in Parallels on Apple silicon.
+
+- [Gazebo on Parallels](gazebo-parallels/README.md): the simulation setup,
+  rendering workaround, installation guide and measurements.
+- [RViz on Parallels](rviz-parallels/README.md): the black-viewport workaround,
+  installation guide and verification results.
+
+Each folder contains its own screenshots, tested versions, evidence and
+rollback instructions.
 
 ## Conventions
 
-- Every claim with a number has the raw data next to it, in `evidence/`.
+- Every claim with a number has the supporting data beside it.
 - Version pins and hash gates are deliberate. If a check stops you, the
   combination is untested; do not remove the check.
 - Nothing here is an official package of the projects it touches.

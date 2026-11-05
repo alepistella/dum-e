@@ -71,5 +71,7 @@
     "manage.py": "5ebc7db71866cc92bec77ed7886bfc1eb8a2664e309fa1cd731b4a59ac9b9bd8",
     "rviz2-wrapper.sh": "82a2dd230fbfe76963792e86f79760e031e79ae225dd50012fb2f54a40479b4e",
     "verify.launch.py": "21a2defcffa1144e2c5aa59f6816318426f93806c1190b74d52c8ce74aef6185"
-  }
+  },
+  "parallels_desktop": "27.0.3 (58680)",
+  "parallels_version_source": "VM owner confirmed on 5 November 2026 that the initial RViz validation used the same Parallels version as the initial Gazebo validation, before the later update. The initial RViz logs did not capture the host version."
 }

@@ -1,6 +1,11 @@
-# RViz 2 on Parallels: hardware-accelerated viewport with the private Mesa runtime
+# RViz 2 black screen on Parallels: hardware-accelerated viewport with private Mesa
 
-Ubuntu 24.04 ARM64, ROS 2 Jazzy, RViz 14.1.24, Parallels Desktop 27.
+Ubuntu 24.04 ARM64, ROS 2 Jazzy, RViz 14.1.24. Tested with Parallels Desktop
+**27.0.3 (58680)** and **27.1.0 (58756)** on Apple silicon.
+
+See the [tested Parallels versions and before/after results](#tested-parallels-versions).
+The RViz black viewport persists with system Mesa 25.2.8 on both tested
+versions; the private Mesa 24.0.5 profile restores hardware rendering.
 
 On the same VM where the [Gazebo kit](../gazebo-parallels/INSTALL.md) runs at 60 fps, RViz 2
 opens with a black viewport: the grid, the robot model and the map never
@@ -9,11 +14,31 @@ appear. This optional add-on makes the packaged `rviz2` load the private Mesa
 virtual GPU. Nothing else changes: same RViz binary, same OGRE 1.12.10, no new
 packages, no system Mesa downgrade.
 
+## The symptom
+
+![RViz 2 black viewport on Ubuntu ARM64 in Parallels, before the private Mesa profile](images/rviz-black-viewport-before-fix.png)
+
+The rendering area is black even though the configured background is gray
+and the Grid display is enabled. The screenshot illustrates the original
+symptom; the working accelerated result is documented by the driver logs
+and visual confirmations in [evidence](evidence/).
+
+## Tested Parallels versions
+
+| Parallels Desktop | RViz version | Without this profile | Works after fix? | Evidence |
+|---|---|---|---|---|
+| **27.0.3 (58680)** | Jazzy / RViz **14.1.24**, Ogre **1.12.10** | System Mesa 25.2.8: black viewport | **Yes.** Private Mesa 24.0.5, hardware VirGL; grid and Cartographer map visible | [4 November 2026 checks](evidence/results.json) |
+| **27.1.0 (58756)** | Jazzy / RViz **14.1.24**, Ogre **1.12.10** | System Mesa 25.2.8: black or empty viewport | **Yes.** Existing profile renders the synthetic map | [5 November 2026 retest](../gazebo-parallels/retests/2026-11-05/README.md) |
+
+Both rows cover the same M5 Max / Ubuntu 24.04 ARM64 VM. The owner confirmed
+that Parallels was updated after the first RViz check. No dedicated RViz FPS
+benchmark or second clean-VM reproduction is claimed.
+
 ## Status
 
 | Item | Value |
 |---|---|
-| Verified on | the Gazebo kit VM (MacBook Pro M5 Max, Parallels 27, Ubuntu 24.04.5 ARM64), 4 November 2026 |
+| Verified on | the Gazebo kit VM (MacBook Pro M5 Max, Ubuntu 24.04.5 ARM64). Initial RViz check: Parallels 27.0.3 (58680), 4 November 2026. Retest: Parallels/Tools 27.1.0 (58756), 5 November 2026. |
 | Packages | ros-jazzy-rviz2 14.1.24-1noble.20260916.104902, OGRE 1.12.10, system Mesa 25.2.8 |
 | Result | grid and Cartographer map visible, `GL_RENDERER = virgl (Apple M5 Max (Compat))`, OpenGL 4.0, FSAA 4 |
 | Scope | `rviz2`, `ros2 run rviz2 rviz2` and any `ros2 launch` that starts the packaged Jazzy RViz |
@@ -22,6 +47,10 @@ Not covered: RViz built from source in another workspace, other RViz, Ubuntu
 or Mesa versions, a plugin-by-plugin certification, an RViz frame-rate
 benchmark. This is a driver-version workaround verified on one VM; it does not
 identify the Mesa commit that regressed.
+
+The initial Parallels version was confirmed by the VM owner after the test;
+the 27.1.0 host/Tools versions and stock/profile comparison are captured in
+the [retest record](../gazebo-parallels/retests/2026-11-05/README.md).
 
 ## What was measured
 

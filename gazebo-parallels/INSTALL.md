@@ -1,6 +1,11 @@
 # Hardware-accelerated Gazebo Harmonic for ROS 2 Jazzy on Parallels (Apple silicon)
 
-Ubuntu 24.04 ARM64, ROS 2 Jazzy, Gazebo Sim 8.15, gz-rendering 8.2.3, Parallels Desktop 27.
+Ubuntu 24.04 ARM64, ROS 2 Jazzy, Gazebo Sim 8.15, gz-rendering 8.2.3.
+Tested with Parallels Desktop **27.0.3 (58680)** and **27.1.0 (58756)** on Apple silicon.
+
+See the [tested Parallels versions and before/after results](README.md#tested-parallels-versions).
+On both tested versions, the standard Ogre 2 path fails and the installed
+Ogre 1 / private Mesa profile renders on the virtual GPU.
 
 Out of the box, `gz sim` on a Parallels VM either crashes (OGRE 2 shaders fail
 on the VirGL driver) or runs in software at 6 fps. This kit makes the stock
@@ -11,9 +16,9 @@ updates per second, with working LiDAR and RGB camera sensors.
 
 | Item | Value |
 |---|---|
-| Verified on | MacBook Pro M5 Max, Parallels 27.0.3 (Tools 27.0.3 build 58680), Ubuntu 24.04.5 ARM64, 8 vCPU, 16 GB |
+| Verified on | MacBook Pro M5 Max, Ubuntu 24.04.5 ARM64, 8 vCPU, 16 GB. Initial run: Parallels/Tools 27.0.3 (58680). Rendering/recovery retest: Parallels/Tools 27.1.0 (58756), 5 November 2026. |
 | Packages | ros-jazzy-ros-gz, Gazebo Sim 8.15.0, gz-rendering 8.2.3, OGRE 1.9.0, system Mesa 25.2.8 |
-| GUI | about 60 camera updates/s on `shapes.sdf` and the TurtleBot3 world |
+| GUI | about 60 camera updates/s on `shapes.sdf` and the TurtleBot3 world in the original tests; the 27.1.0 retest checked rendering, not a new FPS benchmark |
 | LiDAR | TurtleBot3 360 rays at 10 Hz, max error 1.5 mm against a known wall (131 rays) |
 | RGB camera | 1920x1080, correct frames, 8 to 11 images/s over ROS |
 | Clean-VM run | not yet recorded. The kit was rebuilt from pristine sources, but a second VM has not been installed from scratch. Treat this as "reproduced once", not "reproducible". |
