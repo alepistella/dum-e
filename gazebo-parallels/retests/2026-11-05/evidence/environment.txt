@@ -1,0 +1,36 @@
+27.1.0.58756
+7.0.0-42-generic
+name of display: :0
+display: :0  screen: 0
+direct rendering: Yes
+Extended renderer info (GLX_MESA_query_renderer):
+    Vendor: Mesa (0x1af4)
+    Device: virgl (Apple M5 Max (Compat)) (0x1010)
+    Version: 25.2.8
+    Accelerated: yes
+    Video memory: 0MB
+    Unified memory: no
+    Preferred profile: core (0x1)
+    Max core profile version: 4.0
+    Max compat profile version: 4.0
+    Max GLES1 profile version: 1.1
+    Max GLES[23] profile version: 3.0
+OpenGL vendor string: Mesa
+OpenGL renderer string: virgl (Apple M5 Max (Compat))
+OpenGL core profile version string: 4.0 (Core Profile) Mesa 25.2.8-0ubuntu0.24.04.4
+OpenGL core profile shading language version string: 4.00
+OpenGL core profile context flags: (none)
+OpenGL core profile profile mask: core profile
+
+OpenGL version string: 4.0 (Compatibility Profile) Mesa 25.2.8-0ubuntu0.24.04.4
+OpenGL shading language version string: 4.00
+OpenGL context flags: (none)
+OpenGL profile mask: compatibility profile
+
+OpenGL ES profile version string: OpenGL ES 3.0 Mesa 25.2.8-0ubuntu0.24.04.4
+OpenGL ES profile shading language version string: OpenGL ES GLSL ES 3.00
+
+libgl1-mesa-dri:arm64	25.2.8-0ubuntu0.24.04.4
+ros-jazzy-gz-rendering-vendor	0.0.7-1noble.20260904.005119
+ros-jazzy-rviz-rendering	14.1.24-1noble.20260911.044936
+ros-jazzy-rviz2	14.1.24-1noble.20260916.104902

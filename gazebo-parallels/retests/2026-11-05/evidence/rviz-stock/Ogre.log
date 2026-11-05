@@ -1,0 +1,463 @@
+01:56:32: Creating resource group General
+01:56:32: Creating resource group OgreInternal
+01:56:32: Creating resource group OgreAutodetect
+01:56:32: SceneManagerFactory for type 'DefaultSceneManager' registered.
+01:56:32: Registering ResourceManager for type Material
+01:56:32: Registering ResourceManager for type Mesh
+01:56:32: Registering ResourceManager for type Skeleton
+01:56:32: MovableObjectFactory for type 'ParticleSystem' registered.
+01:56:32: ArchiveFactory for archive type FileSystem registered.
+01:56:32: DDS codec registering
+01:56:32: ETC codec registering
+01:56:32: ASTC codec registering
+01:56:32: Registering ResourceManager for type HighLevelGpuProgram
+01:56:32: Registering ResourceManager for type Compositor
+01:56:32: MovableObjectFactory for type 'Entity' registered.
+01:56:32: MovableObjectFactory for type 'Light' registered.
+01:56:32: MovableObjectFactory for type 'BillboardSet' registered.
+01:56:32: MovableObjectFactory for type 'ManualObject' registered.
+01:56:32: MovableObjectFactory for type 'BillboardChain' registered.
+01:56:32: MovableObjectFactory for type 'RibbonTrail' registered.
+01:56:32: *-*-* OGRE Initialising
+01:56:32: *-*-* Version 1.12.10 (Rhagorthua)
+01:56:32: OverlayElementFactory for type Panel registered.
+01:56:32: OverlayElementFactory for type BorderPanel registered.
+01:56:32: OverlayElementFactory for type TextArea registered.
+01:56:32: Registering ResourceManager for type Font
+01:56:32: Loading library /opt/ros/jazzy/opt/rviz_ogre_vendor/lib/OGRE/RenderSystem_GL.so.1.12.10
+01:56:32: Installing plugin: GL RenderSystem
+01:56:32: OpenGL Rendering Subsystem created.
+01:56:32: Plugin successfully installed
+01:56:32: Loading library /opt/ros/jazzy/opt/rviz_ogre_vendor/lib/OGRE/Codec_STBI.so.1.12.10
+01:56:32: stb_image - v2.23 - public domain image loader
+01:56:32: Supported formats: jpeg,jpg,png,bmp,psd,tga,gif,pic,ppm,pgm,hdr
+01:56:32: CPU Identifier & Features
+01:56:32: -------------------------
+01:56:32:  *   CPU ID: 
+01:56:32:  *          VFP: no
+01:56:32:  *         NEON: no
+01:56:32: -------------------------
+01:56:32: ******************************
+*** Starting GLX Subsystem ***
+******************************
+01:56:32: GLX_VERSION = 1.4
+01:56:32: GLX_EXTENSIONS = GLX_ARB_context_flush_control GLX_ARB_create_context GLX_ARB_create_context_no_error GLX_ARB_create_context_profile GLX_ARB_create_context_robustness GLX_ARB_fbconfig_float GLX_ARB_framebuffer_sRGB GLX_ARB_get_proc_address GLX_ARB_multisample GLX_EXT_buffer_age GLX_EXT_create_context_es2_profile GLX_EXT_create_context_es_profile GLX_EXT_fbconfig_packed_float GLX_EXT_framebuffer_sRGB GLX_EXT_import_context GLX_EXT_no_config_context GLX_EXT_swap_control GLX_EXT_swap_control_tear GLX_EXT_texture_from_pixmap GLX_EXT_visual_info GLX_EXT_visual_rating GLX_ATI_pixel_format_float GLX_INTEL_swap_event GLX_MESA_copy_sub_buffer GLX_MESA_gl_interop GLX_MESA_query_renderer GLX_MESA_swap_control GLX_NV_float_buffer GLX_OML_sync_control GLX_SGIS_multisample GLX_SGIX_fbconfig GLX_SGIX_pbuffer GLX_SGIX_visual_select_group GLX_SGI_make_current_read GLX_SGI_swap_control GLX_SGI_video_sync 
+01:56:32: Registering ResourceManager for type Texture
+01:56:32: RenderSystem::_createRenderWindow "OgreWindow(0)", 1x1 windowed  miscParams: FSAA=4 border=none contentScalingFactor=1.000000 currentGLContext=false externalWindowHandle=50331649 left=0 parentWindowHandle=50331649 top=0 
+01:56:32: GLXWindow::create colourBufferSize=32 gamma=0 FSAA=4
+01:56:32: GLXWindow::create used FBConfigID = 243
+01:56:32: GL_VERSION = 4.0.0.0
+01:56:32: GL_VENDOR = Mesa
+01:56:32: GL_RENDERER = virgl (Apple M5 Max (Compat))
+01:56:32: GL_EXTENSIONS = GL_ARB_multisample GL_EXT_abgr GL_EXT_bgra GL_EXT_blend_color GL_EXT_blend_minmax GL_EXT_blend_subtract GL_EXT_copy_texture GL_EXT_subtexture GL_EXT_texture_object GL_EXT_vertex_array GL_EXT_compiled_vertex_array GL_EXT_texture GL_EXT_texture3D GL_IBM_rasterpos_clip GL_ARB_point_parameters GL_EXT_draw_range_elements GL_EXT_packed_pixels GL_EXT_point_parameters GL_EXT_rescale_normal GL_EXT_separate_specular_color GL_EXT_texture_edge_clamp GL_SGIS_generate_mipmap GL_SGIS_texture_border_clamp GL_SGIS_texture_edge_clamp GL_SGIS_texture_lod GL_ARB_framebuffer_sRGB GL_ARB_multitexture GL_EXT_framebuffer_sRGB GL_IBM_multimode_draw_arrays GL_IBM_texture_mirrored_repeat GL_ARB_texture_cube_map GL_ARB_texture_env_add GL_ARB_transpose_matrix GL_EXT_blend_func_separate GL_EXT_fog_coord GL_EXT_multi_draw_arrays GL_EXT_secondary_color GL_EXT_texture_env_add GL_EXT_texture_filter_anisotropic GL_EXT_texture_lod_bias GL_INGR_blend_func_separate GL_NV_blend_square GL_NV_light_max_exponent GL_NV_texgen_reflection GL_NV_texture_env_combine4 GL_S3_s3tc GL_SUN_multi_draw_arrays GL_ARB_texture_border_clamp GL_ARB_texture_compression GL_EXT_framebuffer_object GL_EXT_texture_compression_s3tc GL_EXT_texture_env_combine GL_EXT_texture_env_dot3 GL_MESA_window_pos GL_NV_packed_depth_stencil GL_NV_texture_rectangle GL_ARB_depth_texture GL_ARB_occlusion_query GL_ARB_shadow GL_ARB_texture_env_combine GL_ARB_texture_env_crossbar GL_ARB_texture_env_dot3 GL_ARB_texture_mirrored_repeat GL_ARB_window_pos GL_ATI_fragment_shader GL_EXT_stencil_two_side GL_EXT_texture_cube_map GL_NV_depth_clamp GL_NV_fog_distance GL_NV_half_float GL_APPLE_packed_pixels GL_ARB_draw_buffers GL_ARB_fragment_program GL_ARB_fragment_shader GL_ARB_shader_objects GL_ARB_vertex_program GL_ARB_vertex_shader GL_ATI_draw_buffers GL_ATI_texture_env_combine3 GL_ATI_texture_float GL_EXT_shadow_funcs GL_EXT_stencil_wrap GL_MESA_pack_invert GL_NV_primitive_restart GL_ARB_depth_clamp GL_ARB_fragment_program_shadow GL_ARB_half_float_pixel GL_ARB_occlusion_query2 GL_ARB_point_sprite GL_ARB_shading_language_100 GL_ARB_sync GL_ARB_texture_non_power_of_two GL_ARB_vertex_buffer_object GL_ATI_blend_equation_separate GL_EXT_blend_equation_separate GL_OES_read_format GL_ARB_color_buffer_float GL_ARB_pixel_buffer_object GL_ARB_texture_compression_rgtc GL_ARB_texture_float GL_ARB_texture_rectangle GL_EXT_packed_float GL_EXT_pixel_buffer_object GL_EXT_texture_compression_dxt1 GL_EXT_texture_compression_rgtc GL_EXT_texture_rectangle GL_EXT_texture_sRGB GL_EXT_texture_shared_exponent GL_ARB_framebuffer_object GL_EXT_framebuffer_blit GL_EXT_framebuffer_multisample GL_EXT_packed_depth_stencil GL_ARB_vertex_array_object GL_ATI_separate_stencil GL_EXT_draw_buffers2 GL_EXT_draw_instanced GL_EXT_gpu_program_parameters GL_EXT_gpu_shader4 GL_EXT_texture_array GL_EXT_texture_integer GL_EXT_texture_sRGB_decode GL_EXT_timer_query GL_OES_EGL_image GL_EXT_texture_buffer_object GL_AMD_texture_texture4 GL_ARB_copy_buffer GL_ARB_depth_buffer_float GL_ARB_draw_instanced GL_ARB_half_float_vertex GL_ARB_instanced_arrays GL_ARB_map_buffer_range GL_ARB_texture_buffer_object GL_ARB_texture_rg GL_ARB_texture_swizzle GL_ARB_vertex_array_bgra GL_EXT_texture_swizzle GL_EXT_vertex_array_bgra GL_NV_conditional_render GL_AMD_conservative_depth GL_AMD_draw_buffers_blend GL_ARB_ES2_compatibility GL_ARB_blend_func_extended GL_ARB_compatibility GL_ARB_debug_output GL_ARB_draw_buffers_blend GL_ARB_draw_elements_base_vertex GL_ARB_explicit_attrib_location GL_ARB_fragment_coord_conventions GL_ARB_provoking_vertex GL_ARB_sample_shading GL_ARB_sampler_objects GL_ARB_seamless_cube_map GL_ARB_shader_texture_lod GL_ARB_tessellation_shader GL_ARB_texture_buffer_object_rgb32 GL_ARB_texture_cube_map_array GL_ARB_texture_gather GL_ARB_texture_multisample GL_ARB_texture_query_lod GL_ARB_texture_rgb10_a2ui GL_ARB_uniform_buffer_object GL_ARB_vertex_type_2_10_10_10_rev GL_EXT_provoking_vertex GL_EXT_texture_snorm GL_EXT_texture_storage GL_MESA_texture_signed_rgba GL_NV_copy_image GL_ARB_draw_indirect GL_ARB_get_program_binary GL_ARB_gpu_shader5 GL_ARB_gpu_shader_fp64 GL_ARB_robustness GL_ARB_separate_shader_objects GL_ARB_shader_bit_encoding GL_ARB_shader_subroutine GL_ARB_texture_compression_bptc GL_ARB_timer_query GL_ARB_transform_feedback2 GL_ARB_transform_feedback3 GL_ARB_vertex_attrib_64bit GL_ARB_viewport_array GL_EXT_direct_state_access GL_EXT_vertex_attrib_64bit GL_AMD_multi_draw_indirect GL_ANGLE_texture_compression_dxt3 GL_ANGLE_texture_compression_dxt5 GL_ARB_compressed_texture_pixel_storage GL_ARB_conservative_depth GL_ARB_internalformat_query GL_ARB_map_buffer_alignment GL_ARB_shading_language_420pack GL_ARB_shading_language_packing GL_ARB_texture_storage GL_ARB_transform_feedback_instanced GL_EXT_framebuffer_multisample_blit_scaled GL_EXT_transform_feedback GL_AMD_shader_trinary_minmax GL_ARB_ES3_compatibility GL_ARB_arrays_of_arrays GL_ARB_clear_buffer_object GL_ARB_explicit_uniform_location GL_ARB_fragment_layer_viewport GL_ARB_invalidate_subdata GL_ARB_multi_draw_indirect GL_ARB_program_interface_query GL_ARB_texture_query_levels GL_ARB_texture_storage_multisample GL_ARB_vertex_attrib_binding GL_KHR_debug GL_KHR_texture_compression_astc_ldr GL_ARB_clear_texture GL_ARB_internalformat_query2 GL_ARB_multi_bind GL_ARB_shading_language_include GL_EXT_debug_label GL_EXT_shader_integer_mix GL_ARB_direct_state_access GL_ARB_get_texture_sub_image GL_KHR_context_flush_control GL_ARB_parallel_shader_compile GL_KHR_no_error GL_KHR_texture_compression_astc_sliced_3d GL_ARB_gl_spirv GL_ARB_spirv_extensions GL_MESA_shader_integer_functions GL_ARB_texture_filter_anisotropic GL_KHR_parallel_shader_compile GL_EXT_EGL_image_storage GL_EXT_EGL_sync GL_EXT_EGL_image_storage_compression GL_NV_ES1_1_compatibility 
+01:56:32: ***************************
+01:56:32: *** GL Renderer Started ***
+01:56:32: ***************************
+01:56:32: Registering ResourceManager for type GpuProgram
+01:56:32: GLSL support detected
+01:56:32: GL: Using GL_EXT_framebuffer_object for rendering to textures (best)
+01:56:32: FBO PF_UNKNOWN depth/stencil support: D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8
+01:56:32: FBO PF_L8 depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8
+01:56:32: FBO PF_L16 depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8
+01:56:32: FBO PF_A8 depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8
+01:56:32: FBO PF_BYTE_LA depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8
+01:56:32: FBO PF_R5G6B5 depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8
+01:56:32: FBO PF_A4R4G4B4 depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8
+01:56:32: FBO PF_A1R5G5B5 depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8
+01:56:32: FBO PF_R8G8B8 depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8
+01:56:32: FBO PF_B8G8R8 depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8
+01:56:32: FBO PF_A8R8G8B8 depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8
+01:56:32: FBO PF_A8B8G8R8 depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8
+01:56:32: FBO PF_B8G8R8A8 depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8
+01:56:32: FBO PF_FLOAT16_RGB depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8
+01:56:32: FBO PF_FLOAT16_RGBA depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8
+01:56:32: FBO PF_FLOAT32_RGB depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8
+01:56:32: FBO PF_FLOAT32_RGBA depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8
+01:56:32: FBO PF_X8R8G8B8 depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8
+01:56:32: FBO PF_X8B8G8R8 depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8
+01:56:32: FBO PF_R8G8B8A8 depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8
+01:56:32: FBO PF_DEPTH16 depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8
+01:56:32: FBO PF_SHORT_RGBA depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8
+01:56:32: FBO PF_R3G3B2 depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8
+01:56:32: FBO PF_FLOAT16_R depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8
+01:56:32: FBO PF_FLOAT32_R depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8
+01:56:32: FBO PF_SHORT_GR depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8
+01:56:32: FBO PF_FLOAT16_GR depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8
+01:56:32: FBO PF_FLOAT32_GR depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8
+01:56:32: FBO PF_SHORT_RGB depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8
+01:56:32: [GL] : Valid FBO targets PF_UNKNOWN PF_L8 PF_L16 PF_A8 PF_BYTE_LA PF_R5G6B5 PF_A4R4G4B4 PF_A1R5G5B5 PF_R8G8B8 PF_B8G8R8 PF_A8R8G8B8 PF_A8B8G8R8 PF_B8G8R8A8 PF_FLOAT16_RGB PF_FLOAT16_RGBA PF_FLOAT32_RGB PF_FLOAT32_RGBA PF_X8R8G8B8 PF_X8B8G8R8 PF_R8G8B8A8 PF_DEPTH16 PF_SHORT_RGBA PF_R3G3B2 PF_FLOAT16_R PF_FLOAT32_R PF_SHORT_GR PF_FLOAT16_GR PF_FLOAT32_GR PF_SHORT_RGB 
+01:56:32: Using FSAA from GL_ARB_multisample extension.
+01:56:32: RenderSystem capabilities
+01:56:32: -------------------------
+01:56:32: RenderSystem Name: OpenGL Rendering Subsystem
+01:56:32: GPU Vendor: unknown
+01:56:32: Device Name: virgl (Apple M5 Max (Compat))
+01:56:32: Driver Version: 4.0.0.0
+01:56:32:  * Fixed function pipeline: yes
+01:56:32:  * 32-bit index buffers: yes
+01:56:32:  * Hardware stencil buffer: yes
+01:56:32:    - Stencil depth: 8
+01:56:32:    - Two sided stencil support: yes
+01:56:32:    - Wrap stencil values: yes
+01:56:32:  * Vertex programs: yes
+01:56:32:    - Number of floating-point constants: 2048
+01:56:32:    - Number of integer constants: 0
+01:56:32:    - Number of boolean constants: 0
+01:56:32:  * Fragment programs: yes
+01:56:32:    - Number of floating-point constants: 2048
+01:56:32:    - Number of integer constants: 0
+01:56:32:    - Number of boolean constants: 0
+01:56:32:  * Geometry programs: no
+01:56:32:  * Tessellation Hull programs: no
+01:56:32:  * Tessellation Domain programs: no
+01:56:32:  * Compute programs: no
+01:56:32:  * Supported Shader Profiles: arbfp1 arbvp1 glsl glsl100 glsl110 glsl120 ps_1_1 ps_1_2 ps_1_3 ps_1_4
+01:56:32:  * Read-back compiled shader: yes
+01:56:32:  * Number of vertex attributes: 16
+01:56:32:  * Textures
+01:56:32:    - Number of texture units: 16
+01:56:32:    - Floating point: yes
+01:56:32:    - Non-power-of-two: yes
+01:56:32:    - 1D textures: yes
+01:56:32:    - 2D array textures: yes
+01:56:32:    - 3D textures: yes
+01:56:32:    - Anisotropic filtering: yes
+01:56:32:  * Texture Compression: yes
+01:56:32:    - DXT: yes
+01:56:32:    - VTC: no
+01:56:32:    - PVRTC: no
+01:56:32:    - ATC: no
+01:56:32:    - ETC1: no
+01:56:32:    - ETC2: no
+01:56:32:    - BC4/BC5: no
+01:56:32:    - BC6H/BC7: no
+01:56:32:    - ASTC: no
+01:56:32:    - Mipmaps for compressed formats: yes
+01:56:32:  * Vertex Buffers
+01:56:32:    - VET_UBYTE4 element type: yes
+01:56:32:    - Render to Vertex Buffer: no
+01:56:32:    - Instance Data: yes
+01:56:32:    - Primitive Restart: no
+01:56:32:  * Vertex texture fetch: yes
+01:56:32:    - Max vertex textures: 16
+01:56:32:    - Vertex textures shared: yes
+01:56:32:  * Read/Write Buffers: no
+01:56:32:  * Hardware Occlusion Query: yes
+01:56:32:  * User clip planes: yes
+01:56:32:  * Infinite far plane projection: yes
+01:56:32:  * Depth clamping: no
+01:56:32:  * Hardware render-to-texture: yes
+01:56:32:    - Multiple Render Targets: 8
+01:56:32:    - With different bit depths: yes
+01:56:32:  * Point Sprites: yes
+01:56:32:    - Extended parameters: yes
+01:56:32:    - Max Size: 64
+01:56:32:  * Wide Lines: yes
+01:56:32:  * Hardware Gamma: yes
+01:56:32:  * PBuffer support: yes
+01:56:32:  * Vertex Array Objects: no
+01:56:32:  * Separate shader objects: no
+01:56:32:    - redeclare GLSL interface block: no
+01:56:32:  * Debugging/ profiling events: no
+01:56:32:  * Map buffer storage: yes
+01:56:32: DefaultWorkQueue('Root') initialising on thread main.
+01:56:32: Particle Renderer Type 'billboard' registered
+01:56:32: Creating resource group rviz_rendering
+01:56:32: Added resource location '/opt/ros/jazzy/share/rviz_rendering/ogre_media' of type 'FileSystem' to resource group 'rviz_rendering'
+01:56:32: Added resource location '/opt/ros/jazzy/share/rviz_rendering/ogre_media/textures' of type 'FileSystem' to resource group 'rviz_rendering'
+01:56:32: Added resource location '/opt/ros/jazzy/share/rviz_rendering/ogre_media/fonts' of type 'FileSystem' to resource group 'rviz_rendering'
+01:56:32: Added resource location '/opt/ros/jazzy/share/rviz_rendering/ogre_media/fonts/liberation-sans' of type 'FileSystem' to resource group 'rviz_rendering'
+01:56:32: Added resource location '/opt/ros/jazzy/share/rviz_rendering/ogre_media/models' of type 'FileSystem' to resource group 'rviz_rendering'
+01:56:32: Added resource location '/opt/ros/jazzy/share/rviz_rendering/ogre_media/materials' of type 'FileSystem' to resource group 'rviz_rendering'
+01:56:32: Added resource location '/opt/ros/jazzy/share/rviz_rendering/ogre_media/materials/scripts' of type 'FileSystem' to resource group 'rviz_rendering'
+01:56:32: Added resource location '/opt/ros/jazzy/share/rviz_rendering/ogre_media/materials/glsl120' of type 'FileSystem' to resource group 'rviz_rendering'
+01:56:32: Added resource location '/opt/ros/jazzy/share/rviz_rendering/ogre_media/materials/glsl120/include' of type 'FileSystem' to resource group 'rviz_rendering'
+01:56:32: Added resource location '/opt/ros/jazzy/share/rviz_rendering/ogre_media/materials/glsl120/nogp' of type 'FileSystem' to resource group 'rviz_rendering'
+01:56:32: Added resource location '/opt/ros/jazzy/share/rviz_rendering/ogre_media/materials/scripts120' of type 'FileSystem' to resource group 'rviz_rendering'
+01:56:32: Parsing scripts for resource group General
+01:56:32: Finished parsing scripts for resource group General
+01:56:32: Creating resources for group General
+01:56:32: All done
+01:56:32: Parsing scripts for resource group OgreAutodetect
+01:56:32: Finished parsing scripts for resource group OgreAutodetect
+01:56:32: Creating resources for group OgreAutodetect
+01:56:32: All done
+01:56:32: Parsing scripts for resource group OgreInternal
+01:56:32: Finished parsing scripts for resource group OgreInternal
+01:56:32: Creating resources for group OgreInternal
+01:56:32: All done
+01:56:32: Parsing scripts for resource group rviz_rendering
+01:56:32: Parsing script glsl120.program
+01:56:32: Warning: ScriptCompiler - deprecated symbol in glsl120.program(13): attach. Use the #include directive instead
+01:56:32: Warning: ScriptCompiler - deprecated symbol in glsl120.program(14): attach. Use the #include directive instead
+01:56:32: Warning: ScriptCompiler - deprecated symbol in glsl120.program(26): attach. Use the #include directive instead
+01:56:32: Warning: ScriptCompiler - deprecated symbol in glsl120.program(39): attach. Use the #include directive instead
+01:56:32: Warning: ScriptCompiler - deprecated symbol in glsl120.program(61): attach. Use the #include directive instead
+01:56:32: Warning: ScriptCompiler - deprecated symbol in glsl120.program(87): attach. Use the #include directive instead
+01:56:32: Warning: ScriptCompiler - deprecated symbol in glsl120.program(100): attach. Use the #include directive instead
+01:56:32: Warning: ScriptCompiler - deprecated symbol in glsl120.program(136): attach. Use the #include directive instead
+01:56:32: Parsing script nogp.program
+01:56:32: Warning: ScriptCompiler - deprecated symbol in nogp.program(24): attach. Use the #include directive instead
+01:56:32: Warning: ScriptCompiler - deprecated symbol in nogp.program(50): attach. Use the #include directive instead
+01:56:32: Warning: ScriptCompiler - deprecated symbol in nogp.program(74): attach. Use the #include directive instead
+01:56:32: Parsing script point_cloud_tile.material
+01:56:32: Parsing script indexed_8bit_image.material
+01:56:32: Parsing script point_cloud_point.material
+01:56:32: Parsing script default_pick_and_depth.material
+01:56:32: Parsing script point_cloud_box.material
+01:56:32: Parsing script point_cloud_sphere.material
+01:56:32: Parsing script point_cloud_flat_square.material
+01:56:32: Parsing script point_cloud_square.material
+01:56:32: Parsing script liberation_sans.fontdef
+01:56:32: Finished parsing scripts for resource group rviz_rendering
+01:56:32: Creating resources for group rviz_rendering
+01:56:32: All done
+01:56:32: RenderSystem::_createRenderWindow "OgreWindow(1)", 100x30 windowed  miscParams: FSAA=4 contentScalingFactor=1.000000 currentGLContext=false externalWindowHandle=35651603 left=0 parentWindowHandle=35651603 top=0 
+01:56:32: GLXWindow::create colourBufferSize=32 gamma=0 FSAA=4
+01:56:32: GLXWindow::create used FBConfigID = 243
+01:56:32: Mesh: Loading rviz_sphere.mesh.
+01:56:32: Warning: rviz_sphere.mesh uses an old format [MeshSerializer_v1.8]; upgrade with the OgreMeshUpgrader tool
+01:56:32: Texture 'SelectionRect0Texture': Loading 1 faces(PF_R8G8B8A8,1x1x1) Internal format is PF_R8G8B8A8,1x1x1.
+01:56:32: Texture 'MapPaletteTexture0': Loading 1 faces(PF_A8B8G8R8,256x1x1) Internal format is PF_A8B8G8R8,256x1x1.
+01:56:32: Texture 'MapPaletteTexture1': Loading 1 faces(PF_A8B8G8R8,256x1x1) Internal format is PF_A8B8G8R8,256x1x1.
+01:56:32: Texture 'MapPaletteTexture2': Loading 1 faces(PF_A8B8G8R8,256x1x1) Internal format is PF_A8B8G8R8,256x1x1.
+01:56:32: Texture 'MapPaletteTexture3': Loading 1 faces(PF_A8B8G8R8,256x1x1) Internal format is PF_A8B8G8R8,256x1x1.
+01:56:32: Texture 'MapPaletteTexture4': Loading 1 faces(PF_A8B8G8R8,256x1x1) Internal format is PF_A8B8G8R8,256x1x1.
+01:56:32: Texture 'MapPaletteTexture5': Loading 1 faces(PF_A8B8G8R8,256x1x1) Internal format is PF_A8B8G8R8,256x1x1.
+01:56:32: Texture 'MapPaletteTexture6': Loading 1 faces(PF_A8B8G8R8,256x1x1) Internal format is PF_A8B8G8R8,256x1x1.
+01:56:32: Texture 'MapPaletteTexture7': Loading 1 faces(PF_A8B8G8R8,256x1x1) Internal format is PF_A8B8G8R8,256x1x1.
+01:56:32: Texture 'MapPaletteTexture8': Loading 1 faces(PF_A8B8G8R8,256x1x1) Internal format is PF_A8B8G8R8,256x1x1.
+01:56:32: Texture 'MapPaletteTexture9': Loading 1 faces(PF_A8B8G8R8,256x1x1) Internal format is PF_A8B8G8R8,256x1x1.
+01:56:32: Texture 'MapPaletteTexture10': Loading 1 faces(PF_A8B8G8R8,256x1x1) Internal format is PF_A8B8G8R8,256x1x1.
+01:56:32: Texture 'MapPaletteTexture11': Loading 1 faces(PF_A8B8G8R8,256x1x1) Internal format is PF_A8B8G8R8,256x1x1.
+01:56:32: Texture 'MapPaletteTexture12': Loading 1 faces(PF_A8B8G8R8,256x1x1) Internal format is PF_A8B8G8R8,256x1x1.
+01:56:32: Texture 'MapPaletteTexture13': Loading 1 faces(PF_A8B8G8R8,256x1x1) Internal format is PF_A8B8G8R8,256x1x1.
+01:56:32: Texture 'MapPaletteTexture14': Loading 1 faces(PF_A8B8G8R8,256x1x1) Internal format is PF_A8B8G8R8,256x1x1.
+01:56:32: Texture 'MapPaletteTexture15': Loading 1 faces(PF_A8B8G8R8,256x1x1) Internal format is PF_A8B8G8R8,256x1x1.
+01:56:32: Texture 'MapPaletteTexture16': Loading 1 faces(PF_A8B8G8R8,256x1x1) Internal format is PF_A8B8G8R8,256x1x1.
+01:56:32: Texture 'MapPaletteTexture17': Loading 1 faces(PF_A8B8G8R8,256x1x1) Internal format is PF_A8B8G8R8,256x1x1.
+01:56:32: Mesh: Loading rviz_cylinder.mesh.
+01:56:32: Warning: rviz_cylinder.mesh uses an old format [MeshSerializer_v1.8]; upgrade with the OgreMeshUpgrader tool
+01:56:32: Mesh: Loading rviz_cone.mesh.
+01:56:32: Warning: rviz_cone.mesh uses an old format [MeshSerializer_v1.8]; upgrade with the OgreMeshUpgrader tool
+01:56:32: Using FSAA from GL_ARB_multisample extension.
+01:56:32: Texture 'Liberation SansTexture': Loading 1 faces(PF_BYTE_LA,512x256x1) Internal format is PF_BYTE_LA,512x256x1.
+01:56:33: Texture 'MapTexture0': Loading 1 faces(PF_L8,100x100x1) Internal format is PF_L8,100x100x1.
+01:56:33: Texture 'MapTexture1': Loading 1 faces(PF_L8,100x100x1) Internal format is PF_L8,100x100x1.
+01:56:33: rviz/glsl120/indexed_8bit_image.vert
+rviz/glsl120/indexed_8bit_image.frag
+ GLSL link result : 
+active samplers with a different type refer to the same texture image unit
+01:56:34: Texture 'MapTexture2': Loading 1 faces(PF_L8,100x100x1) Internal format is PF_L8,100x100x1.
+01:56:35: Texture 'MapTexture3': Loading 1 faces(PF_L8,100x100x1) Internal format is PF_L8,100x100x1.
+01:56:36: Texture 'MapTexture4': Loading 1 faces(PF_L8,100x100x1) Internal format is PF_L8,100x100x1.
+01:56:37: Texture 'MapTexture5': Loading 1 faces(PF_L8,100x100x1) Internal format is PF_L8,100x100x1.
+01:56:38: Texture 'MapTexture6': Loading 1 faces(PF_L8,100x100x1) Internal format is PF_L8,100x100x1.
+01:56:39: Texture 'MapTexture7': Loading 1 faces(PF_L8,100x100x1) Internal format is PF_L8,100x100x1.
+01:56:40: Texture 'MapTexture8': Loading 1 faces(PF_L8,100x100x1) Internal format is PF_L8,100x100x1.
+01:56:41: Texture 'MapTexture9': Loading 1 faces(PF_L8,100x100x1) Internal format is PF_L8,100x100x1.
+01:56:42: Texture 'MapTexture10': Loading 1 faces(PF_L8,100x100x1) Internal format is PF_L8,100x100x1.
+01:56:43: Texture 'MapTexture11': Loading 1 faces(PF_L8,100x100x1) Internal format is PF_L8,100x100x1.
+01:56:44: Texture 'MapTexture12': Loading 1 faces(PF_L8,100x100x1) Internal format is PF_L8,100x100x1.
+01:56:45: Texture 'MapTexture13': Loading 1 faces(PF_L8,100x100x1) Internal format is PF_L8,100x100x1.
+01:56:46: Texture 'MapTexture14': Loading 1 faces(PF_L8,100x100x1) Internal format is PF_L8,100x100x1.
+01:56:47: Texture 'MapTexture15': Loading 1 faces(PF_L8,100x100x1) Internal format is PF_L8,100x100x1.
+01:56:48: Texture 'MapTexture16': Loading 1 faces(PF_L8,100x100x1) Internal format is PF_L8,100x100x1.
+01:56:49: Texture 'MapTexture17': Loading 1 faces(PF_L8,100x100x1) Internal format is PF_L8,100x100x1.
+01:56:50: Texture 'MapTexture18': Loading 1 faces(PF_L8,100x100x1) Internal format is PF_L8,100x100x1.
+01:56:51: Texture 'MapTexture19': Loading 1 faces(PF_L8,100x100x1) Internal format is PF_L8,100x100x1.
+01:56:52: Texture 'MapTexture20': Loading 1 faces(PF_L8,100x100x1) Internal format is PF_L8,100x100x1.
+01:56:53: Texture 'MapTexture21': Loading 1 faces(PF_L8,100x100x1) Internal format is PF_L8,100x100x1.
+01:56:54: Texture 'MapTexture22': Loading 1 faces(PF_L8,100x100x1) Internal format is PF_L8,100x100x1.
+01:56:55: Texture 'MapTexture23': Loading 1 faces(PF_L8,100x100x1) Internal format is PF_L8,100x100x1.
+01:56:56: Texture 'MapTexture24': Loading 1 faces(PF_L8,100x100x1) Internal format is PF_L8,100x100x1.
+01:56:57: Texture 'MapTexture25': Loading 1 faces(PF_L8,100x100x1) Internal format is PF_L8,100x100x1.
+01:56:58: Texture 'MapTexture26': Loading 1 faces(PF_L8,100x100x1) Internal format is PF_L8,100x100x1.
+01:56:59: Texture 'MapTexture27': Loading 1 faces(PF_L8,100x100x1) Internal format is PF_L8,100x100x1.
+01:57:00: Texture 'MapTexture28': Loading 1 faces(PF_L8,100x100x1) Internal format is PF_L8,100x100x1.
+01:57:01: Texture 'MapTexture29': Loading 1 faces(PF_L8,100x100x1) Internal format is PF_L8,100x100x1.
+01:57:02: Texture 'MapTexture30': Loading 1 faces(PF_L8,100x100x1) Internal format is PF_L8,100x100x1.
+01:57:03: Texture 'MapTexture31': Loading 1 faces(PF_L8,100x100x1) Internal format is PF_L8,100x100x1.
+01:57:04: Texture 'MapTexture32': Loading 1 faces(PF_L8,100x100x1) Internal format is PF_L8,100x100x1.
+01:57:05: Texture 'MapTexture33': Loading 1 faces(PF_L8,100x100x1) Internal format is PF_L8,100x100x1.
+01:57:06: Texture 'MapTexture34': Loading 1 faces(PF_L8,100x100x1) Internal format is PF_L8,100x100x1.
+01:57:07: Texture 'MapTexture35': Loading 1 faces(PF_L8,100x100x1) Internal format is PF_L8,100x100x1.
+01:57:08: Texture 'MapTexture36': Loading 1 faces(PF_L8,100x100x1) Internal format is PF_L8,100x100x1.
+01:57:09: Texture 'MapTexture37': Loading 1 faces(PF_L8,100x100x1) Internal format is PF_L8,100x100x1.
+01:57:10: Texture 'MapTexture38': Loading 1 faces(PF_L8,100x100x1) Internal format is PF_L8,100x100x1.
+01:57:11: Texture 'MapTexture39': Loading 1 faces(PF_L8,100x100x1) Internal format is PF_L8,100x100x1.
+01:57:12: Texture 'MapTexture40': Loading 1 faces(PF_L8,100x100x1) Internal format is PF_L8,100x100x1.
+01:57:13: Texture 'MapTexture41': Loading 1 faces(PF_L8,100x100x1) Internal format is PF_L8,100x100x1.
+01:57:14: Texture 'MapTexture42': Loading 1 faces(PF_L8,100x100x1) Internal format is PF_L8,100x100x1.
+01:57:15: Texture 'MapTexture43': Loading 1 faces(PF_L8,100x100x1) Internal format is PF_L8,100x100x1.
+01:57:16: Texture 'MapTexture44': Loading 1 faces(PF_L8,100x100x1) Internal format is PF_L8,100x100x1.
+01:57:17: Texture 'MapTexture45': Loading 1 faces(PF_L8,100x100x1) Internal format is PF_L8,100x100x1.
+01:57:18: Texture 'MapTexture46': Loading 1 faces(PF_L8,100x100x1) Internal format is PF_L8,100x100x1.
+01:57:19: Texture 'MapTexture47': Loading 1 faces(PF_L8,100x100x1) Internal format is PF_L8,100x100x1.
+01:57:20: Texture 'MapTexture48': Loading 1 faces(PF_L8,100x100x1) Internal format is PF_L8,100x100x1.
+01:57:21: Texture 'MapTexture49': Loading 1 faces(PF_L8,100x100x1) Internal format is PF_L8,100x100x1.
+01:57:22: Texture 'MapTexture50': Loading 1 faces(PF_L8,100x100x1) Internal format is PF_L8,100x100x1.
+01:57:23: Texture 'MapTexture51': Loading 1 faces(PF_L8,100x100x1) Internal format is PF_L8,100x100x1.
+01:57:24: Texture 'MapTexture52': Loading 1 faces(PF_L8,100x100x1) Internal format is PF_L8,100x100x1.
+01:57:25: Texture 'MapTexture53': Loading 1 faces(PF_L8,100x100x1) Internal format is PF_L8,100x100x1.
+01:57:26: Texture 'MapTexture54': Loading 1 faces(PF_L8,100x100x1) Internal format is PF_L8,100x100x1.
+01:57:27: Texture 'MapTexture55': Loading 1 faces(PF_L8,100x100x1) Internal format is PF_L8,100x100x1.
+01:57:28: Texture 'MapTexture56': Loading 1 faces(PF_L8,100x100x1) Internal format is PF_L8,100x100x1.
+01:57:29: Texture 'MapTexture57': Loading 1 faces(PF_L8,100x100x1) Internal format is PF_L8,100x100x1.
+01:57:30: Texture 'MapTexture58': Loading 1 faces(PF_L8,100x100x1) Internal format is PF_L8,100x100x1.
+01:57:31: Texture 'MapTexture59': Loading 1 faces(PF_L8,100x100x1) Internal format is PF_L8,100x100x1.
+01:57:32: Texture 'MapTexture60': Loading 1 faces(PF_L8,100x100x1) Internal format is PF_L8,100x100x1.
+01:57:33: Texture 'MapTexture61': Loading 1 faces(PF_L8,100x100x1) Internal format is PF_L8,100x100x1.
+01:57:34: Texture 'MapTexture62': Loading 1 faces(PF_L8,100x100x1) Internal format is PF_L8,100x100x1.
+01:57:35: Texture 'MapTexture63': Loading 1 faces(PF_L8,100x100x1) Internal format is PF_L8,100x100x1.
+01:57:36: Texture 'MapTexture64': Loading 1 faces(PF_L8,100x100x1) Internal format is PF_L8,100x100x1.
+01:57:37: Texture 'MapTexture65': Loading 1 faces(PF_L8,100x100x1) Internal format is PF_L8,100x100x1.
+01:57:38: Texture 'MapTexture66': Loading 1 faces(PF_L8,100x100x1) Internal format is PF_L8,100x100x1.
+01:57:39: Texture 'MapTexture67': Loading 1 faces(PF_L8,100x100x1) Internal format is PF_L8,100x100x1.
+01:57:40: Texture 'MapTexture68': Loading 1 faces(PF_L8,100x100x1) Internal format is PF_L8,100x100x1.
+01:57:41: Texture 'MapTexture69': Loading 1 faces(PF_L8,100x100x1) Internal format is PF_L8,100x100x1.
+01:57:42: Texture 'MapTexture70': Loading 1 faces(PF_L8,100x100x1) Internal format is PF_L8,100x100x1.
+01:57:43: Texture 'MapTexture71': Loading 1 faces(PF_L8,100x100x1) Internal format is PF_L8,100x100x1.
+01:57:44: Texture 'MapTexture72': Loading 1 faces(PF_L8,100x100x1) Internal format is PF_L8,100x100x1.
+01:57:45: Texture 'MapTexture73': Loading 1 faces(PF_L8,100x100x1) Internal format is PF_L8,100x100x1.
+01:57:46: Texture 'MapTexture74': Loading 1 faces(PF_L8,100x100x1) Internal format is PF_L8,100x100x1.
+01:57:47: Texture 'MapTexture75': Loading 1 faces(PF_L8,100x100x1) Internal format is PF_L8,100x100x1.
+01:57:48: Texture 'MapTexture76': Loading 1 faces(PF_L8,100x100x1) Internal format is PF_L8,100x100x1.
+01:57:49: Texture 'MapTexture77': Loading 1 faces(PF_L8,100x100x1) Internal format is PF_L8,100x100x1.
+01:57:50: Texture 'MapTexture78': Loading 1 faces(PF_L8,100x100x1) Internal format is PF_L8,100x100x1.
+01:57:51: Texture 'MapTexture79': Loading 1 faces(PF_L8,100x100x1) Internal format is PF_L8,100x100x1.
+01:57:52: Texture 'MapTexture80': Loading 1 faces(PF_L8,100x100x1) Internal format is PF_L8,100x100x1.
+01:57:53: Texture 'MapTexture81': Loading 1 faces(PF_L8,100x100x1) Internal format is PF_L8,100x100x1.
+01:57:54: Texture 'MapTexture82': Loading 1 faces(PF_L8,100x100x1) Internal format is PF_L8,100x100x1.
+01:57:55: Texture 'MapTexture83': Loading 1 faces(PF_L8,100x100x1) Internal format is PF_L8,100x100x1.
+01:57:56: Texture 'MapTexture84': Loading 1 faces(PF_L8,100x100x1) Internal format is PF_L8,100x100x1.
+01:57:57: Texture 'MapTexture85': Loading 1 faces(PF_L8,100x100x1) Internal format is PF_L8,100x100x1.
+01:57:58: Texture 'MapTexture86': Loading 1 faces(PF_L8,100x100x1) Internal format is PF_L8,100x100x1.
+01:57:59: Texture 'MapTexture87': Loading 1 faces(PF_L8,100x100x1) Internal format is PF_L8,100x100x1.
+01:58:00: Texture 'MapTexture88': Loading 1 faces(PF_L8,100x100x1) Internal format is PF_L8,100x100x1.
+01:58:01: Texture 'MapTexture89': Loading 1 faces(PF_L8,100x100x1) Internal format is PF_L8,100x100x1.
+01:58:02: Texture 'MapTexture90': Loading 1 faces(PF_L8,100x100x1) Internal format is PF_L8,100x100x1.
+01:58:03: Texture 'MapTexture91': Loading 1 faces(PF_L8,100x100x1) Internal format is PF_L8,100x100x1.
+01:58:04: Texture 'MapTexture92': Loading 1 faces(PF_L8,100x100x1) Internal format is PF_L8,100x100x1.
+01:58:05: Texture 'MapTexture93': Loading 1 faces(PF_L8,100x100x1) Internal format is PF_L8,100x100x1.
+01:58:06: Texture 'MapTexture94': Loading 1 faces(PF_L8,100x100x1) Internal format is PF_L8,100x100x1.
+01:58:07: Texture 'MapTexture95': Loading 1 faces(PF_L8,100x100x1) Internal format is PF_L8,100x100x1.
+01:58:08: Texture 'MapTexture96': Loading 1 faces(PF_L8,100x100x1) Internal format is PF_L8,100x100x1.
+01:58:09: Texture 'MapTexture97': Loading 1 faces(PF_L8,100x100x1) Internal format is PF_L8,100x100x1.
+01:58:10: Texture 'MapTexture98': Loading 1 faces(PF_L8,100x100x1) Internal format is PF_L8,100x100x1.
+01:58:11: Texture 'MapTexture99': Loading 1 faces(PF_L8,100x100x1) Internal format is PF_L8,100x100x1.
+01:58:12: Texture 'MapTexture100': Loading 1 faces(PF_L8,100x100x1) Internal format is PF_L8,100x100x1.
+01:58:13: Texture 'MapTexture101': Loading 1 faces(PF_L8,100x100x1) Internal format is PF_L8,100x100x1.
+01:58:14: Texture 'MapTexture102': Loading 1 faces(PF_L8,100x100x1) Internal format is PF_L8,100x100x1.
+01:58:15: Texture 'MapTexture103': Loading 1 faces(PF_L8,100x100x1) Internal format is PF_L8,100x100x1.
+01:58:16: Texture 'MapTexture104': Loading 1 faces(PF_L8,100x100x1) Internal format is PF_L8,100x100x1.
+01:58:17: Texture 'MapTexture105': Loading 1 faces(PF_L8,100x100x1) Internal format is PF_L8,100x100x1.
+01:58:18: Texture 'MapTexture106': Loading 1 faces(PF_L8,100x100x1) Internal format is PF_L8,100x100x1.
+01:58:19: Texture 'MapTexture107': Loading 1 faces(PF_L8,100x100x1) Internal format is PF_L8,100x100x1.
+01:58:20: Texture 'MapTexture108': Loading 1 faces(PF_L8,100x100x1) Internal format is PF_L8,100x100x1.
+01:58:21: Texture 'MapTexture109': Loading 1 faces(PF_L8,100x100x1) Internal format is PF_L8,100x100x1.
+01:58:22: Texture 'MapTexture110': Loading 1 faces(PF_L8,100x100x1) Internal format is PF_L8,100x100x1.
+01:58:23: Texture 'MapTexture111': Loading 1 faces(PF_L8,100x100x1) Internal format is PF_L8,100x100x1.
+01:58:24: Texture 'MapTexture112': Loading 1 faces(PF_L8,100x100x1) Internal format is PF_L8,100x100x1.
+01:58:25: Texture 'MapTexture113': Loading 1 faces(PF_L8,100x100x1) Internal format is PF_L8,100x100x1.
+01:58:26: Texture 'MapTexture114': Loading 1 faces(PF_L8,100x100x1) Internal format is PF_L8,100x100x1.
+01:58:27: Texture 'MapTexture115': Loading 1 faces(PF_L8,100x100x1) Internal format is PF_L8,100x100x1.
+01:58:28: Texture 'MapTexture116': Loading 1 faces(PF_L8,100x100x1) Internal format is PF_L8,100x100x1.
+01:58:29: Texture 'MapTexture117': Loading 1 faces(PF_L8,100x100x1) Internal format is PF_L8,100x100x1.
+01:58:30: Texture 'MapTexture118': Loading 1 faces(PF_L8,100x100x1) Internal format is PF_L8,100x100x1.
+01:58:31: Texture 'MapTexture119': Loading 1 faces(PF_L8,100x100x1) Internal format is PF_L8,100x100x1.
+01:58:32: Texture 'MapTexture120': Loading 1 faces(PF_L8,100x100x1) Internal format is PF_L8,100x100x1.
+01:58:33: Texture 'MapTexture121': Loading 1 faces(PF_L8,100x100x1) Internal format is PF_L8,100x100x1.
+01:58:34: Texture 'MapTexture122': Loading 1 faces(PF_L8,100x100x1) Internal format is PF_L8,100x100x1.
+01:58:35: Texture 'MapTexture123': Loading 1 faces(PF_L8,100x100x1) Internal format is PF_L8,100x100x1.
+01:58:36: Texture 'MapTexture124': Loading 1 faces(PF_L8,100x100x1) Internal format is PF_L8,100x100x1.
+01:58:37: Texture 'MapTexture125': Loading 1 faces(PF_L8,100x100x1) Internal format is PF_L8,100x100x1.
+01:58:38: Texture 'MapTexture126': Loading 1 faces(PF_L8,100x100x1) Internal format is PF_L8,100x100x1.
+01:58:39: Texture 'MapTexture127': Loading 1 faces(PF_L8,100x100x1) Internal format is PF_L8,100x100x1.
+01:58:40: Texture 'MapTexture128': Loading 1 faces(PF_L8,100x100x1) Internal format is PF_L8,100x100x1.
+01:58:41: Texture 'MapTexture129': Loading 1 faces(PF_L8,100x100x1) Internal format is PF_L8,100x100x1.
+01:58:42: Texture 'MapTexture130': Loading 1 faces(PF_L8,100x100x1) Internal format is PF_L8,100x100x1.
+01:58:43: Texture 'MapTexture131': Loading 1 faces(PF_L8,100x100x1) Internal format is PF_L8,100x100x1.
+01:58:44: Texture 'MapTexture132': Loading 1 faces(PF_L8,100x100x1) Internal format is PF_L8,100x100x1.
+01:58:45: Texture 'MapTexture133': Loading 1 faces(PF_L8,100x100x1) Internal format is PF_L8,100x100x1.
+01:58:46: Texture 'MapTexture134': Loading 1 faces(PF_L8,100x100x1) Internal format is PF_L8,100x100x1.
+01:58:47: Texture 'MapTexture135': Loading 1 faces(PF_L8,100x100x1) Internal format is PF_L8,100x100x1.
+01:58:48: Texture 'MapTexture136': Loading 1 faces(PF_L8,100x100x1) Internal format is PF_L8,100x100x1.
+01:58:49: Texture 'MapTexture137': Loading 1 faces(PF_L8,100x100x1) Internal format is PF_L8,100x100x1.
+01:58:50: Texture 'MapTexture138': Loading 1 faces(PF_L8,100x100x1) Internal format is PF_L8,100x100x1.
+01:58:51: Texture 'MapTexture139': Loading 1 faces(PF_L8,100x100x1) Internal format is PF_L8,100x100x1.
+01:58:52: Texture 'MapTexture140': Loading 1 faces(PF_L8,100x100x1) Internal format is PF_L8,100x100x1.
+01:58:53: Texture 'MapTexture141': Loading 1 faces(PF_L8,100x100x1) Internal format is PF_L8,100x100x1.
+01:58:54: Texture 'MapTexture142': Loading 1 faces(PF_L8,100x100x1) Internal format is PF_L8,100x100x1.
+01:58:55: Texture 'MapTexture143': Loading 1 faces(PF_L8,100x100x1) Internal format is PF_L8,100x100x1.
+01:58:56: Texture 'MapTexture144': Loading 1 faces(PF_L8,100x100x1) Internal format is PF_L8,100x100x1.
+01:58:57: Texture 'MapTexture145': Loading 1 faces(PF_L8,100x100x1) Internal format is PF_L8,100x100x1.
+01:58:58: Texture 'MapTexture146': Loading 1 faces(PF_L8,100x100x1) Internal format is PF_L8,100x100x1.
+01:58:59: Texture 'MapTexture147': Loading 1 faces(PF_L8,100x100x1) Internal format is PF_L8,100x100x1.
+01:59:00: Texture 'MapTexture148': Loading 1 faces(PF_L8,100x100x1) Internal format is PF_L8,100x100x1.
+01:59:01: Texture 'MapTexture149': Loading 1 faces(PF_L8,100x100x1) Internal format is PF_L8,100x100x1.
+01:59:02: Texture 'MapTexture150': Loading 1 faces(PF_L8,100x100x1) Internal format is PF_L8,100x100x1.
+01:59:03: Texture 'MapTexture151': Loading 1 faces(PF_L8,100x100x1) Internal format is PF_L8,100x100x1.
+01:59:04: Texture 'MapTexture152': Loading 1 faces(PF_L8,100x100x1) Internal format is PF_L8,100x100x1.
+01:59:05: Texture 'MapTexture153': Loading 1 faces(PF_L8,100x100x1) Internal format is PF_L8,100x100x1.
+01:59:06: Texture 'MapTexture154': Loading 1 faces(PF_L8,100x100x1) Internal format is PF_L8,100x100x1.
+01:59:07: Texture 'MapTexture155': Loading 1 faces(PF_L8,100x100x1) Internal format is PF_L8,100x100x1.
+01:59:08: Texture 'MapTexture156': Loading 1 faces(PF_L8,100x100x1) Internal format is PF_L8,100x100x1.
+01:59:09: Texture 'MapTexture157': Loading 1 faces(PF_L8,100x100x1) Internal format is PF_L8,100x100x1.
+01:59:10: Texture 'MapTexture158': Loading 1 faces(PF_L8,100x100x1) Internal format is PF_L8,100x100x1.
+01:59:11: Texture 'MapTexture159': Loading 1 faces(PF_L8,100x100x1) Internal format is PF_L8,100x100x1.
+01:59:12: Texture 'MapTexture160': Loading 1 faces(PF_L8,100x100x1) Internal format is PF_L8,100x100x1.
+01:59:13: Texture 'MapTexture161': Loading 1 faces(PF_L8,100x100x1) Internal format is PF_L8,100x100x1.
+01:59:14: Texture 'MapTexture162': Loading 1 faces(PF_L8,100x100x1) Internal format is PF_L8,100x100x1.
+01:59:15: Texture 'MapTexture163': Loading 1 faces(PF_L8,100x100x1) Internal format is PF_L8,100x100x1.
+01:59:16: Texture 'MapTexture164': Loading 1 faces(PF_L8,100x100x1) Internal format is PF_L8,100x100x1.
+01:59:17: Texture 'MapTexture165': Loading 1 faces(PF_L8,100x100x1) Internal format is PF_L8,100x100x1.
+01:59:18: Texture 'MapTexture166': Loading 1 faces(PF_L8,100x100x1) Internal format is PF_L8,100x100x1.
+01:59:19: Texture 'MapTexture167': Loading 1 faces(PF_L8,100x100x1) Internal format is PF_L8,100x100x1.
+01:59:20: Texture 'MapTexture168': Loading 1 faces(PF_L8,100x100x1) Internal format is PF_L8,100x100x1.
+01:59:21: Texture 'MapTexture169': Loading 1 faces(PF_L8,100x100x1) Internal format is PF_L8,100x100x1.
+01:59:22: Texture 'MapTexture170': Loading 1 faces(PF_L8,100x100x1) Internal format is PF_L8,100x100x1.
+01:59:23: Texture 'MapTexture171': Loading 1 faces(PF_L8,100x100x1) Internal format is PF_L8,100x100x1.
+01:59:24: Texture 'MapTexture172': Loading 1 faces(PF_L8,100x100x1) Internal format is PF_L8,100x100x1.
+01:59:25: Texture 'MapTexture173': Loading 1 faces(PF_L8,100x100x1) Internal format is PF_L8,100x100x1.
+01:59:26: Texture 'MapTexture174': Loading 1 faces(PF_L8,100x100x1) Internal format is PF_L8,100x100x1.
+01:59:27: Texture 'MapTexture175': Loading 1 faces(PF_L8,100x100x1) Internal format is PF_L8,100x100x1.
+01:59:28: Texture 'MapTexture176': Loading 1 faces(PF_L8,100x100x1) Internal format is PF_L8,100x100x1.
+01:59:29: Texture 'MapTexture177': Loading 1 faces(PF_L8,100x100x1) Internal format is PF_L8,100x100x1.
+01:59:30: Texture 'MapTexture178': Loading 1 faces(PF_L8,100x100x1) Internal format is PF_L8,100x100x1.
+01:59:31: Texture 'MapTexture179': Loading 1 faces(PF_L8,100x100x1) Internal format is PF_L8,100x100x1.
+01:59:32: Texture 'MapTexture180': Loading 1 faces(PF_L8,100x100x1) Internal format is PF_L8,100x100x1.
+01:59:33: Texture 'MapTexture181': Loading 1 faces(PF_L8,100x100x1) Internal format is PF_L8,100x100x1.
+01:59:34: Texture 'MapTexture182': Loading 1 faces(PF_L8,100x100x1) Internal format is PF_L8,100x100x1.
+01:59:35: Texture 'MapTexture183': Loading 1 faces(PF_L8,100x100x1) Internal format is PF_L8,100x100x1.
+01:59:36: Texture 'MapTexture184': Loading 1 faces(PF_L8,100x100x1) Internal format is PF_L8,100x100x1.
+01:59:37: Texture 'MapTexture185': Loading 1 faces(PF_L8,100x100x1) Internal format is PF_L8,100x100x1.
+01:59:38: Texture 'MapTexture186': Loading 1 faces(PF_L8,100x100x1) Internal format is PF_L8,100x100x1.
+01:59:39: Texture 'MapTexture187': Loading 1 faces(PF_L8,100x100x1) Internal format is PF_L8,100x100x1.
+01:59:40: Texture 'MapTexture188': Loading 1 faces(PF_L8,100x100x1) Internal format is PF_L8,100x100x1.
+01:59:41: Texture 'MapTexture189': Loading 1 faces(PF_L8,100x100x1) Internal format is PF_L8,100x100x1.
+01:59:42: Texture 'MapTexture190': Loading 1 faces(PF_L8,100x100x1) Internal format is PF_L8,100x100x1.
+01:59:43: Texture 'MapTexture191': Loading 1 faces(PF_L8,100x100x1) Internal format is PF_L8,100x100x1.
+01:59:44: Texture 'MapTexture192': Loading 1 faces(PF_L8,100x100x1) Internal format is PF_L8,100x100x1.
+01:59:45: Texture 'MapTexture193': Loading 1 faces(PF_L8,100x100x1) Internal format is PF_L8,100x100x1.
+01:59:46: Texture 'MapTexture194': Loading 1 faces(PF_L8,100x100x1) Internal format is PF_L8,100x100x1.
+01:59:47: Texture 'MapTexture195': Loading 1 faces(PF_L8,100x100x1) Internal format is PF_L8,100x100x1.
+01:59:48: Texture 'MapTexture196': Loading 1 faces(PF_L8,100x100x1) Internal format is PF_L8,100x100x1.
+01:59:49: Texture 'MapTexture197': Loading 1 faces(PF_L8,100x100x1) Internal format is PF_L8,100x100x1.
+01:59:50: Texture 'MapTexture198': Loading 1 faces(PF_L8,100x100x1) Internal format is PF_L8,100x100x1.
+01:59:51: Texture 'MapTexture199': Loading 1 faces(PF_L8,100x100x1) Internal format is PF_L8,100x100x1.
+01:59:52: Texture 'MapTexture200': Loading 1 faces(PF_L8,100x100x1) Internal format is PF_L8,100x100x1.
+01:59:53: Texture 'MapTexture201': Loading 1 faces(PF_L8,100x100x1) Internal format is PF_L8,100x100x1.
+01:59:54: Texture 'MapTexture202': Loading 1 faces(PF_L8,100x100x1) Internal format is PF_L8,100x100x1.
+01:59:55: Texture 'MapTexture203': Loading 1 faces(PF_L8,100x100x1) Internal format is PF_L8,100x100x1.
+01:59:56: Texture 'MapTexture204': Loading 1 faces(PF_L8,100x100x1) Internal format is PF_L8,100x100x1.
+01:59:57: Texture 'MapTexture205': Loading 1 faces(PF_L8,100x100x1) Internal format is PF_L8,100x100x1.
+01:59:58: Texture 'MapTexture206': Loading 1 faces(PF_L8,100x100x1) Internal format is PF_L8,100x100x1.
+01:59:59: Texture 'MapTexture207': Loading 1 faces(PF_L8,100x100x1) Internal format is PF_L8,100x100x1.
+02:00:00: Texture 'MapTexture208': Loading 1 faces(PF_L8,100x100x1) Internal format is PF_L8,100x100x1.
+02:00:01: Texture 'MapTexture209': Loading 1 faces(PF_L8,100x100x1) Internal format is PF_L8,100x100x1.
+02:00:02: Texture 'MapTexture210': Loading 1 faces(PF_L8,100x100x1) Internal format is PF_L8,100x100x1.
+02:00:03: Texture 'MapTexture211': Loading 1 faces(PF_L8,100x100x1) Internal format is PF_L8,100x100x1.
+02:00:04: Texture 'MapTexture212': Loading 1 faces(PF_L8,100x100x1) Internal format is PF_L8,100x100x1.
+02:00:05: Texture 'MapTexture213': Loading 1 faces(PF_L8,100x100x1) Internal format is PF_L8,100x100x1.
+02:00:06: Texture 'MapTexture214': Loading 1 faces(PF_L8,100x100x1) Internal format is PF_L8,100x100x1.

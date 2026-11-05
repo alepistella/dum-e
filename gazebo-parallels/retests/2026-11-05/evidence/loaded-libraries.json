@@ -1,0 +1,24 @@
+{
+  "rviz-profile": {
+    "cmdline": "/opt/ros/jazzy/lib/rviz2/rviz2.distrib -l -t RViz RESTORED Mesa24 -d /tmp/parallels-2710-retest/map.rviz --ros-args -p use_sim_time:=false ",
+    "graphics_libraries": [
+      "/usr/local/lib/gazebo-virgl-defaults/runtime-v2/mesa/dri/virtio_gpu_dri.so",
+      "/usr/local/lib/gazebo-virgl-defaults/runtime-v2/mesa/libGLX_mesa.so.0.0.0",
+      "/usr/local/lib/gazebo-virgl-defaults/runtime-v2/mesa/libLLVM-17.so.1",
+      "/usr/local/lib/gazebo-virgl-defaults/runtime-v2/mesa/libglapi.so.0.0.0",
+      "/usr/local/lib/gazebo-virgl-defaults/runtime-v2/mesa/libxcb-dri2.so.0.0.0"
+    ]
+  },
+  "gazebo-profile": {
+    "cmdline": "gz sim gui                                                                                                                                                                                                                                                                            ",
+    "graphics_libraries": [
+      "/usr/local/lib/gazebo-virgl-defaults/runtime-v2/engine/libgz-rendering8-ogre.so",
+      "/usr/local/lib/gazebo-virgl-defaults/runtime-v2/libgazebo_virgl_defaults.so",
+      "/usr/local/lib/gazebo-virgl-defaults/runtime-v2/mesa/dri/virtio_gpu_dri.so",
+      "/usr/local/lib/gazebo-virgl-defaults/runtime-v2/mesa/libGLX_mesa.so.0.0.0",
+      "/usr/local/lib/gazebo-virgl-defaults/runtime-v2/mesa/libLLVM-17.so.1",
+      "/usr/local/lib/gazebo-virgl-defaults/runtime-v2/mesa/libglapi.so.0.0.0",
+      "/usr/local/lib/gazebo-virgl-defaults/runtime-v2/mesa/libxcb-dri2.so.0.0.0"
+    ]
+  }
+}

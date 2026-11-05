@@ -1,0 +1,98 @@
+{
+  "/opt/ros/jazzy/opt/gz_tools_vendor/bin/gz": {
+    "sha256": "34ae70c48c73480ee70e3e9eef9f93bd3a5803ee3f3fecc47db6f39af38d50fd",
+    "mode": "0o755",
+    "symlink": null
+  },
+  "/opt/ros/jazzy/opt/gz_tools_vendor/bin/gz.vendor": {
+    "sha256": "81c41b1d1b7789efd7dfe623481ddffc684fc9a9b78c387c40e6512cb8842524",
+    "mode": "0o755",
+    "symlink": null
+  },
+  "/opt/ros/jazzy/lib/ros_gz_sim/gzserver": {
+    "sha256": "b82db7d0caf5d3db6b9b544bf262fc9748b81de35ffaf85dc412de8018aae8f5",
+    "mode": "0o755",
+    "symlink": null
+  },
+  "/opt/ros/jazzy/lib/ros_gz_sim/gzserver.vendor": {
+    "sha256": "64d9ae11b7467694cfafca9b81deb37a56808c46bcc512adf6c3123f143074ba",
+    "mode": "0o755",
+    "symlink": null
+  },
+  "/opt/ros/jazzy/bin/rviz2": {
+    "sha256": "82a2dd230fbfe76963792e86f79760e031e79ae225dd50012fb2f54a40479b4e",
+    "mode": "0o755",
+    "symlink": null
+  },
+  "/opt/ros/jazzy/bin/rviz2.distrib": {
+    "sha256": "8c1b6d120d0bb89d546350d8ed031b2c3df7d15b4f4f8373f7a67310a0e74261",
+    "mode": "0o755",
+    "symlink": null
+  },
+  "/opt/ros/jazzy/lib/rviz2/rviz2": {
+    "sha256": "82a2dd230fbfe76963792e86f79760e031e79ae225dd50012fb2f54a40479b4e",
+    "mode": "0o755",
+    "symlink": null
+  },
+  "/opt/ros/jazzy/lib/rviz2/rviz2.distrib": {
+    "sha256": "8c1b6d120d0bb89d546350d8ed031b2c3df7d15b4f4f8373f7a67310a0e74261",
+    "mode": "0o755",
+    "symlink": null
+  },
+  "/usr/local/share/gazebo-virgl-defaults/manifest.json": {
+    "sha256": "a0e307cfe9ff6ed213ff4a31ce2099ae442c9ee1089c9bca3bc68c1e6bed3812",
+    "mode": "0o644",
+    "symlink": null
+  },
+  "/usr/local/lib/rviz-virgl-defaults/manifest.json": {
+    "sha256": "9511f14d2c74a198bb00dbfe353bc59bbe8221b3911b46847c17d346e8f22fbc",
+    "mode": "0o644",
+    "symlink": null
+  },
+  "/usr/local/lib/rviz-virgl-defaults/manage.py": {
+    "sha256": "5ebc7db71866cc92bec77ed7886bfc1eb8a2664e309fa1cd731b4a59ac9b9bd8",
+    "mode": "0o755",
+    "symlink": null
+  },
+  "/usr/local/lib/gazebo-virgl-defaults/profile.rb": {
+    "sha256": "13c44b3f606e631a53ba0638466617ecc33de1ec1ff3be30a90b544699e82792",
+    "mode": "0o644",
+    "symlink": null
+  },
+  "/usr/local/lib/gazebo-virgl-defaults/runtime-v2/profile.rb": {
+    "sha256": "b9818c7ba383b5cdf8c30a051e9fe1b45bfc4828a0518e2e040eb0d7c08d2224",
+    "mode": "0o644",
+    "symlink": null
+  },
+  "/usr/local/lib/gazebo-virgl-defaults/runtime-v2/libgazebo_virgl_defaults.so": {
+    "sha256": "5331ecb95e0e4737f84feda5858bac1186dcb99344cbc2a8b9a9574f2ab1b06b",
+    "mode": "0o644",
+    "symlink": null
+  },
+  "/usr/local/lib/gazebo-virgl-defaults/runtime-v2/engine/libgz-rendering-ogre.so": {
+    "sha256": "28ac282c0bcea4de65d73ce4eddb2357d670bc7c1e332570c888f50556f7a546",
+    "mode": "0o644",
+    "symlink": "libgz-rendering8-ogre.so"
+  },
+  "/usr/local/lib/gazebo-virgl-defaults/runtime-v2/mesa/libGLX_mesa.so.0": {
+    "sha256": "9828f9a41457439055768f84b3598f2fc458bb7765da1dbf84569aaa2a441e9f",
+    "mode": "0o644",
+    "symlink": "libGLX_mesa.so.0.0.0"
+  },
+  "/usr/local/lib/gazebo-virgl-defaults/runtime-v2/mesa/dri/virtio_gpu_dri.so": {
+    "sha256": "b854f45f32e53468b2bb1631771de22a701c07c644d80dcd8209ed478838270d",
+    "mode": "0o644",
+    "symlink": null
+  },
+  "/home/ap/.gz/sim/8/gui.config": {
+    "sha256": "c7419efd8eef30729a55328739737e64ae929abab8fef56ccc405ebfb38faca1",
+    "mode": "0o644",
+    "symlink": null
+  },
+  "/home/ap/.gz/sim/8/server.config": {
+    "sha256": "8f9d47c63a7c062636a51a31ca7a914212ecca1ac2de314a24bb385b722b4fe0",
+    "mode": "0o644",
+    "symlink": null
+  },
+  "dpkg_divert": "diversion of /usr/share/dict/words to /usr/share/dict/words.pre-dictionaries-common by dictionaries-common\nlocal diversion of /opt/ros/jazzy/lib/ros_gz_sim/gzserver to /opt/ros/jazzy/lib/ros_gz_sim/gzserver.vendor\ndiversion of /lib/aarch64-linux-gnu/libhistory.so.8 to /lib/aarch64-linux-gnu/libhistory.so.8.usr-is-merged by libreadline8t64\ndiversion of /lib/aarch64-linux-gnu/libext2fs.so.2 to /lib/aarch64-linux-gnu/libext2fs.so.2.usr-is-merged by libext2fs2t64\ndiversion of /lib to /lib.usr-is-merged by base-files\ndiversion of /lib/aarch64-linux-gnu/libreadline.so.8 to /lib/aarch64-linux-gnu/libreadline.so.8.usr-is-merged by libreadline8t64\ndiversion of /sbin to /sbin.usr-is-merged by base-files\ndiversion of /lib/aarch64-linux-gnu/libe2p.so.2.3 to /lib/aarch64-linux-gnu/libe2p.so.2.3.usr-is-merged by libext2fs2t64\nlocal diversion of /opt/ros/jazzy/bin/rviz2 to /opt/ros/jazzy/bin/rviz2.distrib\ndiversion of /lib/aarch64-linux-gnu/libe2p.so.2 to /lib/aarch64-linux-gnu/libe2p.so.2.usr-is-merged by libext2fs2t64\ndiversion of /lib/aarch64-linux-gnu/libtirpc.so.3.0.0 to /lib/aarch64-linux-gnu/libtirpc.so.3.0.0.usr-is-merged by libtirpc3t64\ndiversion of /lib/aarch64-linux-gnu/libreadline.so.8.2 to /lib/aarch64-linux-gnu/libreadline.so.8.2.usr-is-merged by libreadline8t64\ndiversion of /lib64 to /lib64.usr-is-merged by base-files\ndiversion of /lib/aarch64-linux-gnu/libhistory.so.8.2 to /lib/aarch64-linux-gnu/libhistory.so.8.2.usr-is-merged by libreadline8t64\ndiversion of /lib/aarch64-linux-gnu/libext2fs.so.2.4 to /lib/aarch64-linux-gnu/libext2fs.so.2.4.usr-is-merged by libext2fs2t64\ndiversion of /lib/ld-linux-aarch64.so.1 to /lib/ld-linux-aarch64.so.1.usr-is-merged by libc6\ndiversion of /lib/aarch64-linux-gnu/libtirpc.so.3 to /lib/aarch64-linux-gnu/libtirpc.so.3.usr-is-merged by libtirpc3t64\ndiversion of /bin to /bin.usr-is-merged by base-files\ndiversion of /lib32 to /lib32.usr-is-merged by base-files\nlocal diversion of /opt/ros/jazzy/lib/rviz2/rviz2 to /opt/ros/jazzy/lib/rviz2/rviz2.distrib\ndiversion of /libo32 to /libo32.usr-is-merged by base-files\nlocal diversion of /opt/ros/jazzy/opt/gz_tools_vendor/bin/gz to /opt/ros/jazzy/opt/gz_tools_vendor/bin/gz.vendor\n"
+}

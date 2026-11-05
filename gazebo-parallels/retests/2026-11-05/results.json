@@ -1,0 +1,48 @@
+{
+  "date": "2026-11-05",
+  "timezone": "Europe/Rome",
+  "parallels_desktop": "27.1.0 (58756)",
+  "parallels_tools": "27.1.0.58756",
+  "system_mesa": "25.2.8",
+  "private_mesa": "24.0.5",
+  "host_gpu": "Apple M5 Max",
+  "scope": "Existing VM after host/Tools update. Test standard effective runtime, then verify previous profiles. No fresh VM or package installation.",
+  "stock_tests": {
+    "gazebo": {
+      "world": "shapes.sdf",
+      "engine": "ogre2",
+      "gui_config": "copied from packaged default, not saved user configuration",
+      "profile_enabled": false,
+      "result": "GUI aborts during fragment shader compilation",
+      "error": "no matching function for call to texelFetch(usampler2D, int)",
+      "exception": "Ogre::RenderingAPIException: Fragment Program 100000001PixelShader_ps failed to compile"
+    },
+    "rviz": {
+      "executable": "original packaged rviz2.distrib",
+      "mesa": "system 25.2.8 / VirGL",
+      "fixture": "100x100 synthetic occupancy grid with two obstacles; separate ROS domain 86; simulation time disabled",
+      "result": "black or empty viewport",
+      "confirmation": "VM operator"
+    }
+  },
+  "restored_profile_checks": {
+    "gazebo": {
+      "engine": "existing private OGRE1 component",
+      "mesa": "private 24.0.5",
+      "result": "3D shapes visible",
+      "confirmation": "VM operator"
+    },
+    "rviz": {
+      "mesa": "private 24.0.5",
+      "renderer": "virgl (Apple M5 Max (Compat))",
+      "result": "map visible",
+      "confirmation": "VM operator"
+    },
+    "configuration_hashes": "All selected installed wrappers, vendor executables, manifests, runtime components and saved GUI/server configs match before.json.",
+    "dpkg_diversions": "Identical before and after",
+    "test_processes": "Stopped after verification",
+    "packages_installed": false
+  },
+  "decision": "Keep both previous profiles enabled. The tested update does not make either application work with the standard runtime on this VM.",
+  "release_notes": "https://kb.parallels.com/en/131168"
+}
