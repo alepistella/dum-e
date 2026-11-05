@@ -8,20 +8,36 @@ default changes one packaged TurtleBot3 configuration, with backup and rollback.
 
 ![Original live map and replay with a narrower loop-closure search](evidence/map-before-after.png)
 
-## Evidence so far
+## Before and after: metres of error reduced to centimetres
 
 Ubuntu 24.04 ARM64, ROS 2 Jazzy, Gazebo Harmonic, TurtleBot3 Waffle and the
 packaged `turtlebot3_house` world. One MacBook Pro M5 Max / Parallels VM.
 The recording contains 5,780 scans over approximately 578 simulated seconds.
+Both columns replay those same sensor measurements and compare the estimated
+robot position with independent Gazebo ground truth.
 
-| Configuration | Final position error | Maximum position error |
+**Final position error: 5.395 metres before → 9.0 centimetres after.**
+
+| Position error against ground truth | Before: original 7 m search | After: selected 1 m search |
 |---|---:|---:|
-| Original configuration, replay | 5.395 m | 5.396 m |
-| Global optimization disabled, diagnostic control | 0.193 m | 0.204 m |
-| Loop-closure translation search: 7 m to 1 m | **0.090 m** | **0.118 m** |
-| Match acceptance score: 0.65 to 0.80 | 0.327 m | 0.345 m |
+| Final | **5.395 m** | **9.0 cm** |
+| Maximum during the route | 5.396 m | 11.8 cm |
+| RMS over the route | 2.189 m | 7.5 cm |
 
-Each variant changes one parameter. Replays run at 3x in isolated ROS domains,
+Only the loop-closure translation search window changes, from 7 m to 1 m.
+Global optimization remains enabled in both columns.
+
+### Diagnostic controls and alternative
+
+These additional trials helped isolate the cause. The deployed profile is
+the 1 m search above.
+
+| Additional trial on the same recording | Final error | Maximum error | RMS error |
+|---|---:|---:|---:|
+| Global optimization disabled, diagnostic control | 19.3 cm | 20.4 cm | 12.5 cm |
+| Match acceptance score raised from 0.65 to 0.80 | 32.7 cm | 34.5 cm | 18.2 cm |
+
+Each trial changes one parameter. Replays run at 3x in isolated ROS domains,
 with recorded `map -> odom` transforms removed. Ground truth comes directly
 from Gazebo model poses, with the initial world pose used as the common frame;
 the trajectories are not fitted to one another. These are live-pose errors,
@@ -38,10 +54,13 @@ The narrower search retains global optimization. It can also reject valid
 loop closures if drift exceeds the search window, so **1 m is not a universal
 recommendation** for other robots or environments.
 
-An independent live route with **7,785 scans** ended with **0.060 m position
-error**, **0.119 m maximum** and **0.064 m RMS**. The original live route ended
-at 5.034 m; these two live routes have different motion. The four replays above
-use identical recorded input. See the full [method, controls, measurements and limitations](MEASUREMENTS.md)
+### Independent live confirmation
+
+A new live route with **7,785 scans** confirmed the selected profile:
+**6.0 cm final position error**, **11.9 cm maximum** and **6.4 cm RMS**.
+The original live route ended at **5.034 m**; these two live routes have
+different motion. The paired before/after table above uses identical recorded
+input. See the full [method, controls, measurements and limitations](MEASUREMENTS.md)
 and [machine-readable results](evidence/results.json).
 
 ![Independent live validation](evidence/validation-live-path.png)
