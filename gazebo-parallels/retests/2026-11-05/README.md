@@ -36,7 +36,7 @@ launches. `session.py` records the environment cleanup and exact arguments.
   Cartographer display configuration, and simulation time disabled.
   `/proc/<pid>/maps` showed the system Mesa 25.2.8 Gallium library.
 - A synthetic 100x100 occupancy grid and static transforms were published in
-  ROS domain 86, independently of the course's simulation and mapping nodes.
+  ROS domain 86, independently of the TurtleBot3 simulation and mapping nodes.
   This ensures that a missing Cartographer publisher cannot explain an empty
   map. The synthetic scene contains a square boundary and two obstacles.
 - The Gazebo test used its own transport partition.

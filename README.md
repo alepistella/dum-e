@@ -1,10 +1,8 @@
 # dum-e
 
 Dum-e is my ROS 2 robot project: embedded motor control, simulation, mapping
-and navigation, built and tested outside working hours.
-
-Weekend robotics, embedded and Edge AI builds, with the measurements.
-Occasionally they even work.
+and navigation, built and tested on evenings and weekends. Weekend robotics,
+embedded and Edge AI, with the measurements. Occasionally it even works.
 
 This repository collects the code, experiments and development notes. Some
 folders cover tools and fixes needed along the way, rather than the robot
