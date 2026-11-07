@@ -1,0 +1,110 @@
+{
+  "date": "2026-11-07",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 106,
+      "sha256": "61d61935e155ecbb18af45c31d54f5f444a124ba12428bd8fff474be41bb70ac"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 114,
+      "sha256": "be6992106fc3b4267af4a5aaa602c135a5b4cb7eb55f9e777af8ec4e93b7fd08"
+    },
+    {
+      "path": "README.md",
+      "bytes": 8022,
+      "sha256": "36945f06cc04489080ecbcb689bb17fac8d8952814c457aa26716b5ec8df26c9"
+    },
+    {
+      "path": "backport/CMakeLists.txt",
+      "bytes": 1714,
+      "sha256": "6d02fcbbc192af7b9025771d3567c080ff011842dcfd17df6b7726e138be0451"
+    },
+    {
+      "path": "backport/ORIGIN.md",
+      "bytes": 988,
+      "sha256": "e7e27dd98898da3bab457b9e772c1bfd63fdf72b5365de65b148b79d1058f484"
+    },
+    {
+      "path": "backport/harmonic-backport.patch",
+      "bytes": 2950,
+      "sha256": "1d11b885a23648ad4afe0cb215ba87cf939481b35a781abfe566d5f19633edf1"
+    },
+    {
+      "path": "backport/upstream-files.sha256",
+      "bytes": 581,
+      "sha256": "7d0d8543f50c4acd78655fd92d9a2fca884ffae8457b49a036f1c2e6648086a3"
+    },
+    {
+      "path": "evidence/component-build.log",
+      "bytes": 678,
+      "sha256": "c73095d9bfbda7f373708fcdc385a524ef6384094ade0b254ac6c3a580644290"
+    },
+    {
+      "path": "evidence/native-configure.log",
+      "bytes": 1170,
+      "sha256": "09f3abd227f96f4bb0bd1ef2e69f3b059e86402cdfc4aa669d7153656ea7a71b"
+    },
+    {
+      "path": "evidence/overlay-binaries.sha256",
+      "bytes": 257,
+      "sha256": "67684c8a48bf20c2d5cb6bd319c73d847a03967d64a528f3f0d37130b58fc37a"
+    },
+    {
+      "path": "evidence/profile-fingerprint.after.txt",
+      "bytes": 793,
+      "sha256": "813db36bb18c21b3f7a508b8a05122a5d62c5d317ad8e85933374522b4e864c7"
+    },
+    {
+      "path": "evidence/profile-fingerprint.before.txt",
+      "bytes": 793,
+      "sha256": "813db36bb18c21b3f7a508b8a05122a5d62c5d317ad8e85933374522b4e864c7"
+    },
+    {
+      "path": "evidence/raw-ecm-and-logs.tar.gz",
+      "bytes": 70877,
+      "sha256": "c9bad30092a2ba708dd7d8c39eb73ecbc3c4cbf6a0560307cd79316b0f9db5c7"
+    },
+    {
+      "path": "evidence/summary.json",
+      "bytes": 7059,
+      "sha256": "6549e13e5071240c1b6c7c592883e0384e81681203f157ec75af404d9332f4a3"
+    },
+    {
+      "path": "images/comparison.png",
+      "bytes": 88481,
+      "sha256": "cbeca6868bdd7f44259b5eb6ab3a14b7f93f3f7dc7f104cf9ee56d3abf2b5a31"
+    },
+    {
+      "path": "reset-metadata.sdf",
+      "bytes": 2371,
+      "sha256": "958e8e3cc1c23b08173c1a33b98b2dc5087dbbeb9a9c0d238ac506c0052bbc51"
+    },
+    {
+      "path": "scripts/build_harmonic_overlay.sh",
+      "bytes": 1155,
+      "sha256": "00fd1e1ce028fad6689df65cb43ac12b9d30dcd71dd8288925e72507160b161f"
+    },
+    {
+      "path": "scripts/prepare_world.py",
+      "bytes": 831,
+      "sha256": "9b416966049b68a6485dcb1e14f3518aae7649df466fbb18dec9c612d85bf304"
+    },
+    {
+      "path": "scripts/probe_v2.py",
+      "bytes": 6853,
+      "sha256": "bc0d6909b53c4ef08c557b00823ee084afc4559615faabe4744b6394517a087e"
+    },
+    {
+      "path": "scripts/sensor_stream.py",
+      "bytes": 1279,
+      "sha256": "cd2979acfa35bd3c5a58b00c62bd4a1f2a1e8442a32f8985ff5b19b9d053b6f5"
+    },
+    {
+      "path": "scripts/verify_evidence.py",
+      "bytes": 1813,
+      "sha256": "0bcc41d9c9e5f025143a0c34be605a2ac67f225dfecc4e0436eb821b95f77cb0"
+    }
+  ]
+}

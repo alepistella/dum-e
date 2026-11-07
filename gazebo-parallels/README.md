@@ -76,3 +76,12 @@ contains the alternative source workflow. The single-row and single-column
 GPU LiDAR correction was accepted upstream in
 [gazebosim/gz-rendering#1400](https://github.com/gazebosim/gz-rendering/pull/1400);
 that numerical fix is one part of the complete VM workaround.
+
+
+## Additional reset regression validation
+
+[Independent validation of gz-sim #4082](retests/2026-11-07-sensor-topic-reset/README.md)
+covers rendering sensors losing their `SensorTopic` component after a world
+reset. A diagnostic Harmonic backport preserves the metadata in six runs
+across three paired comparisons. This is separate from the graphics profile and is not established
+to be Parallels-specific; the installed default profile was left unchanged.

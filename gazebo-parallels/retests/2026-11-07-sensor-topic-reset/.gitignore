@@ -1,0 +1,2 @@
+# Keep this small, reproducible evidence archive despite the root archive rule.
+!evidence/raw-ecm-and-logs.tar.gz

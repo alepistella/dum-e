@@ -1,0 +1,9 @@
+[ 14%] Building CXX object CMakeFiles/review_rendering.dir/src/rendering/MarkerManager.cc.o
+[ 28%] Building CXX object CMakeFiles/review_rendering.dir/src/rendering/RenderUtil.cc.o
+[ 42%] Building CXX object CMakeFiles/review_rendering.dir/src/rendering/SceneManager.cc.o
+[ 57%] Building CXX object CMakeFiles/review_rendering.dir/src/rendering/WrenchVisualizer.cc.o
+[ 71%] Linking CXX shared library overlay/lib/libgz-sim8-rendering.so
+[ 71%] Built target review_rendering
+[ 85%] Building CXX object CMakeFiles/review_sensors.dir/src/systems/sensors/Sensors.cc.o
+[100%] Linking CXX shared library overlay/plugins/libgz-sim8-sensors-system.so
+[100%] Built target review_sensors

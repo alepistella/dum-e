@@ -1,0 +1,248 @@
+{
+  "native_main_tested": false,
+  "native_preflight": "Missing unversioned gz-cmake package; configure exit 1",
+  "tested_version": "Harmonic 8.15.0 with source-level backport of PR fd3794882aa647b79f2769f56b46bc8cc7ee37c7",
+  "valid_cases": 6,
+  "accepted_resets": 18,
+  "profile_files_unchanged": true,
+  "cases": [
+    {
+      "case": "baseline_official",
+      "label": "Official / stock / Mesa25 software",
+      "expected_corrective_patch": false,
+      "resets_accepted": 3,
+      "metadata_preserved_all_resets": false,
+      "check_exit": 1,
+      "libraries": [
+        "/opt/ros/jazzy/opt/gz_sim_vendor/lib/gz-sim-8/plugins/libgz-sim8-sensors-system.so.8.15.0",
+        "/opt/ros/jazzy/opt/gz_sim_vendor/lib/libgz-sim8-rendering.so.8.15.0"
+      ],
+      "before_messages": {
+        "/lidar": 10,
+        "/lidar2": 10
+      },
+      "final_messages": {
+        "/lidar": 67,
+        "/lidar2": 67
+      },
+      "latest_samples": {
+        "/lidar": {
+          "count": 640,
+          "ranges_count": 10240,
+          "central_m": "inf"
+        },
+        "/lidar2": {
+          "count": 640,
+          "ranges_count": 640,
+          "central_m": "inf"
+        }
+      },
+      "matching_creation_errors": []
+    },
+    {
+      "case": "pr4082_official_full",
+      "label": "Official / PR backport / Mesa25 software",
+      "expected_corrective_patch": true,
+      "resets_accepted": 3,
+      "metadata_preserved_all_resets": true,
+      "check_exit": 0,
+      "libraries": [
+        "/tmp/independent-pr4082-review-20261107/harmonic-build/overlay/lib/libgz-sim8-rendering.so.8.15.0",
+        "/tmp/independent-pr4082-review-20261107/harmonic-build/overlay/plugins/libgz-sim8-sensors-system.so.8.15.0"
+      ],
+      "before_messages": {
+        "/lidar": 10,
+        "/lidar2": 10
+      },
+      "final_messages": {
+        "/lidar": 71,
+        "/lidar2": 70
+      },
+      "latest_samples": {
+        "/lidar": {
+          "count": 640,
+          "ranges_count": 10240,
+          "central_m": "inf"
+        },
+        "/lidar2": {
+          "count": 640,
+          "ranges_count": 640,
+          "central_m": "inf"
+        }
+      },
+      "matching_creation_errors": []
+    },
+    {
+      "case": "baseline_mixed",
+      "label": "Camera+LiDAR+IMU / stock / Mesa25 software",
+      "expected_corrective_patch": false,
+      "resets_accepted": 3,
+      "metadata_preserved_all_resets": false,
+      "check_exit": 1,
+      "libraries": [
+        "/opt/ros/jazzy/opt/gz_sim_vendor/lib/gz-sim-8/plugins/libgz-sim8-sensors-system.so.8.15.0",
+        "/opt/ros/jazzy/opt/gz_sim_vendor/lib/libgz-sim8-rendering.so.8.15.0"
+      ],
+      "before_messages": {
+        "/review/imu": 18,
+        "/review/camera": 5,
+        "/review/lidar": 9
+      },
+      "final_messages": {
+        "/review/imu": 142,
+        "/review/camera": 36,
+        "/review/lidar": 69
+      },
+      "latest_samples": {
+        "/review/imu": {
+          "angular_velocity": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "/review/camera": {
+          "width": 64,
+          "height": 48,
+          "bytes": 9216
+        },
+        "/review/lidar": {
+          "count": 31,
+          "ranges_count": 93,
+          "central_m": 2.0000007152557373
+        }
+      },
+      "matching_creation_errors": []
+    },
+    {
+      "case": "pr4082_mixed_full",
+      "label": "Camera+LiDAR+IMU / PR backport / Mesa25 software",
+      "expected_corrective_patch": true,
+      "resets_accepted": 3,
+      "metadata_preserved_all_resets": true,
+      "check_exit": 0,
+      "libraries": [
+        "/tmp/independent-pr4082-review-20261107/harmonic-build/overlay/lib/libgz-sim8-rendering.so.8.15.0",
+        "/tmp/independent-pr4082-review-20261107/harmonic-build/overlay/plugins/libgz-sim8-sensors-system.so.8.15.0"
+      ],
+      "before_messages": {
+        "/review/imu": 17,
+        "/review/camera": 5,
+        "/review/lidar": 8
+      },
+      "final_messages": {
+        "/review/imu": 142,
+        "/review/camera": 36,
+        "/review/lidar": 72
+      },
+      "latest_samples": {
+        "/review/imu": {
+          "angular_velocity": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "/review/camera": {
+          "width": 64,
+          "height": 48,
+          "bytes": 9216
+        },
+        "/review/lidar": {
+          "count": 31,
+          "ranges_count": 93,
+          "central_m": 2.0000007152557373
+        }
+      },
+      "matching_creation_errors": []
+    },
+    {
+      "case": "baseline_mixed_gpu",
+      "label": "Camera+LiDAR+IMU / stock / Mesa24 virgl",
+      "expected_corrective_patch": false,
+      "resets_accepted": 3,
+      "metadata_preserved_all_resets": false,
+      "check_exit": 1,
+      "libraries": [
+        "/opt/ros/jazzy/opt/gz_sim_vendor/lib/gz-sim-8/plugins/libgz-sim8-sensors-system.so.8.15.0",
+        "/opt/ros/jazzy/opt/gz_sim_vendor/lib/libgz-sim8-rendering.so.8.15.0"
+      ],
+      "before_messages": {
+        "/review/imu": 18,
+        "/review/camera": 6,
+        "/review/lidar": 10
+      },
+      "final_messages": {
+        "/review/imu": 140,
+        "/review/camera": 37,
+        "/review/lidar": 69
+      },
+      "latest_samples": {
+        "/review/imu": {
+          "angular_velocity": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "/review/camera": {
+          "width": 64,
+          "height": 48,
+          "bytes": 9216
+        },
+        "/review/lidar": {
+          "count": 31,
+          "ranges_count": 93,
+          "central_m": 2.0000007152557373
+        }
+      },
+      "matching_creation_errors": []
+    },
+    {
+      "case": "pr4082_mixed_gpu",
+      "label": "Camera+LiDAR+IMU / PR backport / Mesa24 virgl",
+      "expected_corrective_patch": true,
+      "resets_accepted": 3,
+      "metadata_preserved_all_resets": true,
+      "check_exit": 0,
+      "libraries": [
+        "/tmp/independent-pr4082-review-20261107/harmonic-build/overlay/lib/libgz-sim8-rendering.so.8.15.0",
+        "/tmp/independent-pr4082-review-20261107/harmonic-build/overlay/plugins/libgz-sim8-sensors-system.so.8.15.0"
+      ],
+      "before_messages": {
+        "/review/imu": 18,
+        "/review/camera": 6,
+        "/review/lidar": 10
+      },
+      "final_messages": {
+        "/review/imu": 141,
+        "/review/camera": 37,
+        "/review/lidar": 72
+      },
+      "latest_samples": {
+        "/review/imu": {
+          "angular_velocity": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "/review/camera": {
+          "width": 64,
+          "height": 48,
+          "bytes": 9216
+        },
+        "/review/lidar": {
+          "count": 31,
+          "ranges_count": 93,
+          "central_m": 2.0000007152557373
+        }
+      },
+      "matching_creation_errors": []
+    }
+  ],
+  "excluded_case": {
+    "case": "pr4082_official",
+    "reason": "Only overlay rendering library loaded; stock Sensors plugin remained loaded. Diagnostic assembly check, not a full-PR result."
+  }
+}
